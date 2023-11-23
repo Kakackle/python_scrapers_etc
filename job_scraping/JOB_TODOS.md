@@ -5,7 +5,7 @@
 5. TODO: model na zbierane dane z pydantic?
 6. TODO: Wstepne wizualizacje
 7. TODO: Jakos zeby uruchomialo sie codziennie i zbieralo i aktualizowalo wszystko?
-8. 
+8. TODO: Jesli zbierane z roznych stron i z roznych plikow to zapisywane jakos w pliki podpisane datami itd zeby odrozniac, moc porownwyac dni i inne
 
 
 Possible job sites:

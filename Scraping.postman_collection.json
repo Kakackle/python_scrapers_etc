@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "a12261f8-0316-4327-a96f-b26fb9020634",
+		"name": "Scraping",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26776112"
+	},
+	"item": [
+		{
+			"name": "OLX hidden api",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "OLX hidden api Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.olx.pl/api/v1/offers/?offset=0&limit=40&query=pikmin",
+					"protocol": "https",
+					"host": [
+						"www",
+						"olx",
+						"pl"
+					],
+					"path": [
+						"api",
+						"v1",
+						"offers",
+						""
+					],
+					"query": [
+						{
+							"key": "offset",
+							"value": "0"
+						},
+						{
+							"key": "limit",
+							"value": "40"
+						},
+						{
+							"key": "query",
+							"value": "pikmin"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
