@@ -7,6 +7,7 @@
 7. TODO: Jakos zeby uruchomialo sie codziennie i zbieralo i aktualizowalo wszystko?
 8. TODO: Jesli zbierane z roznych stron i z roznych plikow to zapisywane jakos w pliki podpisane datami itd zeby odrozniac, moc porownwyac dni i inne
 
+9. TODO: https://www.youtube.com/watch?v=xzxWLVCUvLo - wykorzystanie w pelni pydantic pod katem walidacji danych zbieranych, co bedzie dokonywane przy tworzeniu juz
 
 Possible job sites:
 
