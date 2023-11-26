@@ -36,3 +36,10 @@ https://nofluffjobs.com/Python?page=1&sort=newest
 
 https://www.careerjet.pl/szukaj/oferty_pracy?s=python&l=Polska&radius=0&sort=date
 
+## Very concrete steps
+
+1. TODO: scrape from pracuj and careerjet with different search terms such as 'django' ,'fullstack' ,'web', 'junior'
+2. TODO: run basic visualisations on these separate results in copies of 'pracuj_careerjet_python_pandas' notebook
+3. TODO: combine results into one csv
+4. TODO: filter data from nofluff api results
+5. TODO: try to concat the cleaned nofluffdata to the scraping data
