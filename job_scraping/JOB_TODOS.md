@@ -43,3 +43,4 @@ https://www.careerjet.pl/szukaj/oferty_pracy?s=python&l=Polska&radius=0&sort=dat
 3. TODO: combine results into one csv
 4. TODO: filter data from nofluff api results
 5. TODO: try to concat the cleaned nofluffdata to the scraping data
+6. TODO: przy zapisywaniu albo odczytywaniu resultatow z scrapu do sciezek dodac folder typu ' path = r'./scraping_results/' '
