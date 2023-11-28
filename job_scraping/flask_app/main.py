@@ -1,0 +1,58 @@
+from flask import Flask
+from flask import url_for, request, render_template
+from markupsafe import escape
+
+import os
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import io
+import base64
+
+app = Flask(__name__)
+
+@app.route("/", methods=['GET', 'POST'])
+@app.route("/<string:name>")
+def hello(name=None):
+    if request.method == 'POST':
+        return 'post request'
+    
+    return render_template('hello.html', name=name)
+
+@app.route("/name/<string:name>")
+def yo_name(name):
+    return f'Yo, {escape(name)}'
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        return f'supplied username: {request.form["username"]}'
+    return render_template('login.html')
+
+
+with app.test_request_context():
+    print(url_for('yo_name', name='broski'))
+
+# url_for('static', filename='style.css')
+
+@app.route("/plot/<string:term>")
+def plot_term(term='python'):
+    img = io.BytesIO()
+    sns.set_style("dark")
+    # df = pd.read_csv("./scraping_results/combined/python/python_2023-11-28.csv", index_col = 0)
+    # df_clean = df.dropna()
+    # companies = df_clean.value_counts()
+    # companies[:20].plot.pie()
+
+    y = [1,2,3,4,5]
+    x = [0,2,1,3,4]
+
+    plt.plot(x,y)
+
+    plt.savefig(img, format='png')
+    plt.close()
+    img.seek(0)
+
+    plot_url = base64.b64encode(img.getvalue())
+    return render_template('plotting.html', plot_url=plot_url)
+    # return str(os.getcwd())
