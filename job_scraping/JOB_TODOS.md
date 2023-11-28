@@ -49,5 +49,6 @@ https://www.careerjet.pl/szukaj/oferty_pracy?s=python&l=Polska&radius=0&sort=dat
 9. TODO: wiecej analizy z all_data_pandas, np. porownanie countu ofert z dnia, jakichs kombinacji itd
 10. TODO: Extract location cities or something
 11. TODO: Extract salary numbers
-12. 
+12. TODO: zmiana zapisywania i odczytywania na zgodnie z nowym folder structure
+13. TODO: 
 
