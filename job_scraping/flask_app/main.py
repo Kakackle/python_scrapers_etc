@@ -9,6 +9,8 @@ import seaborn as sns
 import io
 import base64
 
+from datetime import datetime, date
+
 app = Flask(__name__)
 
 @app.route("/", methods=['GET', 'POST'])
@@ -37,22 +39,26 @@ with app.test_request_context():
 
 @app.route("/plot/<string:term>")
 def plot_term(term='python'):
-    img = io.BytesIO()
+    # img = io.BytesIO()
     sns.set_style("dark")
-    # df = pd.read_csv("./scraping_results/combined/python/python_2023-11-28.csv", index_col = 0)
-    # df_clean = df.dropna()
-    # companies = df_clean.value_counts()
-    # companies[:20].plot.pie()
+    df = pd.read_csv("./scraping_results/combined/python/python_2023-11-28.csv", index_col = 0)
+    df_clean = df.dropna()
+    companies = df_clean.value_counts()
+    companies[:20].plot.pie()
 
-    y = [1,2,3,4,5]
-    x = [0,2,1,3,4]
+    # y = [1,2,3,4,5]
+    # x = [0,2,1,3,4]
 
-    plt.plot(x,y)
+    # fig = plt.plot(x,y)
 
-    plt.savefig(img, format='png')
-    plt.close()
-    img.seek(0)
+    # plt.savefig(img, format='png')
+    today = str(date.today())
+    file_name = f'{term}_{today}'
+    plt.savefig(f'./flask_app/static/images/plots/{file_name}.png')
+    
+    # plt.close()
+    # img.seek(0)
 
-    plot_url = base64.b64encode(img.getvalue())
-    return render_template('plotting.html', plot_url=plot_url)
+    # plot_url = base64.b64encode(img.getvalue())
+    return render_template('plotting.html', plot_name=f'{file_name}.png')
     # return str(os.getcwd())
