@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title %}Posts{% endblock %}
+
+{% block header %}
+  {% if g.user %}
+    <a class="action" href="{{ url_for('plots.create') }}">New</a>
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+  {% for hist in history %}
+    <article class="post">
+      <header>
+        <div>
+          <h1>{{ hist['term'] }}</h1>
+          <div class="about">by {{ hist['username'] }} on {{ hist['created'].strftime('%Y-%m-%d') }}</div>
+        </div>
+        {% if g.user['id'] == hist['author_id'] %}
+          <a class="action" href="{{ url_for('plots.update', id=hist['id']) }}">Edit</a>
+        {% endif %}
+      </header>
+      <p class="body">{{ hist['action_type'] }}</p>
+    </article>
+    {% if not loop.last %}
+      <hr>
+    {% endif %}
+  {% endfor %}
+{% endblock %}

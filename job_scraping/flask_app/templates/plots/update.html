@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  Edit "{{ history['term'] }}"
+{% endblock %}
+
+{% block content %}
+  <form method="post">
+    <label for="term">term</label>
+    <input name="term" id="term"
+      value="{{ request.form['term'] or history['term'] }}" required>
+    <label for="action_type">action_type</label>
+    <textarea name="action_type" id="action_type">{{ request.form['action_type'] or history['action_type'] }}</textarea>
+    <input type="submit" value="Save">
+  </form>
+  <hr>
+  <form action="{{ url_for('plots.delete', id=history['id']) }}" method="post">
+    <input class="danger" type="submit" value="Delete" onclick="return confirm('Are you sure?');">
+  </form>
+{% endblock %}

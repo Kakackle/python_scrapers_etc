@@ -20,4 +20,8 @@ scraping various sites with job listing, aggregating the results and analyzing w
 
 ## RUNNING FLASK
 
+without init:
 `flask --app flask_app/main run [--debug]`
+
+with init:
+`flask --app flask_app [--debug]`
