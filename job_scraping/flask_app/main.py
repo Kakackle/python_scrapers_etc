@@ -41,10 +41,12 @@ with app.test_request_context():
 def plot_term(term='python'):
     # img = io.BytesIO()
     sns.set_style("dark")
+    sns.color_palette('Spectral')
     df = pd.read_csv("./scraping_results/combined/python/python_2023-11-28.csv", index_col = 0)
-    df_clean = df.dropna()
-    companies = df_clean.value_counts()
-    companies[:20].plot.pie()
+    companies = df['company']
+    companies = companies.dropna()
+    companies_count = companies.value_counts()
+    fig = companies_count[:20].plot.pie()
 
     # y = [1,2,3,4,5]
     # x = [0,2,1,3,4]
@@ -54,7 +56,7 @@ def plot_term(term='python'):
     # plt.savefig(img, format='png')
     today = str(date.today())
     file_name = f'{term}_{today}'
-    plt.savefig(f'./flask_app/static/images/plots/{file_name}.png')
+    fig.get_figure().savefig(f'./flask_app/static/images/plots/{file_name}.png')
     
     # plt.close()
     # img.seek(0)

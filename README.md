@@ -16,3 +16,8 @@ Scraping private user listings of items within specified term
 scraping various sites with job listing, aggregating the results and analyzing with pandas
 
 * some other dataset analysis things
+
+
+## RUNNING FLASK
+
+`flask --app flask_app/main run [--debug]`
