@@ -6,8 +6,15 @@ from werkzeug.exceptions import abort
 from flask_app.auth import login_required
 from flask_app.db import get_db
 
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from datetime import datetime, date
+
+
 bp = Blueprint('plots', __name__)
 
+# index, get user's operation history (scrapes, plots etc)
 @bp.route('/')
 def index():
     db = get_db()
@@ -17,6 +24,36 @@ def index():
         ' ORDER BY created DESC'
     ).fetchall()
     return render_template('plots/index.html', history=history)
+
+# generate a new plot by search term
+
+# @bp.route("/plot/<string:term>")
+@bp.route("/plot", methods=('POST',))
+# def plot_term(term='python'):
+def plot_term():
+    if request.method == 'POST':
+        term = request.form['term'].lower()
+        sns.set_style("dark")
+        sns.color_palette('Spectral')
+        # TODO: tutaj jak dobrze precyzwac czego szukamy
+        # po nazwie pliku, folderu czy pozniej
+        # po to sa rozne foldery zeby mozna bylo od razu
+        # i moze mozna by tez przekazywac dzien z jakiego chcemy
+        # albo opcja "wszystkie dni"
+        df = pd.read_csv("./scraping_results/combined/python/python_2023-11-28.csv", index_col = 0)
+        df = df[df['search_term'] == term]
+        companies = df['company']
+        companies = companies.dropna()
+        companies_count = companies.value_counts()
+        fig = companies_count[:20].plot.pie()
+
+        today = str(date.today())
+        file_name = f'{term}_{today}'
+        fig.get_figure().savefig(f'./flask_app/static/images/plots/{file_name}.png')
+
+        return render_template('plotting.html', plot_name=f'{file_name}.png')
+
+# CRUD operation for manually creating, updating, deleting history objects
 
 @bp.route('/create', methods=('GET', 'POST'))
 @login_required

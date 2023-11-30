@@ -26,4 +26,13 @@
       <hr>
     {% endif %}
   {% endfor %}
+  <h3>Plotting</h3>
+  <form hx-post="/plot" hx-swap="beforeend" hx-target="#plot" method="post">
+    <label for="term">Search term:</label>
+    <input type="text" placeholder="python" name="term">
+    <button type="submit">Search</button>
+  </form>
+
+  <div id="plot" hx-swap="innerHTML">
+  </div>
 {% endblock %}
