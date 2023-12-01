@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from datetime import datetime, date
 
+from .scripts.scrape_api_combine import test_cwd
 
 bp = Blueprint('plots', __name__)
 
@@ -53,7 +54,13 @@ def plot_term():
 
         return render_template('plotting.html', plot_name=f'{file_name}.png')
 
-# CRUD operation for manually creating, updating, deleting history objects
+@bp.route("/test_cwd", methods=('POST',))
+def test_cwd_route():
+    if request.method == 'POST':
+        return test_cwd()
+# ---------------------------------------------------------------------------- #
+#   CRUD operation for manually creating, updating, deleting history objects   #
+# ---------------------------------------------------------------------------- #
 
 @bp.route('/create', methods=('GET', 'POST'))
 @login_required

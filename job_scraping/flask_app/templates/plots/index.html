@@ -35,4 +35,12 @@
 
   <div id="plot" hx-swap="innerHTML">
   </div>
+
+  <div class="scraping_div">
+  
+    <h3>Scraping test results:</h3>
+    <button hx-post="/test_cwd" hx-swap="beforeend" hx-target="#scraping_test" method="post">GET CWD</button>
+    <p id="scraping_test" hx-swap="outerHTML">Scraping results go here</p>
+  
+  </div>
 {% endblock %}

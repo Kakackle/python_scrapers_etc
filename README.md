@@ -24,4 +24,4 @@ without init:
 `flask --app flask_app/main run [--debug]`
 
 with init:
-`flask --app flask_app [--debug]`
+`flask --app flask_app run [--debug]`
