@@ -14,6 +14,8 @@ from datetime import datetime, date
 from .scripts.scrape_api_combine import (test_cwd, reset_path,
                                         test_finding, check_if_exists)
 
+from .scripts.find_all_scrapes import find_all_scrapes
+
 bp = Blueprint('plots', __name__)
 
 # index, get user's operation history (scrapes, plots etc)
@@ -59,6 +61,7 @@ def plot_term():
 #                                 actual routes                                #
 # ---------------------------------------------------------------------------- #
 
+# scrape route
 @bp.route("/term_scrap", methods=('POST',))
 def term_scrap():
     if request.method == 'POST':
@@ -80,6 +83,15 @@ def term_scrap():
                 row_data=list(result_df.head().values.tolist()),
                 link_column="title", zip=zip,
                 result_shape=result_shape)
+
+# returning / selecting existing scrapes
+@bp.route('/prev_scrapes', methods=('GET',))
+def prev_scrapes():
+    files = find_all_scrapes()
+    return render_template('plots/prev_scrapes.html', files = files)
+
+
+
 
 # ---------------------------------------------------------------------------- #
 #                                     tests                                    #

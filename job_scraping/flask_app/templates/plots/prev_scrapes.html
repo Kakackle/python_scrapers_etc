@@ -1,0 +1,20 @@
+<table class="table" id="prev_scrapes" hx-swap="outerHTML">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <!-- <th scope="col">file</th> -->
+        <th scope="col">terms</th>
+        <th scope="col">date</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for file in files %}
+      <tr>
+        <th scope="row">{{loop.index}}</th>
+        <!-- <td>{{file['file']|safe}}</td> -->
+        <td>{{file.term|safe}}</td>
+        <td>{{file.date}}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>

@@ -61,7 +61,27 @@
         <button type="submit">Search</button>
       </form>
 
-      <p id="scraping" hx-swap="outerHTML"></p>
+      <div id="scraping" hx-swap="outerHTML"></div>
+    </div>
+
+    <div class="searching_etc">
+      <h3>Searching / results etc</h3>
+      <button hx-get="/prev_scrapes" hx-swap="beforeend" 
+      hx-target="#prev_scrapes" method="post">GET PREV SCRAPES</button>
+      <table id="prev_scrapes" hx-swap="outerHTML">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">file</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"></th>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
   </section>
