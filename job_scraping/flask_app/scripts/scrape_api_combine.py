@@ -9,32 +9,12 @@ import json
 
 from .pydantic_model import Listing
 
+from flask import current_app as app
+
 # ---------------------------------------------------------------------------- #
 #                             scraping preparation                             #
 # ---------------------------------------------------------------------------- #
 
-page = 1
-no_pages = 2 # number of pages to look through when sraping and getting from the apis
-path = ''
-today = date.today()
-
-scraping_results = []
-scraping_df = pd.DataFrame()
-api_results = []
-api_df = pd.DataFrame()
-
-result_df = pd.DataFrame()
-result_shape = None
-
-urls = [
-    'https://www.careerjet.pl/{search_term}-praca.html?radius=0&p={page}&sort=date',
-    'https://it.pracuj.pl/praca/{search_term};kw?sc=0&pn={page}'
-]
-
-sites = [
-    'careerjet',
-    'pracuj'
-]
 
 # ---------------------------------------------------------------------------- #
 #                             extraction functions                             #
@@ -43,7 +23,7 @@ sites = [
 # regexes
 pracuj_date = re.compile(r'Opublikowana: (.*)')
 
-def extract_careerjet(soup):
+def extract_careerjet(soup, page):
     page_objects = []
     try:
         listings = soup.find('ul', attrs={'class': 'jobs'})
@@ -83,7 +63,7 @@ def extract_careerjet(soup):
     print(f'careerjet page {page} objects: ', len(page_objects))
     return page_objects
 
-def extract_pracuj(soup):
+def extract_pracuj(soup, page):
     page_objects = []
     try:
         listings = soup.find('div', attrs={'data-test': 'section-offers'})
@@ -146,10 +126,7 @@ def extract_pracuj(soup):
     print(f'pracuj.pl page {page} objects: ', len(page_objects))
     return page_objects
 
-extractors = [
-    extract_careerjet,
-    extract_pracuj
-]
+
 
 # ---------------------------------------------------------------------------- #
 #                      preparing folders to save data into                     #
@@ -157,21 +134,31 @@ extractors = [
 
 # FIXME: put this into a function receiving search_term
 
-def prepare_folders(search_term):
-    path = path + r'../scraping_results/' + search_term + '/' + str(today)
-    if not os.path.exists(path):
-        os.makedirs(path)
-    path = path + '/'
+def prepare_folders(search_term, today, base_path):
 
-def scrape_websites(search_term):
+    folder_path = r'./scraping_results/' + search_term + '/' + str(today)
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
+    folder_path = folder_path + '/'
+    return folder_path
+
+def scrape_websites(search_term, today, urls, sites, extractors,
+                     path, no_pages, scraping_results):
+    # proxies = {'https:' :'http://127.0.0.1:5000'}
+    # proxies = {
+    # 'http': 'http://127.0.0.1:8888',
+    # 'https': 'http://127.0.0.1:8888',
+    # }
+    page = 1
     for url_index, url in enumerate(urls):
         site_listings = []
         for page in range(1,no_pages+1):
             page_url = url.format(search_term=search_term, page=page)
+            # page_response = requests.get(page_url, proxies=proxies, verify=False)
             page_response = requests.get(page_url)
             page_html = page_response.text
             page_soup = bs(page_html, 'html.parser')
-            page_objects = extractors[url_index](page_soup)
+            page_objects = extractors[url_index](page_soup, page)
             site_listings.extend(page_objects)
         # save listings for one site only
         site_listings_pd = pd.DataFrame([obj.dict() for obj in site_listings])
@@ -191,7 +178,7 @@ def scrape_websites(search_term):
     path_comb += '/'
     scraping_pd = pd.DataFrame([obj.dict() for obj in scraping_results])
     scraping_pd.to_csv(path_comb + f'{sites_string}_{search_term}_{today}.csv')
-
+    return scraping_pd
 # ---------------------------------------------------------------------------- #
 #                             fluff api preparation                            #
 # ---------------------------------------------------------------------------- #
@@ -222,7 +209,7 @@ headers = {
   'x-datadog-trace-id': '776451047921066142'
 }
 
-def scrape_fluff(search_term):
+def scrape_fluff(search_term, today, path, no_pages, api_results):
 
     search_tech = search_term.capitalize()
 
@@ -270,61 +257,96 @@ def scrape_fluff(search_term):
     # listing_df.head()
 
     # save results
-    path = r'../scraping_results/' + '/' + search_term + '/' + str(today) + r'/nofluff'
+    path = r'./scraping_results/' + '/' + search_term + '/' + str(today) + r'/nofluff'
     if not os.path.exists(path):
         os.makedirs(path)
     path += '/'
     listing_df.to_csv(path + f'nofluff_{search_tech}_{today}.csv')
     
     api_df = listing_df
+    return api_df
 
-def combine_results(search_term):
-    combine_term = search_term
-    base_path = '../scraping_results/'
-    paths = [
-        'combined',
-        'fluff'
-    ]
+# def combine_results(search_term):
+#     combine_term = search_term
+#     base_path = '../scraping_results/'
+#     paths = [
+#         'combined',
+#         'fluff'
+#     ]
 
-    # go to results directory
-    os.chdir(base_path)
+#     # go to results directory
+#     os.chdir(base_path)
 
-    # Get appropirate subdirectories before looking for files within them
-    directories = []
-    date_regex = re.compile(r'\d{4}-\d{2}-\d{2}')
+#     # Get appropirate subdirectories before looking for files within them
+#     directories = []
+#     date_regex = re.compile(r'\d{4}-\d{2}-\d{2}')
 
-    for item in os.listdir():
-        if os.path.isdir(item):
-            # print(item)
-            # if date_regex.match(str(item)):
-            if item == combine_term:
-                date_dirs = os.listdir(item)
-                for date_dir in date_dirs:
-                    if date_regex.match(str(date_dir)):
-                        # print(item)
-                        directories.append(date_dir)
+#     for item in os.listdir():
+#         if os.path.isdir(item):
+#             # print(item)
+#             # if date_regex.match(str(item)):
+#             if item == combine_term:
+#                 date_dirs = os.listdir(item)
+#                 for date_dir in date_dirs:
+#                     if date_regex.match(str(date_dir)):
+#                         # print(item)
+#                         directories.append(date_dir)
 
-    all_df = pd.DataFrame(columns=['title', 'link', 'company', 'location', 'salary',
-                                   'description','date_added', 'skills', 'search_term',
-                                   'date_searched'])
+#     all_df = pd.DataFrame(columns=['title', 'link', 'company', 'location', 'salary',
+#                                    'description','date_added', 'skills', 'search_term',
+#                                    'date_searched'])
     
-def combine_scraping_api():
+def combine_scraping_api(scraping_df, api_df):
     result_df = pd.concat([scraping_df, api_df])
     result_shape = result_df.shape
     return result_df, result_shape
 
-def run_scraping(search_term):
-    prepare_folders(search_term)
-    scrape_websites(search_term)
-    scrape_fluff(search_term)
-    result_df, result_shape = combine_scraping_api()
+def run_scraping(search_term, today, pages, urls, sites, extractors,
+                scraping_results, scraping_df,
+                api_results, api_df):
+    base_path = reset_path()
+    folder_path = prepare_folders(search_term, today, base_path)
+    scraping_df = scrape_websites(search_term, today, urls, sites, extractors,
+                    folder_path, pages, scraping_results)
+    api_df = scrape_fluff(search_term, today, folder_path, pages, api_results)
+    result_df, result_shape = combine_scraping_api(scraping_df, api_df)
+    return result_df, result_shape
 
 # function to check if scraping results already exist
 def check_if_exists(search_term):
-    exists_path = path + r'../scraping_results/' + search_term + '/' + str(today)
+    no_pages = 2 # number of pages to look through when sraping and getting from the apis
+    today = date.today()
+
+    scraping_results = []
+    scraping_df = pd.DataFrame()
+    api_results = []
+    api_df = pd.DataFrame()
+
+    result_df = pd.DataFrame()
+    result_shape = None
+
+    urls = [
+        'https://www.careerjet.pl/{search_term}-praca.html?radius=0&p={page}&sort=date',
+        'https://it.pracuj.pl/praca/{search_term};kw?sc=0&pn={page}'
+    ]
+
+    sites = [
+        'careerjet',
+        'pracuj'
+    ]
+
+    extractors = [
+        extract_careerjet,
+        extract_pracuj
+    ]
+
+    base_path = reset_path()
+    exists_path = base_path + r'./scraping_results/' + search_term + '/' + str(today)
     if not os.path.exists(exists_path):
         # run scrapers
-        run_scraping(search_term)
+        result_df, result_shape = run_scraping(search_term, today, no_pages,
+                                                urls, sites, extractors,
+                     scraping_results, scraping_df, api_results, api_df)
     else:
         # get the files
         paths = [
@@ -358,16 +380,47 @@ def check_if_exists(search_term):
         os.chdir('..')
         result_shape = result_df.shape
 
-    return_html = f"""
-    <p id="scraping_test" hx-swap="outerHTML">Resultant scraping shape for {search_term} | {today}: {result_shape}</p>
-    """
-    return return_html
+    return result_df, result_shape
+    # return_html = f"""
+    # <p id="scraping" hx-swap="outerHTML">Resultant scraping shape for {search_term} | {today}: {result_shape}</p>
+    # """
+    # return return_html
+
+# ---------------------------------------------------------------------------- #
+#                           partial testing functions                          #
+# ---------------------------------------------------------------------------- #
 
 def test_cwd():
+    # starting:
+    # C:\Users\User\Desktop\programowanie_web_etc\python_projects\scrapers\job_scraping
+    # os.chdir(r'./scraping_results/')
     cur_cwd = str(os.getcwd())
     return_html = f"""
     <p id="scraping_test" hx-swap="outerHTML">{cur_cwd}</p>
     """
     return return_html
 
-# TODO: create functions to test folder traversal and file existence checking
+def reset_path():
+    root_path = app.root_path
+    # instance_path = app.instance_path
+    # file_path = os.path.abspath(__file__)
+    os.chdir(root_path)
+    os.chdir('..')
+    cur_cwd = str(os.getcwd())
+    return cur_cwd
+    # return_html = f"""
+    # <p id="scraping_test" hx-swap="outerHTML">{cur_cwd}</p>
+    # """
+
+    return return_html
+
+def test_finding(search_term):
+    path = ''
+    today = str(date.today())
+    test_path = path + r'./scraping_results/' + search_term + '/' + str(today)
+    if not os.path.exists(test_path):
+        os.makedirs(test_path)
+    # test_path += '/'
+    os.chdir(test_path)
+    return_html = test_cwd()
+    return return_html

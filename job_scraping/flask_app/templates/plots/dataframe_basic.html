@@ -1,0 +1,7 @@
+<div id="scraping" hx-swap="outerHTML">
+<p>Resultant shape: {{result_shape}}</p>
+{% for table in tables %}
+            {{titles[loop.index]}}
+            {{ table|safe }}
+{% endfor %}
+</div>
