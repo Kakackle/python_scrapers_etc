@@ -29,36 +29,6 @@ def create_app(test_config=None):
         os.makedirs(app.instance_path)
     except OSError:
         pass
-
-    # url_for('static', filename='style.css')
-
-    @app.route("/plot/<string:term>")
-    def plot_term(term='python'):
-        # img = io.BytesIO()
-        sns.set_style("dark")
-        sns.color_palette('Spectral')
-        df = pd.read_csv("./scraping_results/combined/python/python_2023-11-28.csv", index_col = 0)
-        companies = df['company']
-        companies = companies.dropna()
-        companies_count = companies.value_counts()
-        fig = companies_count[:20].plot.pie()
-
-        # y = [1,2,3,4,5]
-        # x = [0,2,1,3,4]
-
-        # fig = plt.plot(x,y)
-
-        # plt.savefig(img, format='png')
-        today = str(date.today())
-        file_name = f'{term}_{today}'
-        fig.get_figure().savefig(f'./flask_app/static/images/plots/{file_name}.png')
-        
-        # plt.close()
-        # img.seek(0)
-
-        # plot_url = base64.b64encode(img.getvalue())
-        return render_template('plotting.html', plot_name=f'{file_name}.png')
-        # return str(os.getcwd())
     
     from . import db
     db.init_app(app)
@@ -66,8 +36,15 @@ def create_app(test_config=None):
     from . import auth
     app.register_blueprint(auth.bp)
 
-    from . import plots
-    app.register_blueprint(plots.bp)
+    from . import plots_bp
+    app.register_blueprint(plots_bp.bp)
+
+    from . import scrap_bp
+    app.register_blueprint(scrap_bp.bp)
+
+    from . import history_bp
+    app.register_blueprint(history_bp.bp)
+
     app.add_url_rule('/', endpoint='index')
 
     return app
