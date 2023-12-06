@@ -1,0 +1,115 @@
+{% extends 'base.html' %}
+
+{% block title %}Posts{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{url_for('static', filename='df_extra.css')}}">
+<link rel="stylesheet" href="{{url_for('static', filename="plots.css")}}">
+{% endblock %}
+
+{% block header %}
+  {% if g.user %}
+    <a class="action" href="{{ url_for('history.create') }}">New</a>
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+  <section class="history">
+  {% for hist in history %}
+    <article class="post">
+      <header>
+        <div>
+          <h1>{{ hist['term'] }}</h1>
+          <div class="about">by {{ hist['username'] }} on {{ hist['created'].strftime('%Y-%m-%d') }}</div>
+        </div>
+        {% if g.user['id'] == hist['author_id'] %}
+          <a class="action" href="{{ url_for('history.update', id=hist['id']) }}">Edit</a>
+        {% endif %}
+      </header>
+      <p class="body">{{ hist['action_type'] }}</p>
+    </article>
+    {% if not loop.last %}
+      <hr>
+    {% endif %}
+  {% endfor %}
+  </section>
+
+  <section class="plotting">
+    <h3>Print a test plot from pre-existing data</h3>
+    <form hx-post="/plots/test_plot" hx-swap="outerHTML" hx-target="#plot" method="post">
+      <label for="term">Search term:</label>
+      <input type="text" placeholder="python" name="term">
+      <button type="submit">Plot</button>
+    </form>
+  </section>
+
+  <div id="plot" hx-swap="innerHTML">
+  </div>
+
+  <section class="scraping_section">
+
+  <section class="tests">
+    <h3>Test traversal functions etc</h3>
+    <button hx-post="/scrap/test_cwd" hx-swap="innerHTML" 
+      hx-target="#scraping_test" method="post">GET CWD</button>
+    <button hx-post="/scrap/reset_path" hx-swap="innerHTML" 
+      hx-target="#scraping_test" method="post">RESET PATH</button>
+    <button hx-post="/scrap/test_finding" hx-swap="innerHTML" 
+      hx-target="#scraping_test" method="post">TEST FINDING</button>
+    <p id="scraping_test">Test results go here</p>
+  </section>
+
+  <section class="scraping">
+    <h3>Scraping:</h3>
+    <form hx-post="/scrap/term_scrap" hx-swap="innerHTML" hx-target="#scraping" method="post">
+      <label for="term">Search term:</label>
+      <input type="text" placeholder="python" name="term">
+      <button type="submit">Search</button>
+    </form>
+
+    <div id="scraping"></div>
+  </section>
+
+  <section class="searching_etc">
+    <h3>Searching / results etc</h3>
+    <button hx-get="/scrap/prev_scrapes" hx-swap="outerHTML" 
+    hx-target="#prev_scrapes" method="post"
+    class="btn btn-sm btn-dark">GET TABLE OF PREV SCRAPES</button>
+    <div class="table-wrapper" id="prev_scrapes">
+      <table class="table-responsive-sm w-auto">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">file</th>
+            <th scope="col">plot it</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"></th>
+            <td></td>
+            <td>
+              <button class="btn btn-dark" hx-post>plot</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="prev_plot"></div>
+
+    <!-- <select class="form-select w-auto" aria-label="Default select example">
+      <option selected>Select one of the previous scrapes</option>
+      <option value="1">
+        <div class="d-inline-flex flex-row justify-content-between gap-3">
+          <p>python_pracuj_django</p>
+          <p>|</p>
+          <p>2023-12-06</p>
+        </div>
+      </option>
+    </select> -->
+  </section>
+
+  </section>
+
+{% endblock %}

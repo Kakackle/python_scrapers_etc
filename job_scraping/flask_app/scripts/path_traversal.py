@@ -4,7 +4,7 @@ from datetime import datetime, date
 
 # create folder for scraping results
 def prepare_folders(search_term: str, today: date, base_path: str) -> str:
-    folder_path = base_path + r'./scraping_results/' + search_term + '/' + str(today)
+    folder_path = base_path + r'/scraping_results/' + search_term + '/' + str(today)
     if not os.path.exists(folder_path):
         os.makedirs(folder_path)
     folder_path = folder_path + '/'
@@ -18,7 +18,7 @@ def test_cwd() -> str:
     # os.chdir(r'./scraping_results/')
     cur_cwd = str(os.getcwd())
     return_html = f"""
-    <p id="scraping_test" hx-swap="outerHTML">{cur_cwd}</p>
+    <p id="scraping_test">{cur_cwd}</p>
     """
     return return_html
 
@@ -31,7 +31,7 @@ def reset_path()-> str:
     cur_cwd = str(os.getcwd())
     return cur_cwd
     # return_html = f"""
-    # <p id="scraping_test" hx-swap="outerHTML">{cur_cwd}</p>
+    # <p id="scraping_test">{cur_cwd}</p>
     # """
 
 
@@ -46,3 +46,8 @@ def test_finding(search_term: str) -> str:
     os.chdir(test_path)
     return_html = test_cwd()
     return return_html
+
+def find_file(name: str, path: str) -> str:
+    for root, dirs, files in os.walk(path):
+        if name in files:
+            return os.path.join(root, name)

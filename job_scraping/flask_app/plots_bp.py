@@ -11,25 +11,22 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from datetime import datetime, date
 
-bp = Blueprint('plots', __name__)
+from .scripts.plotting import test_pie_plot, plot_by_file
 
+bp = Blueprint('plots', __name__, url_prefix='/plots')
 
 # generate a new plot by search term
-@bp.route("/plot", methods=('POST',))
+@bp.route("/test_plot", methods=('POST',))
 def plot_term():
     if request.method == 'POST':
         term = request.form['term'].lower()
-        sns.set_style("dark")
-        sns.color_palette('Spectral')
-        df = pd.read_csv("./scraping_results/combined/python/python_2023-11-28.csv", index_col = 0)
-        df = df[df['search_term'] == term]
-        companies = df['company']
-        companies = companies.dropna()
-        companies_count = companies.value_counts()
-        fig = companies_count[:20].plot.pie()
+        file_name = test_pie_plot(term)
 
-        today = str(date.today())
-        file_name = f'{term}_{today}'
-        fig.get_figure().savefig(f'./flask_app/static/images/plots/{file_name}.png')
+        return render_template('plots/plot_div.html', plot_name=f'{file_name}.png')
 
-        return render_template('plotting.html', plot_name=f'{file_name}.png')
+@bp.route("/by_file", methods=('POST',))
+def plot_file():
+    if request.method == 'POST':
+        file = request.form['file']
+        file_name = plot_by_file(file)
+        return render_template('plots/plot_div.html', plot_name=f'{file_name}.png')

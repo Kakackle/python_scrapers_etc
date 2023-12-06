@@ -21,6 +21,16 @@ body{
 .main{
     width: var(--max-page-width);
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+}
+
+.scraping_section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .nav-centered{

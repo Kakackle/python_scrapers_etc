@@ -45,6 +45,10 @@ def create_app(test_config=None):
     from . import history_bp
     app.register_blueprint(history_bp.bp)
 
+    from . import index_bp
+    app.register_blueprint(index_bp.bp)
+
     app.add_url_rule('/', endpoint='index')
+    # app.add_url_rule('/', endpoint='index')
 
     return app

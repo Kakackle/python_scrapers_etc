@@ -1,4 +1,5 @@
-<table class="table" id="prev_scrapes" hx-swap="outerHTML">
+<div id="prev_scrapes" class="table-wrapper">
+<table class=" w-auto" id="prev_scrapes">
     <thead>
       <tr>
         <th scope="col">#</th>
@@ -14,7 +15,13 @@
         <!-- <td>{{file['file']|safe}}</td> -->
         <td>{{file.term|safe}}</td>
         <td>{{file.date}}</td>
+        <td>
+          <button class="btn btn-dark" hx-post="plots/by_file"
+          name="file" value="{{file.file}}" hx-target="#prev_plot"
+          hx-swap="innerHTML">plot</button>
+        </td>
       </tr>
     {% endfor %}
     </tbody>
-  </table>
+</table>
+</div>

@@ -2,12 +2,13 @@ from flask import (
     Blueprint, flash, g, redirect, render_template, request, url_for
 )
 
-from .scripts.scrape_api_combine import (test_cwd, reset_path,
-                                        test_finding, check_if_exists)
+from .scripts.scrape_api_combine import (check_if_exists,)
+
+from .scripts.path_traversal import (test_cwd, reset_path, test_finding)
 
 from .scripts.find_all_scrapes import find_all_scrapes
 
-bp = Blueprint('scrap', __name__)
+bp = Blueprint('scrap', __name__, url_prefix='/scrap')
 
 # ---------------------------------------------------------------------------- #
 #                                 actual routes                                #

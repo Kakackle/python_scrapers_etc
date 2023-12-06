@@ -6,7 +6,7 @@ from werkzeug.exceptions import abort
 from flask_app.auth import login_required
 from flask_app.db import get_db
 
-bp = Blueprint('history', __name__)
+bp = Blueprint('history', __name__, url_prefix='/history')
 
 # ---------------------------------------------------------------------------- #
 #                        crud operations on history etc                        #
@@ -33,7 +33,7 @@ def create():
                 (term, action_type, g.user['id'])
             )
             db.commit()
-            return redirect(url_for('plots.index'))
+            return redirect(url_for('index'))
 
     return render_template('plots/create.html')
 
@@ -76,7 +76,7 @@ def update(id):
                 (term, action_type, id)
             )
             db.commit()
-            return redirect(url_for('plots.index'))
+            return redirect(url_for('index'))
 
     return render_template('plots/update.html', history=history)
 
@@ -87,4 +87,4 @@ def delete(id):
     db = get_db()
     db.execute('DELETE FROM history WHERE id = ?', (id,))
     db.commit()
-    return redirect(url_for('plots.index'))
+    return redirect(url_for('index'))

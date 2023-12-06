@@ -1,0 +1,27 @@
+/* #prev_scrapes{
+    width: 100vw;
+    max-width: var(--max-page-width);
+} */
+
+/* .results_table{
+    width: 800px;
+} */
+
+/* #prev_scrapes th{
+    width: 300px;
+} */
+
+.searching_etc{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* gap: 10px; */
+    /* width: 100vw; */
+    max-width: var(--max-page-width);
+    /* padding: 0 10px; */
+}
+
+.table-wrapper{
+    max-height: 250px;
+    overflow: auto;
+    display:block;    
+}

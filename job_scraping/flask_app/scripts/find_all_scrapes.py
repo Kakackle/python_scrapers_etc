@@ -57,7 +57,7 @@ def find_all_scrapes():
                     date = result.group(2)
                     dir_objs.append(
                         {
-                            # 'file': file,
+                            'file': file,
                             'term': term,
                             'date': date
                         }

@@ -14,7 +14,7 @@ import os
 import pandas as pd
 import json
 from datetime import datetime, date
-from globals import NUMBER_OF_PAGES
+from ..globals import NUMBER_OF_PAGES
 
 def scrape_fluff(search_term, folder_path):
 

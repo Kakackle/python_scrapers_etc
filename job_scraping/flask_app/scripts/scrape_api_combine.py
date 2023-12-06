@@ -6,7 +6,7 @@ import pandas as pd
 import pickle
 import os
 import json
-from typing import List
+from typing import List, Tuple, Callable
 
 """
 Script with functions to scrape data from websites by supplied search_term
@@ -15,15 +15,16 @@ coming from calls in endpoints
 from .pydantic_model import Listing
 from .extractors import extract_careerjet, extract_pracuj, scrape_fluff
 from flask import current_app as app
-from path_traversal import reset_path, test_cwd, prepare_folders
-from globals import NUMBER_OF_PAGES
-# TODO: continue refactoring
+from .path_traversal import reset_path, test_cwd, prepare_folders
+from .globals import NUMBER_OF_PAGES
 
-def scrape_websites(search_term: List[str], urls: List[str], sites: List[str],
-                    extractors: List[function], folder_path: str) -> pd.DataFrame:
+def scrape_websites(search_term: str, urls: List[str], sites: List[str],
+                    extractors: List[Callable], folder_path: str) -> pd.DataFrame:
     """
         Scrape through the supplied list of websites using, the supplied extractor functions
-
+        Save each page's result in 'individal' folder in folder_path as csv files
+        Combine the results from multiple pages and save in a combined csv file
+        Then return a dataframe with the combined results
     Args:
         search_term (List[str]): _description_
         urls (List[str]): _description_
@@ -34,7 +35,6 @@ def scrape_websites(search_term: List[str], urls: List[str], sites: List[str],
     Returns:
         pd.DataFrame: _description_
     """    
-    page = 1
     scraping_results = []
     today = date.today()
 
@@ -74,32 +74,72 @@ def scrape_websites(search_term: List[str], urls: List[str], sites: List[str],
     return scraping_pd
 
 
-def combine_scraping_api(scraping_df, api_df):
+def combine_scraping_api(scraping_df: pd.DataFrame,
+                        api_df: pd.DataFrame) -> Tuple[pd.DataFrame, tuple[int]]:
+    """
+    Combine dfs, return result df and shape
+
+    Args:
+        scraping_df (_type_): _description_
+        api_df (_type_): _description_
+
+    Returns:
+        Tuple (_type_): _description_
+    """
     result_df = pd.concat([scraping_df, api_df])
     result_shape = result_df.shape
     return result_df, result_shape
 
-def save_combined_results(result_df, base_path, search_term, today):
-    path = base_path + r'/scraping_results' + '/' + search_term + '/' + str(today) + r'/all'
+
+def save_combined_results(result_df: pd.DataFrame, folder_path: str,
+                          search_term: str):
+    today = date.today()
+    path = folder_path + r'/all'
     if not os.path.exists(path):
         os.makedirs(path)
     path += '/'
     result_df.to_csv(path + f'all_{search_term}_{str(today)}.csv')
 
-def run_scraping(search_term, today, pages, urls, sites, extractors,
-                scraping_results, scraping_df,
-                api_results, api_df):
+
+def run_scraping(search_term: str, urls: List[str], sites: List[str],
+                extractors: List[Callable]) -> Tuple[pd.DataFrame, Tuple[int]]:
+    """_summary_
+
+    Args:
+        search_term (_type_): _description_
+        urls
+        sites
+        extractors
+
+    Returns:
+        Tuple (_type_): _description_
+    """    
+    today = date.today()
     base_path = reset_path()
     folder_path = prepare_folders(search_term, today, base_path)
-    scraping_df = scrape_websites(search_term, today, urls, sites, extractors,
-                    folder_path, pages, scraping_results)
-    api_df = scrape_fluff(search_term, today, folder_path, pages, api_results)
+
+    scraping_df = scrape_websites(search_term, urls, sites, extractors,
+                    folder_path)
+    api_df = scrape_fluff(search_term, folder_path)
     result_df, result_shape = combine_scraping_api(scraping_df, api_df)
-    save_combined_results(result_df, base_path, search_term, today)
+
+    save_combined_results(result_df, folder_path, search_term)
     return result_df, result_shape
 
-# function to check if scraping results already exist
-def check_if_exists(search_term):
+
+def check_if_exists(search_term: str) -> tuple[pd.DataFrame, tuple[int]]:
+    """
+    Check if result for specified query already exist in saved data
+    If they do, choose the latest available data, return a dataframe and it's shape
+    If they don't, run scraping functions and return
+
+    Args:
+        search_term (str): _description_
+        
+    Returns:
+        Tuple (_type_): _description_
+    """
+
     urls = [
         'https://www.careerjet.pl/{search_term}-praca.html?radius=0&p={page}&sort=date',
         'https://it.pracuj.pl/praca/{search_term};kw?sc=0&pn={page}'
@@ -116,18 +156,18 @@ def check_if_exists(search_term):
     ]
 
     base_path = reset_path()
-
     today = date.today()
-
+    
     exists_path = base_path + r'/scraping_results/' + search_term + '/' + str(today)
     if not os.path.exists(exists_path):
         # run scrapers
         result_df, result_shape = run_scraping(search_term,
-                                                urls, sites, extractors,)
+                                        urls, sites, extractors)
+    # get results from existing ones
     else:
         os.chdir(exists_path)
         all_path = exists_path + '/' + 'all'
-        # check if a comind file exists
+        # check if a combined file exists
         if os.path.exists(all_path):
             os.chdir(all_path)
             files = os.listdir()
@@ -152,11 +192,12 @@ def check_if_exists(search_term):
                 except:
                     pass
                 os.chdir('..')
+            
             os.chdir('..')
         result_shape = result_df.shape
 
     return result_df, result_shape
     # return_html = f"""
-    # <p id="scraping" hx-swap="outerHTML">Resultant scraping shape for {search_term} | {today}: {result_shape}</p>
+    # <p id="scraping">Resultant scraping shape for {search_term} | {today}: {result_shape}</p>
     # """
     # return return_html

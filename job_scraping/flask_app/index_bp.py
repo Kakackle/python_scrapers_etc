@@ -17,4 +17,4 @@ def index():
         ' FROM history h JOIN user u ON h.author_id = u.id'
         ' ORDER BY created DESC'
     ).fetchall()
-    return render_template('plots/index.html', history=history)
+    return render_template('index.html', history=history)
