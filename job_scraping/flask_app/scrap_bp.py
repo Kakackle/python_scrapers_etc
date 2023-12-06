@@ -7,6 +7,7 @@ from .scripts.scrape_api_combine import (check_if_exists,)
 from .scripts.path_traversal import (test_cwd, reset_path, test_finding)
 
 from .scripts.find_all_scrapes import find_all_scrapes
+from .scripts.utils import get_multiple_terms
 
 bp = Blueprint('scrap', __name__, url_prefix='/scrap')
 
@@ -61,4 +62,9 @@ def reset_path_route():
 def test_finding_route():
     if request.method == 'POST':
         return test_finding('python')
-        
+
+@bp.route('/test_multiple', methods=('POST',))
+def test_multiple():
+    if request.method == 'POST':
+        terms = request.form['terms']
+        return get_multiple_terms(terms)

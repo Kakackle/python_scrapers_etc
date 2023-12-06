@@ -22,7 +22,7 @@
     7. Moze nawet jakas mapka polski i na niej rysowane lokacje? w sensie male/duze kropki itd
     8. 
 12. TODO: Jakos zeby uruchomialo sie codziennie i zbieralo i aktualizowalo wszystko?
-13. TODO: Jesli zbierane z roznych stron i z roznych plikow to zapisywane jakos w pliki podpisane datami itd zeby odrozniac, moc porownwyac dni i inne
+13. ~~TODO: Jesli zbierane z roznych stron i z roznych plikow to zapisywane jakos w pliki podpisane datami itd zeby odrozniac, moc porownwyac dni i inne~~
 
 14. TODO: https://www.youtube.com/watch?v=xzxWLVCUvLo - wykorzystanie w pelni pydantic pod katem walidacji danych zbieranych, co bedzie dokonywane przy tworzeniu juz
 
@@ -44,11 +44,17 @@ https://www.careerjet.pl/szukaj/oferty_pracy?s=python&l=Polska&radius=0&sort=dat
 4. ~~TODO: filter data from nofluff api results~~
 5. ~~TODO: try to concat the cleaned nofluffdata to the scraping data~~
 6. ~~TODO: przy zapisywaniu albo odczytywaniu resultatow z scrapu do sciezek dodac folder typu ' path = r'./scraping_results/' '~~
-7. TODO: after running scraping scripts and api scripts run a script to combine the results or something | this should happen automatically, to have a main file with all results
-8. TODO: ...or: at the beginning of visualizations get all result files from folders of structure 'date/combined/'
+7. ~~TODO: after running scraping scripts and api scripts run a script to combine the results or something | this should happen automatically, to have a main file with all results~~
+8. ~~TODO: ...or: at the beginning of visualizations get all result files from folders of structure 'date/combined/'~~
 9. TODO: wiecej analizy z all_data_pandas, np. porownanie countu ofert z dnia, jakichs kombinacji itd
 10. TODO: Extract location cities or something
 11. TODO: Extract salary numbers
-12. TODO: zmiana zapisywania i odczytywania na zgodnie z nowym folder structure
-13. TODO: 
+12. ~~TODO: zmiana zapisywania i odczytywania na zgodnie z nowym folder structure~~
 
+13. TODO: Przy nowych scrapach albo na przycisku stworz plik sumujacy dla term zbiory z wszystkich dotychczasowych scapow (dat)
+14. TODO: podobnie funkcja sumowania scrapow z wybranego zakresu dni
+15. TODO: podobnie funkcja sumowania scrapow z wybranych kilku termow, a jesli nie istnieja wszystkie to zwrocenie o tym informacji uzytkownikowi
+16. TODO: mam teraz tablice z poprzednimi scrapami, ale fajnie gdyby uzytkownik mogl podac w searchu wiele terminow i date i na podstawie tego zwracalo informacje czy jest czy nie zamiast musiec przegladac (albo obie opcje luj)
+
+HIGH PRIORITYL
+17. TODO: ogolnie odbieranie wielu termow z searchu ORAZ przy wyswietlaniu tablicy ladne sformatowanie
