@@ -4,7 +4,8 @@ from flask import (
 
 from .scripts.scrape_api_combine import (check_if_exists,
                                          check_if_all_folder_exists,
-                                         check_if_exists_multiple)
+                                         check_if_exists_multiple,
+                                         combine_terms_results)
 
 from .scripts.path_traversal import (test_cwd, reset_path, test_finding)
 
@@ -24,6 +25,10 @@ def term_scrap():
         term = request.form['term'].lower()
         result_df, result_shape = check_if_exists(term)
         # return check_if_exists(term)
+        return_html = f"""
+        <p>resultant df shape: {result_shape}
+        """
+        return return_html
 
 # returning / selecting existing scrapes
 @bp.route('/prev_scrapes', methods=('GET',))
@@ -39,7 +44,16 @@ def multi_find():
         results = check_if_exists_multiple(terms_split)
         return render_template('plots/search_results.html', results=results)
 
-
+@bp.route('/combine_results', methods=('POST',))
+def combine_results():
+    if request.method == 'POST':
+        terms = request.form['terms_string']
+        # terms_split = get_multiple_terms(terms)
+        combined_df, combined_shape = combine_terms_results(input_string=terms)
+        return_html = f"""
+        <p>Resultant combination shape: {combined_shape}</p>
+        """
+        return return_html
 # ---------------------------------------------------------------------------- #
 #                                     tests                                    #
 # ---------------------------------------------------------------------------- #

@@ -1,0 +1,428 @@
+,title,link,company,location,salary,description,date_added,skills,search_term,date_searched
+0,Head of Product,head-of-product-billingo-technologies-zrt--budapest,Billingo Technologies Zrt.,,13656.0 - 21622.0,,2023-12-01,,vue,2023-12-07
+1,Technical Business Analyst,technical-business-analyst-devire-krakow,Devire,,21840.0 - 25200.0,,2023-12-01,,vue,2023-12-07
+2,Senior UX Designer ,senior-ux-designer-intellias-krakow,Intellias,,18000.0 - 22000.0,,2023-11-28,,vue,2023-12-07
+3,IT System Analyst (Mid/Senior),it-system-analyst-mid-senior-talentspot-karrier-kft--budapest,TalentSpot Karrier Kft. ,,12518.0 - 15932.0,,2023-11-14,,vue,2023-12-07
+4,Business Analyst for Analytics and Reporting,business-analyst-for-analytics-and-reporting-sni-remote,SNI,,15000.0 - 19000.0,,2023-11-24,,vue,2023-12-07
+5,Business Analyst for Analytics and Reporting,business-analyst-for-analytics-and-reporting-sni-lodz,SNI,,15000.0 - 19000.0,,2023-11-24,,vue,2023-12-07
+6,Scientific Business Analyst,scientific-business-analyst-avenga-remote,AVENGA,,20160.0 - 22680.0,,2023-11-21,,vue,2023-12-07
+7,Scientific Business Analyst,scientific-business-analyst-avenga-lower-silesian,AVENGA,,20160.0 - 22680.0,,2023-11-21,,vue,2023-12-07
+8,Scientific Business Analyst,scientific-business-analyst-avenga-kuyavian-pomeranian,AVENGA,,20160.0 - 22680.0,,2023-11-21,,vue,2023-12-07
+9,Scientific Business Analyst,scientific-business-analyst-avenga-lodz,AVENGA,,20160.0 - 22680.0,,2023-11-21,,vue,2023-12-07
+10,Scientific Business Analyst,scientific-business-analyst-avenga-lublin,AVENGA,,20160.0 - 22680.0,,2023-11-21,,vue,2023-12-07
+11,Scientific Business Analyst,scientific-business-analyst-avenga-lubusz,AVENGA,,20160.0 - 22680.0,,2023-11-21,,vue,2023-12-07
+12,Scientific Business Analyst,scientific-business-analyst-avenga-lesser-poland,AVENGA,,20160.0 - 22680.0,,2023-11-21,,vue,2023-12-07
+13,Scientific Business Analyst,scientific-business-analyst-avenga-masovian,AVENGA,,20160.0 - 22680.0,,2023-11-21,,vue,2023-12-07
+14,Scientific Business Analyst,scientific-business-analyst-avenga-opole,AVENGA,,20160.0 - 22680.0,,2023-11-21,,vue,2023-12-07
+15,Scientific Business Analyst,scientific-business-analyst-avenga-subcarpathian,AVENGA,,20160.0 - 22680.0,,2023-11-21,,vue,2023-12-07
+16,Scientific Business Analyst,scientific-business-analyst-avenga-podlaskie,AVENGA,,20160.0 - 22680.0,,2023-11-21,,vue,2023-12-07
+17,Scientific Business Analyst,scientific-business-analyst-avenga-pomeranian,AVENGA,,20160.0 - 22680.0,,2023-11-21,,vue,2023-12-07
+18,Scientific Business Analyst,scientific-business-analyst-avenga-silesian,AVENGA,,20160.0 - 22680.0,,2023-11-21,,vue,2023-12-07
+19,Scientific Business Analyst,scientific-business-analyst-avenga-holy-cross,AVENGA,,20160.0 - 22680.0,,2023-11-21,,vue,2023-12-07
+20,Scientific Business Analyst,scientific-business-analyst-avenga-warmian-masurian,AVENGA,,20160.0 - 22680.0,,2023-11-21,,vue,2023-12-07
+21,Scientific Business Analyst,scientific-business-analyst-avenga-greater-poland,AVENGA,,20160.0 - 22680.0,,2023-11-21,,vue,2023-12-07
+22,Scientific Business Analyst,scientific-business-analyst-avenga-west-pomeranian,AVENGA,,20160.0 - 22680.0,,2023-11-21,,vue,2023-12-07
+23,Engineering Manager,engineering-manager-knowde-remote-1,Knowde,,25000.0 - 40000.0,,2023-11-16,,vue,2023-12-07
+24,Engineering Manager,engineering-manager-knowde-rzeszow-4,Knowde,,25000.0 - 40000.0,,2023-11-16,,vue,2023-12-07
+25,Engineering Manager,engineering-manager-knowde-lodz-1,Knowde,,25000.0 - 40000.0,,2023-11-16,,vue,2023-12-07
+26,Engineering Manager,engineering-manager-knowde-bialystok-1,Knowde,,25000.0 - 40000.0,,2023-11-16,,vue,2023-12-07
+27,Engineering Manager,engineering-manager-knowde-lower-silesian,Knowde,,25000.0 - 40000.0,,2023-11-16,,vue,2023-12-07
+28,Engineering Manager,engineering-manager-knowde-kuyavian-pomeranian,Knowde,,25000.0 - 40000.0,,2023-11-16,,vue,2023-12-07
+29,Engineering Manager,engineering-manager-knowde-lublin,Knowde,,25000.0 - 40000.0,,2023-11-16,,vue,2023-12-07
+30,Engineering Manager,engineering-manager-knowde-lubusz,Knowde,,25000.0 - 40000.0,,2023-11-16,,vue,2023-12-07
+31,Engineering Manager,engineering-manager-knowde-lesser-poland,Knowde,,25000.0 - 40000.0,,2023-11-16,,vue,2023-12-07
+32,Engineering Manager,engineering-manager-knowde-masovian,Knowde,,25000.0 - 40000.0,,2023-11-16,,vue,2023-12-07
+33,Engineering Manager,engineering-manager-knowde-opole,Knowde,,25000.0 - 40000.0,,2023-11-16,,vue,2023-12-07
+34,Engineering Manager,engineering-manager-knowde-pomeranian,Knowde,,25000.0 - 40000.0,,2023-11-16,,vue,2023-12-07
+35,Engineering Manager,engineering-manager-knowde-silesian,Knowde,,25000.0 - 40000.0,,2023-11-16,,vue,2023-12-07
+36,Engineering Manager,engineering-manager-knowde-holy-cross,Knowde,,25000.0 - 40000.0,,2023-11-16,,vue,2023-12-07
+37,Engineering Manager,engineering-manager-knowde-warmian-masurian,Knowde,,25000.0 - 40000.0,,2023-11-16,,vue,2023-12-07
+38,Engineering Manager,engineering-manager-knowde-greater-poland,Knowde,,25000.0 - 40000.0,,2023-11-16,,vue,2023-12-07
+39,Engineering Manager,engineering-manager-knowde-west-pomeranian,Knowde,,25000.0 - 40000.0,,2023-11-16,,vue,2023-12-07
+40,Robotics Process Automation Business Analyst,robotics-process-automation-business-analyst-fujitsu-technology-solutions-remote,Fujitsu Technology Solutions Sp. z o.o.,,13776.0 - 19320.0,,2023-11-10,,vue,2023-12-07
+41,Robotics Process Automation Business Analyst,robotics-process-automation-business-analyst-fujitsu-technology-solutions-lower-silesian,Fujitsu Technology Solutions Sp. z o.o.,,13776.0 - 19320.0,,2023-11-10,,vue,2023-12-07
+42,Robotics Process Automation Business Analyst,robotics-process-automation-business-analyst-fujitsu-technology-solutions-kuyavian-pomeranian,Fujitsu Technology Solutions Sp. z o.o.,,13776.0 - 19320.0,,2023-11-10,,vue,2023-12-07
+43,Robotics Process Automation Business Analyst,robotics-process-automation-business-analyst-fujitsu-technology-solutions-lodz,Fujitsu Technology Solutions Sp. z o.o.,,13776.0 - 19320.0,,2023-11-10,,vue,2023-12-07
+44,Robotics Process Automation Business Analyst,robotics-process-automation-business-analyst-fujitsu-technology-solutions-lublin,Fujitsu Technology Solutions Sp. z o.o.,,13776.0 - 19320.0,,2023-11-10,,vue,2023-12-07
+45,Robotics Process Automation Business Analyst,robotics-process-automation-business-analyst-fujitsu-technology-solutions-lubusz,Fujitsu Technology Solutions Sp. z o.o.,,13776.0 - 19320.0,,2023-11-10,,vue,2023-12-07
+46,Robotics Process Automation Business Analyst,robotics-process-automation-business-analyst-fujitsu-technology-solutions-lesser-poland,Fujitsu Technology Solutions Sp. z o.o.,,13776.0 - 19320.0,,2023-11-10,,vue,2023-12-07
+47,Robotics Process Automation Business Analyst,robotics-process-automation-business-analyst-fujitsu-technology-solutions-masovian,Fujitsu Technology Solutions Sp. z o.o.,,13776.0 - 19320.0,,2023-11-10,,vue,2023-12-07
+48,Robotics Process Automation Business Analyst,robotics-process-automation-business-analyst-fujitsu-technology-solutions-opole,Fujitsu Technology Solutions Sp. z o.o.,,13776.0 - 19320.0,,2023-11-10,,vue,2023-12-07
+49,Robotics Process Automation Business Analyst,robotics-process-automation-business-analyst-fujitsu-technology-solutions-subcarpathian,Fujitsu Technology Solutions Sp. z o.o.,,13776.0 - 19320.0,,2023-11-10,,vue,2023-12-07
+50,Robotics Process Automation Business Analyst,robotics-process-automation-business-analyst-fujitsu-technology-solutions-podlaskie,Fujitsu Technology Solutions Sp. z o.o.,,13776.0 - 19320.0,,2023-11-10,,vue,2023-12-07
+51,Robotics Process Automation Business Analyst,robotics-process-automation-business-analyst-fujitsu-technology-solutions-pomeranian,Fujitsu Technology Solutions Sp. z o.o.,,13776.0 - 19320.0,,2023-11-10,,vue,2023-12-07
+52,Robotics Process Automation Business Analyst,robotics-process-automation-business-analyst-fujitsu-technology-solutions-silesian,Fujitsu Technology Solutions Sp. z o.o.,,13776.0 - 19320.0,,2023-11-10,,vue,2023-12-07
+53,Robotics Process Automation Business Analyst,robotics-process-automation-business-analyst-fujitsu-technology-solutions-holy-cross,Fujitsu Technology Solutions Sp. z o.o.,,13776.0 - 19320.0,,2023-11-10,,vue,2023-12-07
+54,Robotics Process Automation Business Analyst,robotics-process-automation-business-analyst-fujitsu-technology-solutions-warmian-masurian,Fujitsu Technology Solutions Sp. z o.o.,,13776.0 - 19320.0,,2023-11-10,,vue,2023-12-07
+55,Robotics Process Automation Business Analyst,robotics-process-automation-business-analyst-fujitsu-technology-solutions-greater-poland,Fujitsu Technology Solutions Sp. z o.o.,,13776.0 - 19320.0,,2023-11-10,,vue,2023-12-07
+56,Robotics Process Automation Business Analyst,robotics-process-automation-business-analyst-fujitsu-technology-solutions-west-pomeranian,Fujitsu Technology Solutions Sp. z o.o.,,13776.0 - 19320.0,,2023-11-10,,vue,2023-12-07
+57,Sr Principal Architect,sr-principal-architect-here-technologies-remote,HERE Technologies,,30000.0 - 50000.0,,2023-11-10,Java,vue,2023-12-07
+58,Sr Principal Architect,sr-principal-architect-here-technologies-krakow,HERE Technologies,,30000.0 - 50000.0,,2023-11-10,Java,vue,2023-12-07
+59,Sr Principal Architect,sr-principal-architect-here-technologies-lower-silesian,HERE Technologies,,30000.0 - 50000.0,,2023-11-10,Java,vue,2023-12-07
+60,Sr Principal Architect,sr-principal-architect-here-technologies-kuyavian-pomeranian,HERE Technologies,,30000.0 - 50000.0,,2023-11-10,Java,vue,2023-12-07
+61,Sr Principal Architect,sr-principal-architect-here-technologies-lodz,HERE Technologies,,30000.0 - 50000.0,,2023-11-10,Java,vue,2023-12-07
+62,Sr Principal Architect,sr-principal-architect-here-technologies-lublin,HERE Technologies,,30000.0 - 50000.0,,2023-11-10,Java,vue,2023-12-07
+63,Sr Principal Architect,sr-principal-architect-here-technologies-lubusz,HERE Technologies,,30000.0 - 50000.0,,2023-11-10,Java,vue,2023-12-07
+64,Sr Principal Architect,sr-principal-architect-here-technologies-masovian,HERE Technologies,,30000.0 - 50000.0,,2023-11-10,Java,vue,2023-12-07
+65,Sr Principal Architect,sr-principal-architect-here-technologies-opole,HERE Technologies,,30000.0 - 50000.0,,2023-11-10,Java,vue,2023-12-07
+66,Sr Principal Architect,sr-principal-architect-here-technologies-subcarpathian,HERE Technologies,,30000.0 - 50000.0,,2023-11-10,Java,vue,2023-12-07
+67,Sr Principal Architect,sr-principal-architect-here-technologies-podlaskie,HERE Technologies,,30000.0 - 50000.0,,2023-11-10,Java,vue,2023-12-07
+68,Sr Principal Architect,sr-principal-architect-here-technologies-pomeranian,HERE Technologies,,30000.0 - 50000.0,,2023-11-10,Java,vue,2023-12-07
+69,Sr Principal Architect,sr-principal-architect-here-technologies-silesian,HERE Technologies,,30000.0 - 50000.0,,2023-11-10,Java,vue,2023-12-07
+70,Sr Principal Architect,sr-principal-architect-here-technologies-holy-cross,HERE Technologies,,30000.0 - 50000.0,,2023-11-10,Java,vue,2023-12-07
+71,Sr Principal Architect,sr-principal-architect-here-technologies-warmian-masurian,HERE Technologies,,30000.0 - 50000.0,,2023-11-10,Java,vue,2023-12-07
+72,Sr Principal Architect,sr-principal-architect-here-technologies-greater-poland,HERE Technologies,,30000.0 - 50000.0,,2023-11-10,Java,vue,2023-12-07
+73,Sr Principal Architect,sr-principal-architect-here-technologies-west-pomeranian,HERE Technologies,,30000.0 - 50000.0,,2023-11-10,Java,vue,2023-12-07
+74,Junior Customer Success Assistant,junior-customer-success-assistant-w-w-consulting-warszawa,W&W Consulting Sp. z o.o.,,3699.0 - 4699.0,,2023-12-02,,vue,2023-12-07
+75,Luxury Villa Sales Specialist - 100% Remote,luxury-villa-sales-specialist-100-remote-frontier-experiences-holding,FRONTIER EXPERIENCES HOLDING,,6000.0 - 8000.0,,2023-12-05,,vue,2023-12-07
+76,Luxury Villa Sales Specialist - 100% Remote,luxury-villa-sales-specialist-100-remote-frontier-experiences-holding-warszawa,FRONTIER EXPERIENCES HOLDING,,6000.0 - 8000.0,,2023-12-05,,vue,2023-12-07
+77,Luxury Villa Sales Specialist - 100% Remote,luxury-villa-sales-specialist-100-remote-frontier-experiences-holding-poznan,FRONTIER EXPERIENCES HOLDING,,6000.0 - 8000.0,,2023-12-05,,vue,2023-12-07
+78,Luxury Villa Sales Specialist - 100% Remote,luxury-villa-sales-specialist-100-remote-frontier-experiences-holding-gdansk,FRONTIER EXPERIENCES HOLDING,,6000.0 - 8000.0,,2023-12-05,,vue,2023-12-07
+79,Luxury Villa Sales Specialist - 100% Remote,luxury-villa-sales-specialist-100-remote-frontier-experiences-holding-krakow,FRONTIER EXPERIENCES HOLDING,,6000.0 - 8000.0,,2023-12-05,,vue,2023-12-07
+80,Data Engineer,data-engineer-photon-energy-group-remote,Photon Energy Group,,22000.0 - 26000.0,,2023-12-02,,vue,2023-12-07
+81,Data Engineer,data-engineer-photon-energy-group-poznan,Photon Energy Group,,22000.0 - 26000.0,,2023-12-02,,vue,2023-12-07
+82,Data Engineer,data-engineer-photon-energy-group-warsaw,Photon Energy Group,,22000.0 - 26000.0,,2023-12-02,,vue,2023-12-07
+83,Junior Database administrator,junior-database-administrator-rafi-poland-zielonagora-1,RAFI Poland sp. z o.o.,,6000.0 - 6500.0,,2023-12-07,SQL,vue,2023-12-07
+84,Junior It Cloud Solutions Consultant,junior-it-cloud-solutions-consultant-rafi-poland-zielonagora,RAFI Poland sp. z o.o.,,6500.0 - 7000.0,,2023-12-07,,vue,2023-12-07
+85,Młodszy Analityk Systemowo Biznesowy ,mlodszy-analityk-systemowo-biznesowy-green-minds-warsaw,Green Minds Sp.z o.o.,,10000.0 - 12000.0,,2023-12-07,,vue,2023-12-07
+86,IT Recruiter,it-recruiter-scaleneworks-people-solutions-remote-1,ScaleneWorks People Solutions,,6500.0 - 9000.0,,2023-12-02,,vue,2023-12-07
+87,IT Recruiter,it-recruiter-scaleneworks-people-solutions-krakow-1,ScaleneWorks People Solutions,,6500.0 - 9000.0,,2023-12-02,,vue,2023-12-07
+88,IT Recruiter,it-recruiter-scaleneworks-people-solutions-warszawa-1,ScaleneWorks People Solutions,,6500.0 - 9000.0,,2023-12-02,,vue,2023-12-07
+89,IT Recruiter,it-recruiter-scaleneworks-people-solutions-katowice-1,ScaleneWorks People Solutions,,6500.0 - 9000.0,,2023-12-02,,vue,2023-12-07
+90,IT Recruiter,it-recruiter-scaleneworks-people-solutions-rzeszow,ScaleneWorks People Solutions,,6500.0 - 9000.0,,2023-12-02,,vue,2023-12-07
+91,IT Recruiter,it-recruiter-scaleneworks-people-solutions-lower-silesian-1,ScaleneWorks People Solutions,,6500.0 - 9000.0,,2023-12-02,,vue,2023-12-07
+92,IT Recruiter,it-recruiter-scaleneworks-people-solutions-kuyavian-pomeranian-1,ScaleneWorks People Solutions,,6500.0 - 9000.0,,2023-12-02,,vue,2023-12-07
+93,IT Recruiter,it-recruiter-scaleneworks-people-solutions-lodz-1,ScaleneWorks People Solutions,,6500.0 - 9000.0,,2023-12-02,,vue,2023-12-07
+94,IT Recruiter,it-recruiter-scaleneworks-people-solutions-lublin-1,ScaleneWorks People Solutions,,6500.0 - 9000.0,,2023-12-02,,vue,2023-12-07
+95,IT Recruiter,it-recruiter-scaleneworks-people-solutions-lubusz-1,ScaleneWorks People Solutions,,6500.0 - 9000.0,,2023-12-02,,vue,2023-12-07
+96,IT Recruiter,it-recruiter-scaleneworks-people-solutions-opole-1,ScaleneWorks People Solutions,,6500.0 - 9000.0,,2023-12-02,,vue,2023-12-07
+97,IT Recruiter,it-recruiter-scaleneworks-people-solutions-podlaskie-1,ScaleneWorks People Solutions,,6500.0 - 9000.0,,2023-12-02,,vue,2023-12-07
+98,IT Recruiter,it-recruiter-scaleneworks-people-solutions-pomeranian-1,ScaleneWorks People Solutions,,6500.0 - 9000.0,,2023-12-02,,vue,2023-12-07
+99,IT Recruiter,it-recruiter-scaleneworks-people-solutions-holy-cross-1,ScaleneWorks People Solutions,,6500.0 - 9000.0,,2023-12-02,,vue,2023-12-07
+100,IT Recruiter,it-recruiter-scaleneworks-people-solutions-warmian-masurian-1,ScaleneWorks People Solutions,,6500.0 - 9000.0,,2023-12-02,,vue,2023-12-07
+101,IT Recruiter,it-recruiter-scaleneworks-people-solutions-greater-poland-1,ScaleneWorks People Solutions,,6500.0 - 9000.0,,2023-12-02,,vue,2023-12-07
+102,IT Recruiter,it-recruiter-scaleneworks-people-solutions-west-pomeranian-1,ScaleneWorks People Solutions,,6500.0 - 9000.0,,2023-12-02,,vue,2023-12-07
+103,C++ Software Developer,c-software-developer-sperasoft-remote-1,Sperasoft,,12000.0 - 20000.0,,2023-12-05,C++,vue,2023-12-07
+104,C++ Software Developer,c-software-developer-sperasoft-krakow-1,Sperasoft,,12000.0 - 20000.0,,2023-12-05,C++,vue,2023-12-07
+105,C++ Software Developer,c-software-developer-sperasoft-warszawa-1,Sperasoft,,12000.0 - 20000.0,,2023-12-05,C++,vue,2023-12-07
+106,Accountant with Polish and English,accountant-with-polish-and-english-asc-american-sun-components-warszawa,ASC American Sun Components,,8000.0 - 11000.0,,2023-12-07,,vue,2023-12-07
+107,Marketing Specialist,marketing-specialist-asc-global-polska-warszawa,ASC Global Polska,,4000.0 - 8000.0,,2023-12-07,,vue,2023-12-07
+108,Network Integration Engineer,network-integration-engineer-alten-polska-remote,ALTEN Polska,,10080.0 - 16800.0,,2023-11-15,,vue,2023-12-07
+109,Network Integration Engineer,network-integration-engineer-alten-polska-bydgoszcz,ALTEN Polska,,10080.0 - 16800.0,,2023-11-15,,vue,2023-12-07
+110,Network Integration Engineer,network-integration-engineer-alten-polska-krakow,ALTEN Polska,,10080.0 - 16800.0,,2023-11-15,,vue,2023-12-07
+111,Network Integration Engineer,network-integration-engineer-alten-polska-gdansk,ALTEN Polska,,10080.0 - 16800.0,,2023-11-15,,vue,2023-12-07
+112,Network Integration Engineer,network-integration-engineer-alten-polska-wroclaw,ALTEN Polska,,10080.0 - 16800.0,,2023-11-15,,vue,2023-12-07
+113,Network Integration Engineer,network-integration-engineer-alten-polska-lodz,ALTEN Polska,,10080.0 - 16800.0,,2023-11-15,,vue,2023-12-07
+114,Network Integration Engineer,network-integration-engineer-alten-polska-lublin,ALTEN Polska,,10080.0 - 16800.0,,2023-11-15,,vue,2023-12-07
+115,Network Integration Engineer,network-integration-engineer-alten-polska-lubusz,ALTEN Polska,,10080.0 - 16800.0,,2023-11-15,,vue,2023-12-07
+116,Network Integration Engineer,network-integration-engineer-alten-polska-masovian,ALTEN Polska,,10080.0 - 16800.0,,2023-11-15,,vue,2023-12-07
+117,Network Integration Engineer,network-integration-engineer-alten-polska-opole,ALTEN Polska,,10080.0 - 16800.0,,2023-11-15,,vue,2023-12-07
+118,Network Integration Engineer,network-integration-engineer-alten-polska-subcarpathian,ALTEN Polska,,10080.0 - 16800.0,,2023-11-15,,vue,2023-12-07
+119,Network Integration Engineer,network-integration-engineer-alten-polska-podlaskie,ALTEN Polska,,10080.0 - 16800.0,,2023-11-15,,vue,2023-12-07
+120,Network Integration Engineer,network-integration-engineer-alten-polska-silesian,ALTEN Polska,,10080.0 - 16800.0,,2023-11-15,,vue,2023-12-07
+121,Network Integration Engineer,network-integration-engineer-alten-polska-holy-cross,ALTEN Polska,,10080.0 - 16800.0,,2023-11-15,,vue,2023-12-07
+122,Network Integration Engineer,network-integration-engineer-alten-polska-warmian-masurian,ALTEN Polska,,10080.0 - 16800.0,,2023-11-15,,vue,2023-12-07
+123,Network Integration Engineer,network-integration-engineer-alten-polska-greater-poland,ALTEN Polska,,10080.0 - 16800.0,,2023-11-15,,vue,2023-12-07
+124,Network Integration Engineer,network-integration-engineer-alten-polska-west-pomeranian,ALTEN Polska,,10080.0 - 16800.0,,2023-11-15,,vue,2023-12-07
+125,Security Software Principal Engineer (C/C++),security-software-principal-engineer-c-c--dell-technologies-remote-1,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+126,Security Software Principal Engineer (C/C++),security-software-principal-engineer-c-c--dell-technologies-warszawa-1,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+127,Security Software Principal Engineer (C/C++),security-software-principal-engineer-c-c--dell-technologies-lower-silesian-1,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+128,Security Software Principal Engineer (C/C++),security-software-principal-engineer-c-c--dell-technologies-kuyavian-pomeranian-1,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+129,Security Software Principal Engineer (C/C++),security-software-principal-engineer-c-c--dell-technologies-lodz-1,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+130,Security Software Principal Engineer (C/C++),security-software-principal-engineer-c-c--dell-technologies-lublin-1,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+131,Security Software Principal Engineer (C/C++),security-software-principal-engineer-c-c--dell-technologies-lubusz-1,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+132,Security Software Principal Engineer (C/C++),security-software-principal-engineer-c-c--dell-technologies-lesser-poland-1,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+133,Security Software Principal Engineer (C/C++),security-software-principal-engineer-c-c--dell-technologies-opole-1,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+134,Security Software Principal Engineer (C/C++),security-software-principal-engineer-c-c--dell-technologies-subcarpathian-1,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+135,Security Software Principal Engineer (C/C++),security-software-principal-engineer-c-c--dell-technologies-podlaskie-1,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+136,Security Software Principal Engineer (C/C++),security-software-principal-engineer-c-c--dell-technologies-pomeranian-1,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+137,Security Software Principal Engineer (C/C++),security-software-principal-engineer-c-c--dell-technologies-silesian-1,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+138,Security Software Principal Engineer (C/C++),security-software-principal-engineer-c-c--dell-technologies-holy-cross-1,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+139,Security Software Principal Engineer (C/C++),security-software-principal-engineer-c-c--dell-technologies-warmian-masurian-1,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+140,Security Software Principal Engineer (C/C++),security-software-principal-engineer-c-c--dell-technologies-greater-poland-1,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+141,Security Software Principal Engineer (C/C++),security-software-principal-engineer-c-c--dell-technologies-west-pomeranian-1,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+142,PowerFlex Software Principal Engineer (C/C++),powerflex-software-principal-engineer-c-c--dell-technologies-remote,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+143,PowerFlex Software Principal Engineer (C/C++),powerflex-software-principal-engineer-c-c--dell-technologies-warszawa,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+144,PowerFlex Software Principal Engineer (C/C++),powerflex-software-principal-engineer-c-c--dell-technologies-lower-silesian,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+145,PowerFlex Software Principal Engineer (C/C++),powerflex-software-principal-engineer-c-c--dell-technologies-kuyavian-pomeranian,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+146,PowerFlex Software Principal Engineer (C/C++),powerflex-software-principal-engineer-c-c--dell-technologies-lodz,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+147,PowerFlex Software Principal Engineer (C/C++),powerflex-software-principal-engineer-c-c--dell-technologies-lublin,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+148,PowerFlex Software Principal Engineer (C/C++),powerflex-software-principal-engineer-c-c--dell-technologies-lubusz,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+149,PowerFlex Software Principal Engineer (C/C++),powerflex-software-principal-engineer-c-c--dell-technologies-lesser-poland,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+150,PowerFlex Software Principal Engineer (C/C++),powerflex-software-principal-engineer-c-c--dell-technologies-opole,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+151,PowerFlex Software Principal Engineer (C/C++),powerflex-software-principal-engineer-c-c--dell-technologies-subcarpathian,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+152,PowerFlex Software Principal Engineer (C/C++),powerflex-software-principal-engineer-c-c--dell-technologies-podlaskie,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+153,PowerFlex Software Principal Engineer (C/C++),powerflex-software-principal-engineer-c-c--dell-technologies-pomeranian,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+154,PowerFlex Software Principal Engineer (C/C++),powerflex-software-principal-engineer-c-c--dell-technologies-silesian,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+155,PowerFlex Software Principal Engineer (C/C++),powerflex-software-principal-engineer-c-c--dell-technologies-holy-cross,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+156,PowerFlex Software Principal Engineer (C/C++),powerflex-software-principal-engineer-c-c--dell-technologies-warmian-masurian,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+157,PowerFlex Software Principal Engineer (C/C++),powerflex-software-principal-engineer-c-c--dell-technologies-greater-poland,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+158,PowerFlex Software Principal Engineer (C/C++),powerflex-software-principal-engineer-c-c--dell-technologies-west-pomeranian,Dell Technologies,,22650.0 - 27250.0,,2023-12-04,C,vue,2023-12-07
+159,Business Analyst with French/German,business-analyst-with-french-german-sollers-consulting-gdansk-1,Sollers Consulting,,9100.0 - 14500.0,,2023-12-06,,vue,2023-12-07
+160,Business Analyst with French/German,business-analyst-with-french-german-sollers-consulting-poznan-1,Sollers Consulting,,9100.0 - 14500.0,,2023-12-06,,vue,2023-12-07
+161,Business Analyst with French/German,business-analyst-with-french-german-sollers-consulting-warszawa-1,Sollers Consulting,,9100.0 - 14500.0,,2023-12-06,,vue,2023-12-07
+162,Business Analyst with French/German,business-analyst-with-french-german-sollers-consulting-bialystok-1,Sollers Consulting,,9100.0 - 14500.0,,2023-12-06,,vue,2023-12-07
+163,Business Analyst with French/German,business-analyst-with-french-german-sollers-consulting-lublin-1,Sollers Consulting,,9100.0 - 14500.0,,2023-12-06,,vue,2023-12-07
+164,Business Analyst with French/German,business-analyst-with-french-german-sollers-consulting-krakow-1,Sollers Consulting,,9100.0 - 14500.0,,2023-12-06,,vue,2023-12-07
+165,Business Analyst with French/German,business-analyst-with-french-german-sollers-consulting-lodz-1,Sollers Consulting,,9100.0 - 14500.0,,2023-12-06,,vue,2023-12-07
+166,Business Analyst with French/German,business-analyst-with-french-german-sollers-consulting-szczecin-1,Sollers Consulting,,9100.0 - 14500.0,,2023-12-06,,vue,2023-12-07
+167,Business Analyst with French/German,business-analyst-with-french-german-sollers-consulting-wroclaw-1,Sollers Consulting,,9100.0 - 14500.0,,2023-12-06,,vue,2023-12-07
+168,Agile Leader,agile-leader-htd-remote,HTD,,15000.0 - 23000.0,,2023-12-07,,vue,2023-12-07
+169,Agile Leader,agile-leader-htd-lodz,HTD,,15000.0 - 23000.0,,2023-12-07,,vue,2023-12-07
+170,Agile Leader,agile-leader-htd-lower-silesian,HTD,,15000.0 - 23000.0,,2023-12-07,,vue,2023-12-07
+171,Agile Leader,agile-leader-htd-kuyavian-pomeranian,HTD,,15000.0 - 23000.0,,2023-12-07,,vue,2023-12-07
+172,Agile Leader,agile-leader-htd-lublin,HTD,,15000.0 - 23000.0,,2023-12-07,,vue,2023-12-07
+173,Agile Leader,agile-leader-htd-lubusz,HTD,,15000.0 - 23000.0,,2023-12-07,,vue,2023-12-07
+174,Agile Leader,agile-leader-htd-lesser-poland,HTD,,15000.0 - 23000.0,,2023-12-07,,vue,2023-12-07
+175,Agile Leader,agile-leader-htd-masovian,HTD,,15000.0 - 23000.0,,2023-12-07,,vue,2023-12-07
+176,Agile Leader,agile-leader-htd-opole,HTD,,15000.0 - 23000.0,,2023-12-07,,vue,2023-12-07
+177,Agile Leader,agile-leader-htd-subcarpathian,HTD,,15000.0 - 23000.0,,2023-12-07,,vue,2023-12-07
+178,Agile Leader,agile-leader-htd-podlaskie,HTD,,15000.0 - 23000.0,,2023-12-07,,vue,2023-12-07
+179,Agile Leader,agile-leader-htd-pomeranian,HTD,,15000.0 - 23000.0,,2023-12-07,,vue,2023-12-07
+180,Agile Leader,agile-leader-htd-silesian,HTD,,15000.0 - 23000.0,,2023-12-07,,vue,2023-12-07
+181,Agile Leader,agile-leader-htd-holy-cross,HTD,,15000.0 - 23000.0,,2023-12-07,,vue,2023-12-07
+182,Agile Leader,agile-leader-htd-warmian-masurian,HTD,,15000.0 - 23000.0,,2023-12-07,,vue,2023-12-07
+183,Agile Leader,agile-leader-htd-greater-poland,HTD,,15000.0 - 23000.0,,2023-12-07,,vue,2023-12-07
+184,Agile Leader,agile-leader-htd-west-pomeranian,HTD,,15000.0 - 23000.0,,2023-12-07,,vue,2023-12-07
+185,Database administrator,database-administrator-rafi-poland-zielonagora-1,RAFI Poland sp. z o.o.,,6500.0 - 7500.0,,2023-12-07,SQL,vue,2023-12-07
+186,Cloud Engineer,cloud-engineer-sollers-consulting-warszawa-3,Sollers Consulting,,13700.0 - 20000.0,,2023-11-10,Java,vue,2023-12-07
+187,Cloud Engineer,cloud-engineer-sollers-consulting-lublin-2,Sollers Consulting,,13700.0 - 20000.0,,2023-11-10,Java,vue,2023-12-07
+188,Cloud Engineer,cloud-engineer-sollers-consulting-szczecin-2,Sollers Consulting,,13700.0 - 20000.0,,2023-11-10,Java,vue,2023-12-07
+189,Cloud Engineer,cloud-engineer-sollers-consulting-wroclaw-2,Sollers Consulting,,13700.0 - 20000.0,,2023-11-10,Java,vue,2023-12-07
+190,Cloud Engineer,cloud-engineer-sollers-consulting-poznan-2,Sollers Consulting,,13700.0 - 20000.0,,2023-11-10,Java,vue,2023-12-07
+191,Cloud Engineer,cloud-engineer-sollers-consulting-gdansk-2,Sollers Consulting,,13700.0 - 20000.0,,2023-11-10,Java,vue,2023-12-07
+192,Cloud Engineer,cloud-engineer-sollers-consulting-krakow-2,Sollers Consulting,,13700.0 - 20000.0,,2023-11-10,Java,vue,2023-12-07
+193,Cloud Engineer,cloud-engineer-sollers-consulting-lodz-2,Sollers Consulting,,13700.0 - 20000.0,,2023-11-10,Java,vue,2023-12-07
+194,Cloud Engineer,cloud-engineer-sollers-consulting-bialystok-2,Sollers Consulting,,13700.0 - 20000.0,,2023-11-10,Java,vue,2023-12-07
+195,Platform Engineer,platform-engineer-motorola-solutions-systems-polska-krakow-1,Motorola Solutions Systems Polska,,12000.0 - 18000.0,,2023-11-16,,vue,2023-12-07
+196,Senior Quality Manager - IT (m/f/d),senior-quality-manager-it-m-f-d-siemens-healthineers-remote,Siemens Healthineers,,13000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+197,Senior Quality Manager - IT (m/f/d),senior-quality-manager-it-m-f-d-siemens-healthineers-lower-silesian,Siemens Healthineers,,13000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+198,Senior Quality Manager - IT (m/f/d),senior-quality-manager-it-m-f-d-siemens-healthineers-kuyavian-pomeranian,Siemens Healthineers,,13000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+199,Senior Quality Manager - IT (m/f/d),senior-quality-manager-it-m-f-d-siemens-healthineers-lodz,Siemens Healthineers,,13000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+200,Senior Quality Manager - IT (m/f/d),senior-quality-manager-it-m-f-d-siemens-healthineers-lublin,Siemens Healthineers,,13000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+201,Senior Quality Manager - IT (m/f/d),senior-quality-manager-it-m-f-d-siemens-healthineers-lubusz,Siemens Healthineers,,13000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+202,Senior Quality Manager - IT (m/f/d),senior-quality-manager-it-m-f-d-siemens-healthineers-lesser-poland,Siemens Healthineers,,13000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+203,Senior Quality Manager - IT (m/f/d),senior-quality-manager-it-m-f-d-siemens-healthineers-masovian,Siemens Healthineers,,13000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+204,Senior Quality Manager - IT (m/f/d),senior-quality-manager-it-m-f-d-siemens-healthineers-opole,Siemens Healthineers,,13000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+205,Senior Quality Manager - IT (m/f/d),senior-quality-manager-it-m-f-d-siemens-healthineers-subcarpathian,Siemens Healthineers,,13000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+206,Senior Quality Manager - IT (m/f/d),senior-quality-manager-it-m-f-d-siemens-healthineers-podlaskie,Siemens Healthineers,,13000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+207,Senior Quality Manager - IT (m/f/d),senior-quality-manager-it-m-f-d-siemens-healthineers-pomeranian,Siemens Healthineers,,13000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+208,Senior Quality Manager - IT (m/f/d),senior-quality-manager-it-m-f-d-siemens-healthineers-silesian,Siemens Healthineers,,13000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+209,Senior Quality Manager - IT (m/f/d),senior-quality-manager-it-m-f-d-siemens-healthineers-holy-cross,Siemens Healthineers,,13000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+210,Senior Quality Manager - IT (m/f/d),senior-quality-manager-it-m-f-d-siemens-healthineers-warmian-masurian,Siemens Healthineers,,13000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+211,Senior Quality Manager - IT (m/f/d),senior-quality-manager-it-m-f-d-siemens-healthineers-greater-poland,Siemens Healthineers,,13000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+212,Senior Quality Manager - IT (m/f/d),senior-quality-manager-it-m-f-d-siemens-healthineers-west-pomeranian,Siemens Healthineers,,13000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+213,Data Engineer,data-engineer-addepto-remote-14,Addepto,,18000.0 - 34000.0,,2023-11-16,Python,vue,2023-12-07
+214,Data Engineer,data-engineer-addepto-warsaw-3,Addepto,,18000.0 - 34000.0,,2023-11-16,Python,vue,2023-12-07
+215,Data Engineer,data-engineer-addepto-wroclaw-6,Addepto,,18000.0 - 34000.0,,2023-11-16,Python,vue,2023-12-07
+216,Data Engineer,data-engineer-addepto-bialystok-2,Addepto,,18000.0 - 34000.0,,2023-11-16,Python,vue,2023-12-07
+217,Data Engineer,data-engineer-addepto-krakow-6,Addepto,,18000.0 - 34000.0,,2023-11-16,Python,vue,2023-12-07
+218,Data Engineer,data-engineer-addepto-gdansk-5,Addepto,,18000.0 - 34000.0,,2023-11-16,Python,vue,2023-12-07
+219,Data Engineer,data-engineer-addepto-kuyavian-pomeranian-3,Addepto,,18000.0 - 34000.0,,2023-11-16,Python,vue,2023-12-07
+220,Data Engineer,data-engineer-addepto-lodz-3,Addepto,,18000.0 - 34000.0,,2023-11-16,Python,vue,2023-12-07
+221,Data Engineer,data-engineer-addepto-lublin-3,Addepto,,18000.0 - 34000.0,,2023-11-16,Python,vue,2023-12-07
+222,Data Engineer,data-engineer-addepto-lubusz-3,Addepto,,18000.0 - 34000.0,,2023-11-16,Python,vue,2023-12-07
+223,Data Engineer,data-engineer-addepto-opole-3,Addepto,,18000.0 - 34000.0,,2023-11-16,Python,vue,2023-12-07
+224,Data Engineer,data-engineer-addepto-subcarpathian-3,Addepto,,18000.0 - 34000.0,,2023-11-16,Python,vue,2023-12-07
+225,Data Engineer,data-engineer-addepto-silesian-1,Addepto,,18000.0 - 34000.0,,2023-11-16,Python,vue,2023-12-07
+226,Data Engineer,data-engineer-addepto-holy-cross-3,Addepto,,18000.0 - 34000.0,,2023-11-16,Python,vue,2023-12-07
+227,Data Engineer,data-engineer-addepto-warmian-masurian-3,Addepto,,18000.0 - 34000.0,,2023-11-16,Python,vue,2023-12-07
+228,Data Engineer,data-engineer-addepto-greater-poland-3,Addepto,,18000.0 - 34000.0,,2023-11-16,Python,vue,2023-12-07
+229,Data Engineer,data-engineer-addepto-west-pomeranian-3,Addepto,,18000.0 - 34000.0,,2023-11-16,Python,vue,2023-12-07
+230,Senior Java Developer,senior-java-developer-sollers-consulting-warszawa-1,Sollers Consulting,,15400.0 - 23000.0,,2023-11-10,Java,vue,2023-12-07
+231,Senior Java Developer,senior-java-developer-sollers-consulting-lublin,Sollers Consulting,,15400.0 - 23000.0,,2023-11-10,Java,vue,2023-12-07
+232,Senior Java Developer,senior-java-developer-sollers-consulting-szczecin,Sollers Consulting,,15400.0 - 23000.0,,2023-11-10,Java,vue,2023-12-07
+233,Senior Java Developer,senior-java-developer-sollers-consulting-wroclaw,Sollers Consulting,,15400.0 - 23000.0,,2023-11-10,Java,vue,2023-12-07
+234,Senior Java Developer,senior-java-developer-sollers-consulting-poznan,Sollers Consulting,,15400.0 - 23000.0,,2023-11-10,Java,vue,2023-12-07
+235,Senior Java Developer,senior-java-developer-sollers-consulting-gdansk,Sollers Consulting,,15400.0 - 23000.0,,2023-11-10,Java,vue,2023-12-07
+236,Senior Java Developer,senior-java-developer-sollers-consulting-krakow,Sollers Consulting,,15400.0 - 23000.0,,2023-11-10,Java,vue,2023-12-07
+237,Senior Java Developer,senior-java-developer-sollers-consulting-lodz,Sollers Consulting,,15400.0 - 23000.0,,2023-11-10,Java,vue,2023-12-07
+238,Senior Java Developer,senior-java-developer-sollers-consulting-bialystok,Sollers Consulting,,15400.0 - 23000.0,,2023-11-10,Java,vue,2023-12-07
+239,It Network Service Management Professional,it-network-service-management-professional-siemens-healthineers-remote-1,Siemens Healthineers,,16000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+240,It Network Service Management Professional,it-network-service-management-professional-siemens-healthineers-lower-silesian,Siemens Healthineers,,16000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+241,It Network Service Management Professional,it-network-service-management-professional-siemens-healthineers-kuyavian-pomeranian,Siemens Healthineers,,16000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+242,It Network Service Management Professional,it-network-service-management-professional-siemens-healthineers-lodz,Siemens Healthineers,,16000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+243,It Network Service Management Professional,it-network-service-management-professional-siemens-healthineers-lublin,Siemens Healthineers,,16000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+244,It Network Service Management Professional,it-network-service-management-professional-siemens-healthineers-lubusz,Siemens Healthineers,,16000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+245,It Network Service Management Professional,it-network-service-management-professional-siemens-healthineers-lesser-poland,Siemens Healthineers,,16000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+246,It Network Service Management Professional,it-network-service-management-professional-siemens-healthineers-masovian,Siemens Healthineers,,16000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+247,It Network Service Management Professional,it-network-service-management-professional-siemens-healthineers-opole,Siemens Healthineers,,16000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+248,It Network Service Management Professional,it-network-service-management-professional-siemens-healthineers-subcarpathian,Siemens Healthineers,,16000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+249,It Network Service Management Professional,it-network-service-management-professional-siemens-healthineers-podlaskie,Siemens Healthineers,,16000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+250,It Network Service Management Professional,it-network-service-management-professional-siemens-healthineers-pomeranian,Siemens Healthineers,,16000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+251,It Network Service Management Professional,it-network-service-management-professional-siemens-healthineers-silesian,Siemens Healthineers,,16000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+252,It Network Service Management Professional,it-network-service-management-professional-siemens-healthineers-holy-cross,Siemens Healthineers,,16000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+253,It Network Service Management Professional,it-network-service-management-professional-siemens-healthineers-warmian-masurian,Siemens Healthineers,,16000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+254,It Network Service Management Professional,it-network-service-management-professional-siemens-healthineers-greater-poland,Siemens Healthineers,,16000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+255,It Network Service Management Professional,it-network-service-management-professional-siemens-healthineers-west-pomeranian,Siemens Healthineers,,16000.0 - 20500.0,,2023-12-06,,vue,2023-12-07
+256,Data Scientist ,data-scientist-lingaro-remote-1,Lingaro,,21840.0 - 25200.0,,2023-12-04,Python,vue,2023-12-07
+257,Data Scientist ,data-scientist-lingaro-warsaw-1,Lingaro,,21840.0 - 25200.0,,2023-12-04,Python,vue,2023-12-07
+258,Data Scientist ,data-scientist-lingaro-lower-silesian-1,Lingaro,,21840.0 - 25200.0,,2023-12-04,Python,vue,2023-12-07
+259,Data Scientist ,data-scientist-lingaro-kuyavian-pomeranian-1,Lingaro,,21840.0 - 25200.0,,2023-12-04,Python,vue,2023-12-07
+260,Data Scientist ,data-scientist-lingaro-lodz-1,Lingaro,,21840.0 - 25200.0,,2023-12-04,Python,vue,2023-12-07
+261,Data Scientist ,data-scientist-lingaro-lublin-1,Lingaro,,21840.0 - 25200.0,,2023-12-04,Python,vue,2023-12-07
+262,Data Scientist ,data-scientist-lingaro-lubusz-1,Lingaro,,21840.0 - 25200.0,,2023-12-04,Python,vue,2023-12-07
+263,Data Scientist ,data-scientist-lingaro-lesser-poland-1,Lingaro,,21840.0 - 25200.0,,2023-12-04,Python,vue,2023-12-07
+264,Data Scientist ,data-scientist-lingaro-opole-1,Lingaro,,21840.0 - 25200.0,,2023-12-04,Python,vue,2023-12-07
+265,Data Scientist ,data-scientist-lingaro-subcarpathian-1,Lingaro,,21840.0 - 25200.0,,2023-12-04,Python,vue,2023-12-07
+266,Data Scientist ,data-scientist-lingaro-podlaskie-1,Lingaro,,21840.0 - 25200.0,,2023-12-04,Python,vue,2023-12-07
+267,Data Scientist ,data-scientist-lingaro-pomeranian-1,Lingaro,,21840.0 - 25200.0,,2023-12-04,Python,vue,2023-12-07
+268,Data Scientist ,data-scientist-lingaro-silesian-1,Lingaro,,21840.0 - 25200.0,,2023-12-04,Python,vue,2023-12-07
+269,Data Scientist ,data-scientist-lingaro-holy-cross-1,Lingaro,,21840.0 - 25200.0,,2023-12-04,Python,vue,2023-12-07
+270,Data Scientist ,data-scientist-lingaro-warmian-masurian-1,Lingaro,,21840.0 - 25200.0,,2023-12-04,Python,vue,2023-12-07
+271,Data Scientist ,data-scientist-lingaro-greater-poland-1,Lingaro,,21840.0 - 25200.0,,2023-12-04,Python,vue,2023-12-07
+272,Data Scientist ,data-scientist-lingaro-west-pomeranian-1,Lingaro,,21840.0 - 25200.0,,2023-12-04,Python,vue,2023-12-07
+273,Functional Business Consultant (Part-time),functional-business-consultant-part-time-innovecs-remote,Innovecs,,17472.0 - 18928.0,,2023-11-16,,vue,2023-12-07
+274,Functional Business Consultant (Part-time),functional-business-consultant-part-time-innovecs-lower-silesian,Innovecs,,17472.0 - 18928.0,,2023-11-16,,vue,2023-12-07
+275,Functional Business Consultant (Part-time),functional-business-consultant-part-time-innovecs-kuyavian-pomeranian,Innovecs,,17472.0 - 18928.0,,2023-11-16,,vue,2023-12-07
+276,Functional Business Consultant (Part-time),functional-business-consultant-part-time-innovecs-lodz,Innovecs,,17472.0 - 18928.0,,2023-11-16,,vue,2023-12-07
+277,Functional Business Consultant (Part-time),functional-business-consultant-part-time-innovecs-lublin,Innovecs,,17472.0 - 18928.0,,2023-11-16,,vue,2023-12-07
+278,Functional Business Consultant (Part-time),functional-business-consultant-part-time-innovecs-lubusz,Innovecs,,17472.0 - 18928.0,,2023-11-16,,vue,2023-12-07
+279,Functional Business Consultant (Part-time),functional-business-consultant-part-time-innovecs-lesser-poland,Innovecs,,17472.0 - 18928.0,,2023-11-16,,vue,2023-12-07
+280,Functional Business Consultant (Part-time),functional-business-consultant-part-time-innovecs-masovian,Innovecs,,17472.0 - 18928.0,,2023-11-16,,vue,2023-12-07
+281,Functional Business Consultant (Part-time),functional-business-consultant-part-time-innovecs-opole,Innovecs,,17472.0 - 18928.0,,2023-11-16,,vue,2023-12-07
+282,Functional Business Consultant (Part-time),functional-business-consultant-part-time-innovecs-subcarpathian,Innovecs,,17472.0 - 18928.0,,2023-11-16,,vue,2023-12-07
+283,Functional Business Consultant (Part-time),functional-business-consultant-part-time-innovecs-podlaskie,Innovecs,,17472.0 - 18928.0,,2023-11-16,,vue,2023-12-07
+284,Functional Business Consultant (Part-time),functional-business-consultant-part-time-innovecs-pomeranian,Innovecs,,17472.0 - 18928.0,,2023-11-16,,vue,2023-12-07
+285,Functional Business Consultant (Part-time),functional-business-consultant-part-time-innovecs-silesian,Innovecs,,17472.0 - 18928.0,,2023-11-16,,vue,2023-12-07
+286,Functional Business Consultant (Part-time),functional-business-consultant-part-time-innovecs-holy-cross,Innovecs,,17472.0 - 18928.0,,2023-11-16,,vue,2023-12-07
+287,Functional Business Consultant (Part-time),functional-business-consultant-part-time-innovecs-warmian-masurian,Innovecs,,17472.0 - 18928.0,,2023-11-16,,vue,2023-12-07
+288,Functional Business Consultant (Part-time),functional-business-consultant-part-time-innovecs-greater-poland,Innovecs,,17472.0 - 18928.0,,2023-11-16,,vue,2023-12-07
+289,Functional Business Consultant (Part-time),functional-business-consultant-part-time-innovecs-west-pomeranian,Innovecs,,17472.0 - 18928.0,,2023-11-16,,vue,2023-12-07
+290,Senior Data Scientist,senior-data-scientist-objectivity-part-of-accenture-remote,Objectivity - part of Accenture,,25200.0 - 33600.0,,2023-12-07,Python,vue,2023-12-07
+291,Senior Data Scientist,senior-data-scientist-objectivity-part-of-accenture-wroclaw,Objectivity - part of Accenture,,25200.0 - 33600.0,,2023-12-07,Python,vue,2023-12-07
+292,Senior Data Scientist,senior-data-scientist-objectivity-part-of-accenture-gdansk,Objectivity - part of Accenture,,25200.0 - 33600.0,,2023-12-07,Python,vue,2023-12-07
+293,Senior Data Scientist,senior-data-scientist-objectivity-part-of-accenture-kuyavian-pomeranian,Objectivity - part of Accenture,,25200.0 - 33600.0,,2023-12-07,Python,vue,2023-12-07
+294,Senior Data Scientist,senior-data-scientist-objectivity-part-of-accenture-lodz,Objectivity - part of Accenture,,25200.0 - 33600.0,,2023-12-07,Python,vue,2023-12-07
+295,Senior Data Scientist,senior-data-scientist-objectivity-part-of-accenture-lublin,Objectivity - part of Accenture,,25200.0 - 33600.0,,2023-12-07,Python,vue,2023-12-07
+296,Senior Data Scientist,senior-data-scientist-objectivity-part-of-accenture-lubusz,Objectivity - part of Accenture,,25200.0 - 33600.0,,2023-12-07,Python,vue,2023-12-07
+297,Senior Data Scientist,senior-data-scientist-objectivity-part-of-accenture-lesser-poland,Objectivity - part of Accenture,,25200.0 - 33600.0,,2023-12-07,Python,vue,2023-12-07
+298,Senior Data Scientist,senior-data-scientist-objectivity-part-of-accenture-masovian,Objectivity - part of Accenture,,25200.0 - 33600.0,,2023-12-07,Python,vue,2023-12-07
+299,Senior Data Scientist,senior-data-scientist-objectivity-part-of-accenture-opole,Objectivity - part of Accenture,,25200.0 - 33600.0,,2023-12-07,Python,vue,2023-12-07
+300,Senior Data Scientist,senior-data-scientist-objectivity-part-of-accenture-subcarpathian,Objectivity - part of Accenture,,25200.0 - 33600.0,,2023-12-07,Python,vue,2023-12-07
+301,Senior Data Scientist,senior-data-scientist-objectivity-part-of-accenture-podlaskie,Objectivity - part of Accenture,,25200.0 - 33600.0,,2023-12-07,Python,vue,2023-12-07
+302,Senior Data Scientist,senior-data-scientist-objectivity-part-of-accenture-silesian,Objectivity - part of Accenture,,25200.0 - 33600.0,,2023-12-07,Python,vue,2023-12-07
+303,Senior Data Scientist,senior-data-scientist-objectivity-part-of-accenture-holy-cross,Objectivity - part of Accenture,,25200.0 - 33600.0,,2023-12-07,Python,vue,2023-12-07
+304,Senior Data Scientist,senior-data-scientist-objectivity-part-of-accenture-warmian-masurian,Objectivity - part of Accenture,,25200.0 - 33600.0,,2023-12-07,Python,vue,2023-12-07
+305,Senior Data Scientist,senior-data-scientist-objectivity-part-of-accenture-greater-poland,Objectivity - part of Accenture,,25200.0 - 33600.0,,2023-12-07,Python,vue,2023-12-07
+306,Senior Data Scientist,senior-data-scientist-objectivity-part-of-accenture-west-pomeranian,Objectivity - part of Accenture,,25200.0 - 33600.0,,2023-12-07,Python,vue,2023-12-07
+307,IT Audit Officer,it-audit-officer-state-street-krakow,State Street,,11000.0 - 15833.0,,2023-12-04,,vue,2023-12-07
+308,Horizontal IT Audit,horizontal-it-audit-state-street-krakow,State Street,,23500.0 - 33333.0,,2023-12-04,,vue,2023-12-07
+309,IT Audit for Global Markets,it-audit-for-global-markets-state-street-krakow,State Street,,23500.0 - 33333.0,,2023-12-04,,vue,2023-12-07
+310,Cloud Incident Responder (AVP),cloud-incident-responder-avp-state-street-krakow,State Street,,25000.0 - 32500.0,,2023-12-04,AWS,vue,2023-12-07
+311,Cloud Incident Responder (AVP),cloud-incident-responder-avp-state-street-gdansk,State Street,,25000.0 - 32500.0,,2023-12-04,AWS,vue,2023-12-07
+312,Senior Cloud Security IR Analyst (VP),senior-cloud-security-ir-analyst-vp-state-street-krakow,State Street,,17416.0 - 25000.0,,2023-12-04,,vue,2023-12-07
+313,Sales Development Representative,sales-development-representative-hire5-remote-2,Hire5,,6029.0 - 7235.0,,2023-11-16,,vue,2023-12-07
+314,Sales Development Representative,sales-development-representative-hire5-lower-silesian,Hire5,,6029.0 - 7235.0,,2023-11-16,,vue,2023-12-07
+315,Sales Development Representative,sales-development-representative-hire5-kuyavian-pomeranian,Hire5,,6029.0 - 7235.0,,2023-11-16,,vue,2023-12-07
+316,Sales Development Representative,sales-development-representative-hire5-lodz,Hire5,,6029.0 - 7235.0,,2023-11-16,,vue,2023-12-07
+317,Sales Development Representative,sales-development-representative-hire5-lublin,Hire5,,6029.0 - 7235.0,,2023-11-16,,vue,2023-12-07
+318,Sales Development Representative,sales-development-representative-hire5-lubusz,Hire5,,6029.0 - 7235.0,,2023-11-16,,vue,2023-12-07
+319,Sales Development Representative,sales-development-representative-hire5-lesser-poland,Hire5,,6029.0 - 7235.0,,2023-11-16,,vue,2023-12-07
+320,Sales Development Representative,sales-development-representative-hire5-masovian,Hire5,,6029.0 - 7235.0,,2023-11-16,,vue,2023-12-07
+321,Sales Development Representative,sales-development-representative-hire5-opole,Hire5,,6029.0 - 7235.0,,2023-11-16,,vue,2023-12-07
+322,Sales Development Representative,sales-development-representative-hire5-subcarpathian,Hire5,,6029.0 - 7235.0,,2023-11-16,,vue,2023-12-07
+323,Sales Development Representative,sales-development-representative-hire5-podlaskie,Hire5,,6029.0 - 7235.0,,2023-11-16,,vue,2023-12-07
+324,Sales Development Representative,sales-development-representative-hire5-pomeranian,Hire5,,6029.0 - 7235.0,,2023-11-16,,vue,2023-12-07
+325,Sales Development Representative,sales-development-representative-hire5-silesian,Hire5,,6029.0 - 7235.0,,2023-11-16,,vue,2023-12-07
+326,Sales Development Representative,sales-development-representative-hire5-holy-cross,Hire5,,6029.0 - 7235.0,,2023-11-16,,vue,2023-12-07
+327,Sales Development Representative,sales-development-representative-hire5-warmian-masurian,Hire5,,6029.0 - 7235.0,,2023-11-16,,vue,2023-12-07
+328,Sales Development Representative,sales-development-representative-hire5-greater-poland,Hire5,,6029.0 - 7235.0,,2023-11-16,,vue,2023-12-07
+329,Sales Development Representative,sales-development-representative-hire5-west-pomeranian,Hire5,,6029.0 - 7235.0,,2023-11-16,,vue,2023-12-07
+330,Senior Java Developer (+React),senior-java-developer-react-hays-poland-remote,Hays Poland,,20160.0 - 26040.0,,2023-11-16,.NET,vue,2023-12-07
+331,Senior Java Developer (+React),senior-java-developer-react-hays-poland-lower-silesian,Hays Poland,,20160.0 - 26040.0,,2023-11-16,.NET,vue,2023-12-07
+332,Senior Java Developer (+React),senior-java-developer-react-hays-poland-kuyavian-pomeranian,Hays Poland,,20160.0 - 26040.0,,2023-11-16,.NET,vue,2023-12-07
+333,Senior Java Developer (+React),senior-java-developer-react-hays-poland-lodz,Hays Poland,,20160.0 - 26040.0,,2023-11-16,.NET,vue,2023-12-07
+334,Senior Java Developer (+React),senior-java-developer-react-hays-poland-lublin,Hays Poland,,20160.0 - 26040.0,,2023-11-16,.NET,vue,2023-12-07
+335,Senior Java Developer (+React),senior-java-developer-react-hays-poland-lubusz,Hays Poland,,20160.0 - 26040.0,,2023-11-16,.NET,vue,2023-12-07
+336,Senior Java Developer (+React),senior-java-developer-react-hays-poland-lesser-poland,Hays Poland,,20160.0 - 26040.0,,2023-11-16,.NET,vue,2023-12-07
+337,Senior Java Developer (+React),senior-java-developer-react-hays-poland-masovian,Hays Poland,,20160.0 - 26040.0,,2023-11-16,.NET,vue,2023-12-07
+338,Senior Java Developer (+React),senior-java-developer-react-hays-poland-opole,Hays Poland,,20160.0 - 26040.0,,2023-11-16,.NET,vue,2023-12-07
+339,Senior Java Developer (+React),senior-java-developer-react-hays-poland-subcarpathian,Hays Poland,,20160.0 - 26040.0,,2023-11-16,.NET,vue,2023-12-07
+340,Senior Java Developer (+React),senior-java-developer-react-hays-poland-podlaskie,Hays Poland,,20160.0 - 26040.0,,2023-11-16,.NET,vue,2023-12-07
+341,Senior Java Developer (+React),senior-java-developer-react-hays-poland-pomeranian,Hays Poland,,20160.0 - 26040.0,,2023-11-16,.NET,vue,2023-12-07
+342,Senior Java Developer (+React),senior-java-developer-react-hays-poland-silesian,Hays Poland,,20160.0 - 26040.0,,2023-11-16,.NET,vue,2023-12-07
+343,Senior Java Developer (+React),senior-java-developer-react-hays-poland-holy-cross,Hays Poland,,20160.0 - 26040.0,,2023-11-16,.NET,vue,2023-12-07
+344,Senior Java Developer (+React),senior-java-developer-react-hays-poland-warmian-masurian,Hays Poland,,20160.0 - 26040.0,,2023-11-16,.NET,vue,2023-12-07
+345,Senior Java Developer (+React),senior-java-developer-react-hays-poland-greater-poland,Hays Poland,,20160.0 - 26040.0,,2023-11-16,.NET,vue,2023-12-07
+346,Senior Java Developer (+React),senior-java-developer-react-hays-poland-west-pomeranian,Hays Poland,,20160.0 - 26040.0,,2023-11-16,.NET,vue,2023-12-07
+347,Fullstack TypeScript Engineer,fullstack-typescript-engineer-peak-financal-services-remote,Peak Financal Services,,13656.0 - 21622.0,,2023-12-06,,vue,2023-12-07
+348,Fullstack TypeScript Engineer,fullstack-typescript-engineer-peak-financal-services-budapest,Peak Financal Services,,13656.0 - 21622.0,,2023-12-06,,vue,2023-12-07
+349,Fullstack TypeScript Engineer,fullstack-typescript-engineer-peak-financal-services-bacs-kiskun,Peak Financal Services,,13656.0 - 21622.0,,2023-12-06,,vue,2023-12-07
+350,Fullstack TypeScript Engineer,fullstack-typescript-engineer-peak-financal-services-baranya,Peak Financal Services,,13656.0 - 21622.0,,2023-12-06,,vue,2023-12-07
+351,Fullstack TypeScript Engineer,fullstack-typescript-engineer-peak-financal-services-bekes,Peak Financal Services,,13656.0 - 21622.0,,2023-12-06,,vue,2023-12-07
+352,Fullstack TypeScript Engineer,fullstack-typescript-engineer-peak-financal-services-borsod-abauj-zemplen,Peak Financal Services,,13656.0 - 21622.0,,2023-12-06,,vue,2023-12-07
+353,Fullstack TypeScript Engineer,fullstack-typescript-engineer-peak-financal-services-csongrad,Peak Financal Services,,13656.0 - 21622.0,,2023-12-06,,vue,2023-12-07
+354,Fullstack TypeScript Engineer,fullstack-typescript-engineer-peak-financal-services-fejer,Peak Financal Services,,13656.0 - 21622.0,,2023-12-06,,vue,2023-12-07
+355,Fullstack TypeScript Engineer,fullstack-typescript-engineer-peak-financal-services-gyor-moson-sopron,Peak Financal Services,,13656.0 - 21622.0,,2023-12-06,,vue,2023-12-07
+356,Fullstack TypeScript Engineer,fullstack-typescript-engineer-peak-financal-services-hajdu-bihar,Peak Financal Services,,13656.0 - 21622.0,,2023-12-06,,vue,2023-12-07
+357,Fullstack TypeScript Engineer,fullstack-typescript-engineer-peak-financal-services-heves,Peak Financal Services,,13656.0 - 21622.0,,2023-12-06,,vue,2023-12-07
+358,Fullstack TypeScript Engineer,fullstack-typescript-engineer-peak-financal-services-jasz-nagykun-szolnok,Peak Financal Services,,13656.0 - 21622.0,,2023-12-06,,vue,2023-12-07
+359,Fullstack TypeScript Engineer,fullstack-typescript-engineer-peak-financal-services-komarom-esztergom,Peak Financal Services,,13656.0 - 21622.0,,2023-12-06,,vue,2023-12-07
+360,Fullstack TypeScript Engineer,fullstack-typescript-engineer-peak-financal-services-nograd,Peak Financal Services,,13656.0 - 21622.0,,2023-12-06,,vue,2023-12-07
+361,Fullstack TypeScript Engineer,fullstack-typescript-engineer-peak-financal-services-somogy,Peak Financal Services,,13656.0 - 21622.0,,2023-12-06,,vue,2023-12-07
+362,Fullstack TypeScript Engineer,fullstack-typescript-engineer-peak-financal-services-szabolcs-szatmar-bereg,Peak Financal Services,,13656.0 - 21622.0,,2023-12-06,,vue,2023-12-07
+363,Fullstack TypeScript Engineer,fullstack-typescript-engineer-peak-financal-services-tolna,Peak Financal Services,,13656.0 - 21622.0,,2023-12-06,,vue,2023-12-07
+364,Fullstack TypeScript Engineer,fullstack-typescript-engineer-peak-financal-services-vas,Peak Financal Services,,13656.0 - 21622.0,,2023-12-06,,vue,2023-12-07
+365,Fullstack TypeScript Engineer,fullstack-typescript-engineer-peak-financal-services-veszprem,Peak Financal Services,,13656.0 - 21622.0,,2023-12-06,,vue,2023-12-07
+366,Fullstack TypeScript Engineer,fullstack-typescript-engineer-peak-financal-services-zala,Peak Financal Services,,13656.0 - 21622.0,,2023-12-06,,vue,2023-12-07
+367,Architect,architect-peak-financial-services-remote,Peak Financial Services,,15363.0 - 22760.0,,2023-12-06,,vue,2023-12-07
+368,Architect,architect-peak-financial-services-budapest,Peak Financial Services,,15363.0 - 22760.0,,2023-12-06,,vue,2023-12-07
+369,Architect,architect-peak-financial-services-bacs-kiskun,Peak Financial Services,,15363.0 - 22760.0,,2023-12-06,,vue,2023-12-07
+370,Architect,architect-peak-financial-services-baranya,Peak Financial Services,,15363.0 - 22760.0,,2023-12-06,,vue,2023-12-07
+371,Architect,architect-peak-financial-services-bekes,Peak Financial Services,,15363.0 - 22760.0,,2023-12-06,,vue,2023-12-07
+372,Architect,architect-peak-financial-services-borsod-abauj-zemplen,Peak Financial Services,,15363.0 - 22760.0,,2023-12-06,,vue,2023-12-07
+373,Architect,architect-peak-financial-services-csongrad,Peak Financial Services,,15363.0 - 22760.0,,2023-12-06,,vue,2023-12-07
+374,Architect,architect-peak-financial-services-fejer,Peak Financial Services,,15363.0 - 22760.0,,2023-12-06,,vue,2023-12-07
+375,Architect,architect-peak-financial-services-gyor-moson-sopron,Peak Financial Services,,15363.0 - 22760.0,,2023-12-06,,vue,2023-12-07
+376,Architect,architect-peak-financial-services-hajdu-bihar,Peak Financial Services,,15363.0 - 22760.0,,2023-12-06,,vue,2023-12-07
+377,Architect,architect-peak-financial-services-heves,Peak Financial Services,,15363.0 - 22760.0,,2023-12-06,,vue,2023-12-07
+378,Architect,architect-peak-financial-services-jasz-nagykun-szolnok,Peak Financial Services,,15363.0 - 22760.0,,2023-12-06,,vue,2023-12-07
+379,Architect,architect-peak-financial-services-komarom-esztergom,Peak Financial Services,,15363.0 - 22760.0,,2023-12-06,,vue,2023-12-07
+380,Architect,architect-peak-financial-services-nograd,Peak Financial Services,,15363.0 - 22760.0,,2023-12-06,,vue,2023-12-07
+381,Architect,architect-peak-financial-services-somogy,Peak Financial Services,,15363.0 - 22760.0,,2023-12-06,,vue,2023-12-07
+382,Architect,architect-peak-financial-services-szabolcs-szatmar-bereg,Peak Financial Services,,15363.0 - 22760.0,,2023-12-06,,vue,2023-12-07
+383,Architect,architect-peak-financial-services-tolna,Peak Financial Services,,15363.0 - 22760.0,,2023-12-06,,vue,2023-12-07
+384,Architect,architect-peak-financial-services-vas,Peak Financial Services,,15363.0 - 22760.0,,2023-12-06,,vue,2023-12-07
+385,Architect,architect-peak-financial-services-veszprem,Peak Financial Services,,15363.0 - 22760.0,,2023-12-06,,vue,2023-12-07
+386,Architect,architect-peak-financial-services-zala,Peak Financial Services,,15363.0 - 22760.0,,2023-12-06,,vue,2023-12-07
+387,Data Engineer with Snowflake,data-engineer-with-snowflake-virtuslab-remote,VirtusLab,,26000.0 - 31000.0,,2023-12-06,Snowflake,vue,2023-12-07
+388,Data Engineer with Snowflake,data-engineer-with-snowflake-virtuslab-kielce,VirtusLab,,26000.0 - 31000.0,,2023-12-06,Snowflake,vue,2023-12-07
+389,Data Engineer with Snowflake,data-engineer-with-snowflake-virtuslab-krakow,VirtusLab,,26000.0 - 31000.0,,2023-12-06,Snowflake,vue,2023-12-07
+390,Data Engineer with Snowflake,data-engineer-with-snowflake-virtuslab-wroclaw,VirtusLab,,26000.0 - 31000.0,,2023-12-06,Snowflake,vue,2023-12-07
+391,Data Engineer with Snowflake,data-engineer-with-snowflake-virtuslab-katowice,VirtusLab,,26000.0 - 31000.0,,2023-12-06,Snowflake,vue,2023-12-07
+392,Data Engineer with Snowflake,data-engineer-with-snowflake-virtuslab-rzeszow,VirtusLab,,26000.0 - 31000.0,,2023-12-06,Snowflake,vue,2023-12-07
+393,Data Engineer with Snowflake,data-engineer-with-snowflake-virtuslab-kuyavian-pomeranian,VirtusLab,,26000.0 - 31000.0,,2023-12-06,Snowflake,vue,2023-12-07
+394,Data Engineer with Snowflake,data-engineer-with-snowflake-virtuslab-lodz,VirtusLab,,26000.0 - 31000.0,,2023-12-06,Snowflake,vue,2023-12-07
+395,Data Engineer with Snowflake,data-engineer-with-snowflake-virtuslab-lublin,VirtusLab,,26000.0 - 31000.0,,2023-12-06,Snowflake,vue,2023-12-07
+396,Data Engineer with Snowflake,data-engineer-with-snowflake-virtuslab-lubusz,VirtusLab,,26000.0 - 31000.0,,2023-12-06,Snowflake,vue,2023-12-07
+397,Data Engineer with Snowflake,data-engineer-with-snowflake-virtuslab-masovian,VirtusLab,,26000.0 - 31000.0,,2023-12-06,Snowflake,vue,2023-12-07
+398,Data Engineer with Snowflake,data-engineer-with-snowflake-virtuslab-opole,VirtusLab,,26000.0 - 31000.0,,2023-12-06,Snowflake,vue,2023-12-07
+399,Data Engineer with Snowflake,data-engineer-with-snowflake-virtuslab-podlaskie,VirtusLab,,26000.0 - 31000.0,,2023-12-06,Snowflake,vue,2023-12-07
+400,Data Engineer with Snowflake,data-engineer-with-snowflake-virtuslab-pomeranian,VirtusLab,,26000.0 - 31000.0,,2023-12-06,Snowflake,vue,2023-12-07
+401,Data Engineer with Snowflake,data-engineer-with-snowflake-virtuslab-warmian-masurian,VirtusLab,,26000.0 - 31000.0,,2023-12-06,Snowflake,vue,2023-12-07
+402,Data Engineer with Snowflake,data-engineer-with-snowflake-virtuslab-greater-poland,VirtusLab,,26000.0 - 31000.0,,2023-12-06,Snowflake,vue,2023-12-07
+403,Data Engineer with Snowflake,data-engineer-with-snowflake-virtuslab-west-pomeranian,VirtusLab,,26000.0 - 31000.0,,2023-12-06,Snowflake,vue,2023-12-07
+404,DevOps Engineer,devops-engineer-sni-remote,SNI,,25200.0 - 28560.0,,2023-12-05,,vue,2023-12-07
+405,System Engineer,system-engineer-emagine-remote,emagine Sp. Z o.o.,,25200.0 - 25200.0,,2023-12-01,,vue,2023-12-07
+406,System Engineer,system-engineer-emagine-krakow,emagine Sp. Z o.o.,,25200.0 - 25200.0,,2023-12-01,,vue,2023-12-07
+407,Business Application Specialist,business-application-specialist-devire-poznan,Devire,,16000.0 - 20000.0,,2023-11-15,,vue,2023-12-07
+408,"Director of Software Engineering - Fullstack, Java",director-of-software-engineering-fullstack-java-visa-warszawa,VISA,,35000.0 - 45000.0,,2023-11-09,Java,vue,2023-12-07
+409,Junior + / Mid IT Support Specialist - part time,junior-mid-it-support-specialist-part-time-kellton-poland-wroclaw,Kellton Poland sp. z o.o.,,8000.0 - 12000.0,,2023-12-01,,vue,2023-12-07
+410,Cloud Security Analyst - Threat Detect,cloud-security-analyst-threat-detect-motorola-solutions-systems-polska-remote,Motorola Solutions Systems Polska,,14600.0 - 28260.0,,2023-12-06,AWS,vue,2023-12-07
+411,Cloud Security Analyst - Threat Detect,cloud-security-analyst-threat-detect-motorola-solutions-systems-polska-krakow,Motorola Solutions Systems Polska,,14600.0 - 28260.0,,2023-12-06,AWS,vue,2023-12-07
+412,Cloud Security Analyst - Threat Detect,cloud-security-analyst-threat-detect-motorola-solutions-systems-polska-lower-silesian,Motorola Solutions Systems Polska,,14600.0 - 28260.0,,2023-12-06,AWS,vue,2023-12-07
+413,Cloud Security Analyst - Threat Detect,cloud-security-analyst-threat-detect-motorola-solutions-systems-polska-kuyavian-pomeranian,Motorola Solutions Systems Polska,,14600.0 - 28260.0,,2023-12-06,AWS,vue,2023-12-07
+414,Cloud Security Analyst - Threat Detect,cloud-security-analyst-threat-detect-motorola-solutions-systems-polska-lodz,Motorola Solutions Systems Polska,,14600.0 - 28260.0,,2023-12-06,AWS,vue,2023-12-07
+415,Cloud Security Analyst - Threat Detect,cloud-security-analyst-threat-detect-motorola-solutions-systems-polska-lublin,Motorola Solutions Systems Polska,,14600.0 - 28260.0,,2023-12-06,AWS,vue,2023-12-07
+416,Cloud Security Analyst - Threat Detect,cloud-security-analyst-threat-detect-motorola-solutions-systems-polska-lubusz,Motorola Solutions Systems Polska,,14600.0 - 28260.0,,2023-12-06,AWS,vue,2023-12-07
+417,Cloud Security Analyst - Threat Detect,cloud-security-analyst-threat-detect-motorola-solutions-systems-polska-masovian,Motorola Solutions Systems Polska,,14600.0 - 28260.0,,2023-12-06,AWS,vue,2023-12-07
+418,Cloud Security Analyst - Threat Detect,cloud-security-analyst-threat-detect-motorola-solutions-systems-polska-opole,Motorola Solutions Systems Polska,,14600.0 - 28260.0,,2023-12-06,AWS,vue,2023-12-07
+419,Cloud Security Analyst - Threat Detect,cloud-security-analyst-threat-detect-motorola-solutions-systems-polska-subcarpathian,Motorola Solutions Systems Polska,,14600.0 - 28260.0,,2023-12-06,AWS,vue,2023-12-07
+420,Cloud Security Analyst - Threat Detect,cloud-security-analyst-threat-detect-motorola-solutions-systems-polska-podlaskie,Motorola Solutions Systems Polska,,14600.0 - 28260.0,,2023-12-06,AWS,vue,2023-12-07
+421,Cloud Security Analyst - Threat Detect,cloud-security-analyst-threat-detect-motorola-solutions-systems-polska-pomeranian,Motorola Solutions Systems Polska,,14600.0 - 28260.0,,2023-12-06,AWS,vue,2023-12-07
+422,Cloud Security Analyst - Threat Detect,cloud-security-analyst-threat-detect-motorola-solutions-systems-polska-silesian,Motorola Solutions Systems Polska,,14600.0 - 28260.0,,2023-12-06,AWS,vue,2023-12-07
+423,Cloud Security Analyst - Threat Detect,cloud-security-analyst-threat-detect-motorola-solutions-systems-polska-holy-cross,Motorola Solutions Systems Polska,,14600.0 - 28260.0,,2023-12-06,AWS,vue,2023-12-07
+424,Cloud Security Analyst - Threat Detect,cloud-security-analyst-threat-detect-motorola-solutions-systems-polska-warmian-masurian,Motorola Solutions Systems Polska,,14600.0 - 28260.0,,2023-12-06,AWS,vue,2023-12-07
+425,Cloud Security Analyst - Threat Detect,cloud-security-analyst-threat-detect-motorola-solutions-systems-polska-greater-poland,Motorola Solutions Systems Polska,,14600.0 - 28260.0,,2023-12-06,AWS,vue,2023-12-07
+426,Cloud Security Analyst - Threat Detect,cloud-security-analyst-threat-detect-motorola-solutions-systems-polska-west-pomeranian,Motorola Solutions Systems Polska,,14600.0 - 28260.0,,2023-12-06,AWS,vue,2023-12-07

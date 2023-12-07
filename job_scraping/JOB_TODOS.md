@@ -54,8 +54,8 @@ https://www.careerjet.pl/szukaj/oferty_pracy?s=python&l=Polska&radius=0&sort=dat
 13. TODO: Przy nowych scrapach albo na przycisku stworz plik sumujacy dla term zbiory z wszystkich dotychczasowych scapow (dat)
 14. TODO: podobnie funkcja sumowania scrapow z wybranego zakresu dni
 15. TODO: podobnie funkcja sumowania scrapow z wybranych kilku termow, a jesli nie istnieja wszystkie to zwrocenie o tym informacji uzytkownikowi
-16. TODO: mam teraz tablice z poprzednimi scrapami, ale fajnie gdyby uzytkownik mogl podac w searchu wiele terminow i date i na podstawie tego zwracalo informacje czy jest czy nie zamiast musiec przegladac (albo obie opcje luj)
-17. TODO: -> jesli jest, to mozesz wybrac stworzenie jakichs plotow albo uruchomienie scrapow dla wielu terminow
+16. TODO: ~~mam teraz tablice z poprzednimi scrapami, ale fajnie gdyby uzytkownik mogl podac w searchu wiele terminow i date i na podstawie tego zwracalo informacje czy jest czy nie zamiast musiec przegladac (albo obie opcje luj)~~
+17. TODO: -> jesli jest, to mozesz wybrac stworzenie jakichs plotow albo uruchomienie scrapow dla wielu terminow - unfinished uruchamanie stosownych funkcji
 
 albo:
 
