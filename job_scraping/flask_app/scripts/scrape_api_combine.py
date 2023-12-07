@@ -16,6 +16,7 @@ from .pydantic_model import Listing
 from .extractors import extract_careerjet, extract_pracuj, scrape_fluff
 from flask import current_app as app
 from .path_traversal import reset_path, test_cwd, prepare_folders
+from .utils import get_empty_df, get_multiple_terms
 from .globals import NUMBER_OF_PAGES
 
 def scrape_websites(search_term: str, urls: List[str], sites: List[str],
@@ -101,8 +102,7 @@ def save_combined_results(result_df: pd.DataFrame, folder_path: str,
     result_df.to_csv(path + f'all_{search_term}_{str(today)}.csv')
 
 
-def run_scraping(search_term: str, urls: List[str], sites: List[str],
-                extractors: List[Callable]) -> Tuple[pd.DataFrame, Tuple[int]]:
+def run_scraping(search_term: str) -> Tuple[pd.DataFrame, Tuple[int]]:
     """_summary_
 
     Args:
@@ -113,7 +113,23 @@ def run_scraping(search_term: str, urls: List[str], sites: List[str],
 
     Returns:
         Tuple (_type_): _description_
-    """    
+    """
+
+    urls = [
+        'https://www.careerjet.pl/{search_term}-praca.html?radius=0&p={page}&sort=date',
+        'https://it.pracuj.pl/praca/{search_term};kw?sc=0&pn={page}'
+    ]
+
+    sites = [
+        'careerjet',
+        'pracuj'
+    ]
+
+    extractors = [
+        extract_careerjet,
+        extract_pracuj
+    ]
+
     today = date.today()
     base_path = reset_path()
     folder_path = prepare_folders(search_term, today, base_path)
@@ -140,64 +156,210 @@ def check_if_exists(search_term: str) -> tuple[pd.DataFrame, tuple[int]]:
         Tuple (_type_): _description_
     """
 
-    urls = [
-        'https://www.careerjet.pl/{search_term}-praca.html?radius=0&p={page}&sort=date',
-        'https://it.pracuj.pl/praca/{search_term};kw?sc=0&pn={page}'
-    ]
-
-    sites = [
-        'careerjet',
-        'pracuj'
-    ]
-
-    extractors = [
-        extract_careerjet,
-        extract_pracuj
-    ]
-
     base_path = reset_path()
     today = date.today()
     
-    exists_path = base_path + r'/scraping_results/' + search_term + '/' + str(today)
-    if not os.path.exists(exists_path):
+    # FIXME: tutaj chcialbym zeby sprawdzalo czy jest jakikolwiek scrap dla tego terminu i jesli jest to zwracalo najnowszy
+    # a nie dokladnie czy jest z dzisiaj
+    # i jesli zwraca, to z data z ktorej pochodzi
+    # 
+    exists_path = base_path + r'/scraping_results/' + search_term
+
+    result_df = get_empty_df()
+
+    # if path exists
+    if os.path.exists(exists_path):
+        date_folders = os.listdir()
+        latest_folder = max(date_folders, key=os.path.getmtime)
+        latest_path = os.path.join(exists_path, latest_folder)
+        result_df = check_if_all_folder_exists(latest_path)
+    
+    # if path doesnt exist or was empty, then returned df will be empty, so we have to scrap
+    if result_df.empty:
+        result_df, result_shape = run_scraping(search_term)
+
+    # if not os.path.exists(exists_path):
         # run scrapers
-        result_df, result_shape = run_scraping(search_term,
-                                        urls, sites, extractors)
-    # get results from existing ones
-    else:
-        os.chdir(exists_path)
-        all_path = exists_path + '/' + 'all'
-        # check if a combined file exists
-        if os.path.exists(all_path):
-            os.chdir(all_path)
-            files = os.listdir()
-            for file in files:
-                if file.endswith('.csv'):
-                    result_df = pd.read_csv(file, index_col=0)
-        # combine files
-        else:
-            # get the files
-            paths = [
-                'combined',
-                'fluff'
-            ]
-            for folder_path in paths:    
-                try:
-                    os.chdir(folder_path)
-                    combined_paths = os.listdir()
-                    for c_path in combined_paths:
-                        if c_path.endswith(".csv"):
-                            combined_df = pd.read_csv(c_path, index_col = 0)
-                            result_df = pd.concat([result_df, combined_df])
-                except:
-                    pass
-                os.chdir('..')
+        
+    # or get results from existing ones
+    # else:
+    #     os.chdir(exists_path)
+    #     all_path = exists_path + '/' + 'all'
+    #     # check if a combined file exists
+    #     if os.path.exists(all_path):
+    #         os.chdir(all_path)
+    #         files = os.listdir()
+    #         for file in files:
+    #             if file.endswith('.csv'):
+    #                 result_df = pd.read_csv(file, index_col=0)
+    #     # combine files
+    #     else:
+    #         # get the files
+    #         paths = [
+    #             'combined',
+    #             'fluff'
+    #         ]
+    #         for folder_path in paths:    
+    #             try:
+    #                 os.chdir(folder_path)
+    #                 combined_paths = os.listdir()
+    #                 for c_path in combined_paths:
+    #                     if c_path.endswith(".csv"):
+    #                         combined_df = pd.read_csv(c_path, index_col = 0)
+    #                         result_df = pd.concat([result_df, combined_df])
+    #             except:
+    #                 pass
+    #             os.chdir('..')
             
-            os.chdir('..')
-        result_shape = result_df.shape
+    #         os.chdir('..')
+    #     result_shape = result_df.shape
 
     return result_df, result_shape
     # return_html = f"""
     # <p id="scraping">Resultant scraping shape for {search_term} | {today}: {result_shape}</p>
     # """
     # return return_html
+
+
+def combine_terms_results(term_list: List[str]):
+    terms_string = '_'.join(term_list)
+    today = str(date.today())
+    results_path = reset_path() + '/scraping_results'
+    save_path = results_path + '/' + terms_string + '/' + today + '/'
+    
+    if not os.path.exists(save_path):
+        os.makedirs(save_path)
+    save_path += '/'
+
+    concat_df = get_empty_df()
+
+    for term_folder in os.listdir(results_path):
+        if term_folder in term_list:
+            # os.chdir(term_folder)
+            sub_path = os.path.join(reset_path, term_folder)
+            date_folders = os.listdir(term_folder)
+            latest_folder = max(date_folders, key=os.path.getmtime)
+            sub_path = os.path.join(sub_path, latest_folder)
+            
+            # new standard - look for a file with results from all apis and websites
+            all_path = os.path.join(sub_path, 'all')
+            if os.path.exists(all_path):
+                for file in os.listdir(sub_path):
+                    if file.endswith('.csv'):
+                        file_path = os.path.join(sub_path, file)
+                        term_df = pd.read_csv(file_path, index_col=0)
+                        concat_df = pd.concat([concat_df, term_df])
+
+    # save the new combined df to a file
+    concat_df.to_csv(results_path + f'{terms_string}_{today}.csv')
+    return concat_df, concat_df.shape
+
+# TODO: funkcja sprawdzajaca czy istneje folder/plik z polaczeniem roznych scrapow
+# jesli tak to zwraca o tym informacje i dane o rezultacie znalezionym
+# jesli nie to zwraca uzytkownikowi opcje uruchomienia scrapow
+# w podstaci przyciskow
+def check_if_exists_multiple(term_list: List[str]):
+    results = []
+    base_path = reset_path()
+    today = str(date.today())
+    date_regex = re.compile(r'(.*)_(\d{4}-\d{2}-\d{2})')
+    terms_string = '_'.join(term_list)
+
+    htmx_plot_action = 'hx-post=/plots/by_file hx-swap=innerHTML hx-target=#plot_multi method=post name=file value='
+
+    result_df = get_empty_df()
+
+    exists_path = base_path + '/scraping_results/' + terms_string
+    if os.path.exists(exists_path):
+        date_folders = os.listdir(exists_path)
+        date_folders =[os.path.join(exists_path, date_folder) for date_folder in date_folders]
+        latest_folder = max(date_folders, key=os.path.getmtime)
+        for file in os.listdir(latest_folder):
+            if file.endswith('.csv'):
+                file_path = os.path.join(latest_folder, file)
+                # extract the filepath needed for plotting by file function
+                # scraping_regex = re.compile('(.*)/scraping_results/(.*)')
+
+                # file_path_after_scraping = scraping_regex.search(file_path).group(2)
+
+                result_df = pd.read_csv(file_path, index_col=0)
+                
+                regex = date_regex.search(file)
+
+                result_obj = {
+                    'term': terms_string,
+                    'file': file,
+                    'date': regex.group(2),
+                    'htmx_action': htmx_plot_action + file,
+                    'action_type': 'Plot'
+                }
+                results.append(result_obj)
+
+    # if result_df.empty:
+    for term in term_list:
+        result_obj = {
+            'term': term,
+            'file': '-',
+            'date': '-',
+            'htmx_action': '',
+            'action_type': 'Scrap it'
+        }
+        term_path = base_path + '/scraping_results/' + term
+        if os.path.exists(term_path):
+            term_paths = os.listdir(term_path)
+            term_paths = [os.path.join(term_path, term) for term in term_paths]
+            latest = max(term_paths, key=os.path.getmtime)
+
+            # temporary solution - only checks if folder was found, doesnt look for files
+
+            # result_obj.date = os.path.getmtime(latest)
+            # regex = date_regex.search(file)
+            # result_obj['date'] = regex.group(2)
+            date_regex = re.compile(r'\d{4}-\d{2}-\d{2}')
+            latest_date = date_regex.match(latest)
+            result_obj['date'] = latest
+            result_obj['file'] = result_obj['term'] + ' - found'
+            # joined = os.path.join(term_path, latest_term_path)
+        else:
+            result_obj['file']  = result_obj['term'] + ' - not found'
+        results.append(result_obj)
+    
+    return results
+
+# FIXME: funkcja sprawdzajaca czy istnieje folder laczacy rezultaty ze stron i api,
+# jesli nie, to tworzy taki i zapisuje dane
+# takes a path to the term and date folder combination
+def check_if_all_folder_exists(folder_path: str) -> pd.DataFrame:
+    base_path = reset_path()
+    all_path = folder_path + '/all'
+
+    paths = [
+        'combined',
+        'fluff'
+    ]
+
+    result_df = get_empty_df()
+
+    if os.path.exists(all_path):
+        files = os.listdir(all_path)
+        for file in files:
+            if file.endswith('.csv'):
+                result_df = pd.read_csv(file, index_col=0)
+    else:
+        for sub_path in paths:
+            try:
+                sub_folder = os.path.join(folder_path, sub_path)
+                combined_paths = os.listdir(sub_folder)
+                for c_path in combined_paths:
+                        if c_path.endswith(".csv"):
+                            combined_df = pd.read_csv(c_path, index_col = 0)
+                            result_df = pd.concat([result_df, combined_df])
+            except:
+                pass
+        # save the results, important
+        os.makedirs(all_path)
+        today = str(date.today())
+        result_df.to_csv(all_path + '/' + f'all_{today}.csv')
+    
+    return result_df
+

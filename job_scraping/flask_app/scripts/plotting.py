@@ -10,6 +10,7 @@ def test_pie_plot(term):
     sns.set_style("dark")
     sns.color_palette('Spectral')
     df = pd.read_csv("./scraping_results/combined/python/python_2023-11-28.csv", index_col = 0)
+    # df = pd.read_csv(f"./scraping_results/")
     df = df[df['search_term'] == term]
     companies = df['company']
     companies = companies.dropna()

@@ -112,13 +112,24 @@
 
   <div>
     <h3>Test multi-input</h3>
-    <h4>Separated by "," or ", " por favor</h4>
+    <p>Separated by "," or ", " por favor</p>
     <form hx-post="/scrap/test_multiple" hx-swap="innerHTML" hx-target="#test_multiple" method="post">
       <label for="terms">Search terms:</label>
       <input type="text" placeholder="python" name="terms">
       <button type="submit">Plot</button>
     </form>
     <p id="test_multiple">results</p>
+  </div>
+
+  <div>
+    <h3>Multi-input finder</h3>
+    <p>Separated by "," or ", " por favor</p>
+    <form hx-post="/scrap/multi_find" hx-swap="outerHTML" hx-target="#search-results" method="post">
+      <label for="terms">Search terms:</label>
+      <input type="text" placeholder="python" name="terms">
+      <button type="submit">Find all</button>
+    </form>
+    <div id="search-results"></div>
   </div>
 
   </section>

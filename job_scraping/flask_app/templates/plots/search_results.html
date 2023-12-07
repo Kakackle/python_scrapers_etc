@@ -1,0 +1,36 @@
+<div id="search-results">
+<table class="table w-auto">
+    <thead>
+        <tr>
+        <th scope="col">Term</th>
+        <th scope="col">Status</th>
+        <th scope="col">Date</th>
+        <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- <tr>
+            <th scope="row">python</th>
+            <td>careerjet_pracuj_django_2023-11-27.csv</td>
+            <td>2023-11-27</td>
+            <td><button class="btn btn-dark">Scrape for it</button></td>
+        </tr>
+        <tr>
+            <th scope="row">python</th>
+            <td>careerjet_pracuj_django_2023-11-27.csv</td>
+            <td>2023-11-27</td>
+            <td><button class="btn btn-dark">Plot</button></td>
+        </tr> -->
+        {% for result in results %}
+        <tr>
+            <th scope="row">{{result.term}}</th>
+            <td>{{result.file}}</td>
+            <td>{{result.date}}</td>
+            <td><button class="btn btn-dark" {{result.htmx_action}}>
+                {{result.action_type}}</button></td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<div id="plot_multi">plot multi</div>
+</div>
