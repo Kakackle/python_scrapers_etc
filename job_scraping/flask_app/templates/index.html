@@ -132,6 +132,27 @@
     <div id="search-results"></div>
   </div>
 
+  <div>
+    <h3>Date input test</h3>
+    <form hx-post="/scrap/get_dates" hx-swap="innerHTML" hx-target="#date-results"method="post">
+      <label for="start_date">Start date:</label>
+      <input type="date" name="start_date" value="{{today}}" min="{{oldest_date}}" max="{{newest_date}}">
+      <label for="end_date">End date:</label>
+      <input type="date" name="end_date" value="{{today}}" min="{{oldest_date}}" max="{{newest_date}}">
+      <label for="terms">Search term [multi]:</label>
+      <input type="text" name="terms" placeholder="python">
+      <button type="submit">Get dates</button>
+    </form>
+    <div id="date-results"></div>
+  </div>
+
+  <div>
+    <h3>Get indexed dates</h3>
+    <button hx-get="/scrap/get_saved_dates" hx-swap="innerHTML" hx-target="#saved-date-results"
+    >Get saved dates</button>
+    <div id="saved-date-results"></div>
+  </div>
+
   </section>
 
 {% endblock %}

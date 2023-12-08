@@ -12,6 +12,10 @@ from .scripts.path_traversal import (test_cwd, reset_path, test_finding)
 from .scripts.find_all_scrapes import find_all_scrapes
 from .scripts.utils import get_multiple_terms
 
+from datetime import datetime, date
+import os
+import re
+
 bp = Blueprint('scrap', __name__, url_prefix='/scrap')
 
 # ---------------------------------------------------------------------------- #
@@ -78,3 +82,86 @@ def test_multiple():
     if request.method == 'POST':
         terms = request.form['terms']
         return get_multiple_terms(terms)
+    
+@bp.route('/get_dates', methods=('POST',))
+def get_dates():
+    if request.method == 'POST':
+
+        terms = request.form['terms']
+        terms_split = get_multiple_terms(terms)
+        terms_string = '_'.join(terms_split)
+
+        start_date = request.form['start_date']
+        end_date = request.form['end_date']
+
+        date_format = r'%Y-%m-%d'
+        date_regex = re.compile('.*(\d{4}-\d{2}-\d{2})')
+        
+        start_date = datetime.strptime(start_date, date_format)
+        end_date = datetime.strptime(end_date, date_format)
+        # diff = abs((end_date - start_date).days)
+
+        # get files between dates
+        base_path = reset_path()
+        results = set()
+        exact_result = ''
+
+        for root, dirs, files in os.walk(base_path):
+            for file in files:
+                match = date_regex.match(file)
+                if match and file.startswith('all'):
+                    # results.add(match.group(1))
+                    file_date = match.group(1)
+                    file_date = datetime.strptime(file_date, date_format)
+                    if start_date <= file_date <= end_date:
+                        results.add(file)
+        
+        for root, dirs, files in os.walk(base_path):
+            for file in files:
+                match = date_regex.match(file)
+                if match and file.startswith('all') and terms_string in file:
+                    # results.add(match.group(1))
+                    file_date = match.group(1)
+                    file_date = datetime.strptime(file_date, date_format)
+                    if start_date <= file_date <= end_date:
+                        exact_result = file
+
+        results_string = (', ').join(results)
+
+        if not exact_result:
+            exact_result = 'exact match not found'
+
+        return_html = f"""
+        <p>Start: {start_date}</p>
+        <p>End: {end_date}</p>
+        <p>Results between dates [starting with 'all_']: {results_string}</p>
+        <p>Exact match: {exact_result}</p>
+        """
+        return return_html
+    
+
+
+@bp.route('/get_saved_dates', methods=('GET',))
+def get_saved_dates():
+    base_path = reset_path()
+    date_regex = re.compile('.*(\d{4}-\d{2}-\d{2})')
+    date_format = r'%Y-%m-%d'
+
+    results = set()
+    for root, dirs, files in os.walk(base_path):
+        for dir in dirs:
+            match = date_regex.match(dir)
+            if match:
+                # results.add(match.group(1))
+                results.add(dir)
+    # convert string values to dates, sort and back to string 
+    results = [datetime.strptime(res, date_format) for res in results]
+    results = sorted(results, reverse=True)
+    results = [datetime.strftime(res, date_format) for res in results]
+    results_string = (', ').join(results)
+    return_html = f"""
+    <p>{results_string}</p>
+    """
+    return return_html
+
+                
