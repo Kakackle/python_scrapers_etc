@@ -1,0 +1,532 @@
+,title,link,company,location,salary,description,date_added,skills,search_term,date_searched
+0,AI Product Owner,"https://www.pracuj.pl/praca/ai-product-owner-saudi-arabia,oferta,10317061",,,55 000–70 000 zł / mies. (zal. od umowy),"As an AI Product Owner, you will be working for our client, a prominent financial institution in Saudi Arabia. This position requires a partial relocation to Saudi Arabia. You will become responsible for managing the planning, developing,...",,['Python'],python,2023-12-07
+1,BI Data Modeler,"https://www.pracuj.pl/praca/bi-data-modeler-krakow-wielicka-28,oferta,1002945514",,,,,,"['SQL', 'DAX', 'Power BI']",python,2023-12-07
+2,Specjalista ds. Monitoringu i Automatyzacji IT,"https://www.pracuj.pl/praca/specjalista-ds-monitoringu-i-automatyzacji-it-lodz-wersalska-75,oferta,1003024451",,,,,,"['JavaScript', 'Postman']",python,2023-12-07
+3,C/C++ Developer with Functional Safety,"https://www.pracuj.pl/praca/c-c%2b%2b-developer-with-functional-safety-poznan-ignacego-paderewskiego-6,oferta,1003024445",,,10 000–20 160 zł / mies. (zal. od umowy),"We are seeking C/C++ software developers to implement and maintain software with a strong emphasis on functional safety for a large customer in the Industrial domain. The team will ultimately consist of five team members, including a Scrum Master....",,"['C', 'C++', 'Functional Safety', 'Python', 'Azure DevOps', 'Git']",python,2023-12-07
+4,Senior Data Engineer,"https://www.pracuj.pl/praca/senior-data-engineer-krakow-wielicka-28,oferta,1002977949",,,22 000–25 000 zł brutto / mies.,We are going through and exciting period of change and are seeking a highly motivated and experienced Senior Data Engineer to join our Data Engineering team. You will work as part of our exciting greenfield tech hub covering all facets of...,,"['Python', 'AWS', 'SQL']",python,2023-12-07
+5,Data Science Specialist,"https://www.pracuj.pl/praca/data-science-specialist-saudi-arabia,oferta,10317026",,,55 000–70 000 zł / mies. (zal. od umowy),"As a Data Science Specialist, you will be working for our client, a prominent financial institution in Saudi Arabia. This position requires a partial relocation to Saudi Arabia. You will become responsible for adapting at using large data sets to...",,"['Python', 'R', 'SAS', 'C', 'Java', 'JavaScript', 'Spark', 'Google Analytics', 'Hadoop', 'MySQL']",python,2023-12-07
+6,,,,,8 000–12 000 zł netto (+ VAT) / mies.,"Szukamy kandydata na stanowisko Site Reliability Engineer (IT Support), osoby odpowiedzialnej, dyspozycyjnej i zainteresowanej pracą zmianową, która tak jak my rozwija swoje umiejętności, aby realizować coraz ciekawsze i bardziej wymagające...",,"['Jira', 'Zabbix', 'Grafana', 'MongoDB', 'PostgreSQL', 'AWS', 'Microsoft Azure', 'Firebase', 'GCP']",python,2023-12-07
+7,Team Leader (Python),"https://www.pracuj.pl/praca/team-leader-python-warszawa,oferta,1003024429",,,27 000–33 000 zł netto (+ VAT) / mies.,"Wspólnie z naszym Partnerem poszukujemy doświadczonej osoby na stanowisko Team Leader, która obejmie rolę wymagającą nie tylko fachowej wiedzy technicznej, ale także umiejętności skutecznego zarządzania zespołem., , Nasz partner to lider w...",,['Python'],python,2023-12-07
+8,Simulation Software Engineer,"https://www.pracuj.pl/praca/simulation-software-engineer-mirkow-pow-wroclawski-wroclawska-43,oferta,1002983289",,,,,,"['C', 'C++', 'Python']",python,2023-12-07
+9,Software Engineer - Tool Developer,"https://www.pracuj.pl/praca/software-engineer-tool-developer-mirkow-pow-wroclawski-wroclawska-43,oferta,1002983287",,,,,,"['C', 'C#', 'C++', 'Python', 'Jira', 'Jenkins', 'Git']",python,2023-12-07
+10,Główny Specjalista/Główna Specjalistka ds. Zarządzania Siecią i Platformami Usługowymi GNOCe,"https://www.pracuj.pl/praca/glowny-specjalista-glowna-specjalistka-ds-zarzadzania-siecia-i-platformami-uslug-warszawa-aleje-jerozolimskie-160,oferta,1002983226",,,,"Jesteśmy zgranym zespołem odpowiedzialnym za zapewnienie prawidłowego działania systemów Mobile Packet Core operatorów Grupy Orange. Szukamy ambitnej osoby z doświadczeniem w administracji lub projektowaniu systemów Mobile Core, IP. Dołącz do nas...",,[],python,2023-12-07
+11,Senior Python Developer,"https://www.pracuj.pl/praca/senior-python-developer-krakow,oferta,1003008676",,,160–170 zł netto (+ VAT) / godz.,,,"['Python', 'AWS', 'DynamoDB']",python,2023-12-07
+12,Tester oprogramowania,"https://www.pracuj.pl/praca/tester-oprogramowania-warszawa-aleje-jerozolimskie-125,oferta,1002970048",,,70–90 zł netto (+ VAT) / godz.,"Miejsce pracy: możliwa praca 100% zdalnie, Start: zgodnie z dostępnością Kandydata (max. 3 miesiące wypowiedzenia), Forma współpracy: B2B z ITFS – współpraca długofalowa, pełen etat, Stawka: 70-90 PLN netto/msc + VAT, Klient: polska firma tworząca...",,"['MS SQL', 'PostgreSQL']",python,2023-12-07
+13,Administrator Zabbix / Ekspert ds. monitoringu systemów,"https://www.pracuj.pl/praca/administrator-zabbix-ekspert-ds-monitoringu-systemow-warszawa-prosta-67,oferta,1003006343",,,14 000–17 000 zł brutto / mies.,,,"['Zabbix', 'Jira', 'Windows Server', 'Linux', 'LAN/WAN']",python,2023-12-07
+14,Programista systemów wbudowanych - Embedded software developer,"https://www.pracuj.pl/praca/programista-systemow-wbudowanych-embedded-software-developer-nowy-konik-pow-minski-konikowa-10,oferta,1002986115",,,,"Szukamy doświadczonego Inżyniera - Programisty systemów wbudowanych, który dołączy do naszego zespołu w celu opracowywania oprogramowania do zaawansowanych urządzeń elektronicznych z dziedziny łączności satelitarnej. Osoba na tym stanowisku będzie...",,['C++'],python,2023-12-07
+15,Web Analyst,"https://www.pracuj.pl/praca/web-analyst-lodz-ogrodowa-8,oferta,1003024351",,,,,,[],python,2023-12-07
+16,Senior Full Stack Engineer,"https://www.pracuj.pl/praca/senior-full-stack-engineer-katowice,oferta,1002997346",,,,,,[],python,2023-12-07
+17,Test Engineer,"https://www.pracuj.pl/praca/test-engineer-krakow,oferta,1002971483",,,,,,[],python,2023-12-07
+18,Developer,"https://www.pracuj.pl/praca/developer-warszawa-pulawska-2,oferta,1003010863",,,,,,"['Python', 'Git', 'HTML', 'JavaScript', 'CSS']",python,2023-12-07
+19,BI Analyst,"https://www.pracuj.pl/praca/bi-analyst-united-kingdom,oferta,10342091",,,,"As a BI Analyst at Sporty, you’ll be mining through petabytes of data to provide key insights that drive core business decisions. You’ll create dashboards that are used on a daily basis by product managers, traders, and executives, as well as...",,"['Python', 'MySQL', 'AWS', 'Linux']",python,2023-12-07
+20,Senior Backend Engineer for IoT Solutions,"https://www.pracuj.pl/praca/senior-backend-engineer-for-iot-solutions-warszawa-plac-europejski-1,oferta,1002966718",,,,"Samsung R&D Institute Poland, is looking for experienced IoT Senior Backend Engineer, for the team working on the development of Home IoT services based on Cloud architecture., , Our Team is dedicated to improving everyday lives by making objects...",,"['Java', 'Spring-Boot', 'Java Script', 'Node.js', 'Python', 'Lua', 'Groovy', 'RDBMS', 'Messaging System', 'Cache System (eg. Redis cache)', 'Google Cloud', 'AWS', 'Auth0 technology', 'REST APIs', 'OAuth 2.0', 'SOAP', 'Git', 'Jira', 'Confluence', 'Sumo Logic']",python,2023-12-07
+21,Data Analyst,"https://www.pracuj.pl/praca/data-analyst-warszawa,oferta,1003003637",,,,,,[],python,2023-12-07
+22,Model Management Analyst,"https://www.pracuj.pl/praca/model-management-analyst-warszawa,oferta,1002977568",,,,,,[],python,2023-12-07
+23,,,,,,,,"['AWS', 'Tableau', 'Salesforce', 'SQL']",python,2023-12-07
+24,Senior Data Engineer,"https://www.pracuj.pl/praca/senior-data-engineer-warszawa-pulawska-182,oferta,1002980204",,,180–210 zł netto (+ VAT) / godz.,"As Senior Data Engineer, you will join a new team of data engineers in Poland driving ongoing development and delivery of our data management solutions. You will be working in an Agile environment with regular sprint meetings and a daily focus on...",,"['Python', 'AWS', 'SQL', 'Spark', 'AWS Glue', 'CI/CD']",python,2023-12-07
+25,Python Developer,"https://www.pracuj.pl/praca/python-developer-poznan,oferta,1003024201",,,12 000–25 000 zł netto (+ VAT) / mies.,"The patient is a platform that keeps hair on our heads short and beards neatly trimmed. We bet you heard about them already. Sounds cool, right?",,"['Python', 'AWS', 'Pytest']",python,2023-12-07
+26,Data Engineer with Python,"https://www.pracuj.pl/praca/data-engineer-with-python-warszawa-chlodna-51,oferta,1002999830",,,9 500–25 200 zł / mies. (zal. od umowy),"We are building the next generation of Data Platform for Asset Management. We build, operate and support tools and services dedicated to store, transform, and distribute data related to several use-cases: Responsible Investment, Quantitative...",,"['Databricks', 'Azure Event Hub', 'Azure Pipelines', 'Azure Data Factory', 'Python', 'Spark 3']",python,2023-12-07
+27,"Corporate Audit, AVP – Full Stack Data Scientist","https://www.pracuj.pl/praca/corporate-audit-avp-full-stack-data-scientist-krakow-generala-bohdana-zielinskiego-3,oferta,1002994331",,,,,,"['AWS', 'SQL', 'Python']",python,2023-12-07
+28,"Corporate Audit, Officer - Data Visualization Expert","https://www.pracuj.pl/praca/corporate-audit-officer-data-visualization-expert-krakow-generala-bohdana-zielinskiego-3,oferta,1002994329",,,,,,"['AWS', 'SQL']",python,2023-12-07
+29,,,,,,,,"['Kubernetes', 'Redis', 'Elasticsearch', 'Kafka', '.NET Core', 'Ansible', 'Python', 'Red Hat']",python,2023-12-07
+30,Cloud Platform Architect,"https://www.pracuj.pl/praca/cloud-platform-architect-krakow-puszkarska-7j,oferta,1003017056",,,,"Cloud Platform Architect will be part of the global team KION Cloud Plan, Build, Governance, and Operations responsible for designing and maintaining the multi-cloud platform in KION Group IT. The person will take the responsibility for ensuring...",,"['Microsoft Azure', 'Google Cloud Platform', 'Azure DevOps', 'AKS', 'GKE', 'GitHub Actions', 'Azure CLI', 'VS Code', 'Python', 'Bash', 'PowerShell', 'Docker', 'Kubernetes']",python,2023-12-07
+31,ALCM Project Manager,"https://www.pracuj.pl/praca/alcm-project-manager-krakow-kapelanka-42a,oferta,1002977371",,,,"Finance change team manages implementation of systems and process changes resulting from new regulatory requirements, Businesses initiatives and strategic transformations. Within Finance Change team, a team is dedicated to support HSBC Continental...",,"['SAS', 'Python', 'Informatica PowerCenter', 'Oracle', 'SQL']",python,2023-12-07
+32,Machine Learning Engineer,"https://www.pracuj.pl/praca/machine-learning-engineer-krakow-promienistych-1,oferta,1003023974",,,,,,"['R', 'Javascript', 'SQL', 'Phyton']",python,2023-12-07
+33,Inżynier DevOps / SRE,"https://www.pracuj.pl/praca/inzynier-devops-sre-warszawa,oferta,1002994261",,,18 000–20 000 zł netto (+ VAT) / mies.,"Projekt dotyczy Transformacji Systemów Sieci w firmie z branży telekomunikacyjnej, , Wykorzystywane technologie i narzędzia :, • JEE (Microprofile, Quarkus, Spring-boot), React, • ActiveMQ, Kafka, • Apache Jackrabbit, MinIO, • Keycloak, • Oracle,...",,"['CI/CD', 'Python', 'Java', 'Groovy', 'Linux', 'GitLab', 'Elasticsearch', 'Zabbix']",python,2023-12-07
+34,AI Specialist with Python,"https://www.pracuj.pl/praca/ai-specialist-with-python-krakow,oferta,1003016932",,,,"Poszukujemy Specjalistów AI, którzy dołączą do zespołu naszego austriackiego klienta, specjalizującego się w branży przemysłowej.",,"['C#', 'OpenCV', 'TensorFlow', 'PyTorch', 'Git']",python,2023-12-07
+35,C Embedded Developer,"https://www.pracuj.pl/praca/c-embedded-developer-wroclaw,oferta,1003023929",,,,"For our client who opens R&D center in Wrocław, we are looking for a Software Engineer who will join the project and help build this organization from scratch., , The company develops and manufactures technologically advanced electronic,...",,"['C', 'embedded systems']",python,2023-12-07
+36,Data Scientist,"https://www.pracuj.pl/praca/data-scientist-warszawa-opatowska-2,oferta,1003003238",,,,The person in this role will work with project teams developing a modern data platform in a cloud environment for global brands. They will work in an international environment and specialize in BI & Big Data cloud architecture and the latest...,,"['Python', 'Jira', 'Confluence', 'Keras', 'TensorFlow', 'Theano', 'PyTorch', 'Amazon SageMaker', 'Azure Machine Learning', 'MLflow']",python,2023-12-07
+37,Data/BI Solution Architect,"https://www.pracuj.pl/praca/data-bi-solution-architect-warszawa-aleje-jerozolimskie-123a,oferta,1003023898",,,,"We are seeking an experienced Data/BI Solution Architect with a comprehensive understanding of business intelligence solution architecture, data warehousing, ETL processes, and web development., The ideal candidate should be proficient in the full...",,"['SQL', 'AWS', 'ETL', 'BI', 'DWH']",python,2023-12-07
+38,Golang Developer,"https://www.pracuj.pl/praca/golang-developer-warszawa-aleje-jerozolimskie-98,oferta,1003023890",,,,"An American social news aggregation, content rating, and discussion website. Registered users submit content to the site such as links, text posts, images, and videos, which are then voted up or down by other members.",,"['Go', 'PostgreSQL', 'Redis', 'Cassandra', 'AWS']",python,2023-12-07
+39,SQL Developer,"https://www.pracuj.pl/praca/sql-developer-warszawa-komitetu-obrony-robotnikow-43,oferta,1003003111",,,,,,"['SQL', 'SSIS']",python,2023-12-07
+40,Data Scientist,"https://www.pracuj.pl/praca/data-scientist-katowice-wroclawska-54,oferta,1002950595",,,9 000–16 000 zł brutto / mies.,,,"['AWS', 'Python', 'Azure Cosmos DB']",python,2023-12-07
+41,,,,,9 500–12 700 zł brutto / mies.,,,[],python,2023-12-07
+42,Senior Azure Data Engineer,"https://www.pracuj.pl/praca/senior-azure-data-engineer-warszawa-domaniewska-39a,oferta,1003010491",,,190 zł netto (+ VAT) / godz.,"Industry: IT, Location: 100% remote, Project language: English, Polish, Remuneration: up to 190 PLN/h net + VAT, Type of assignment: B2B, , We are looking for an experienced Azure Data Engineer, who will support our global customers mainly in the...",,"['Microsoft Azure', 'Azure DevOps', 'GitHub', 'SQL', 'Python']",python,2023-12-07
+43,,,,,5 000–12 700 zł brutto / mies.,,,[],python,2023-12-07
+44,Backend Engineer,"https://www.pracuj.pl/praca/backend-engineer-krakow-krupnicza-5,oferta,1002977108",,,12 400–25 900 zł netto (+ VAT) / mies.,,,"['Ruby on Rails', 'Python', 'Kubernetes', 'AWS', 'Docker', 'SQL', 'Ruby']",python,2023-12-07
+45,Clojure Developer,"https://www.pracuj.pl/praca/clojure-developer-warszawa,oferta,1002977027",,,140–170 zł netto (+ VAT) / godz.,We are looking for Clojure and software developement enthusiast to join a team working on an innovative financial/tax related workstream in international environment. The team values cooperation and growth of technology competencies together with...,,"['React.js', 'Angular.js', 'JavaScript', 'CSS', 'Clojure', 'Python', 'Ruby on Rails', 'Java', 'Scala', 'Node.js', 'Go', 'Git', 'Mercurial', 'AWS']",python,2023-12-07
+46,Engineering Team Lead (Reliability Team),"https://www.pracuj.pl/praca/engineering-team-lead-reliability-team-krakow-fabryczna-20a,oferta,1002966227",,,21 000–31 500 zł / mies. (zal. od umowy),,,"['Java', 'Databases', 'Prometheus', 'Grafana', 'SDLC', 'SQL', 'Observability tools']",python,2023-12-07
+47,AWS Cloud Engineer,"https://www.pracuj.pl/praca/aws-cloud-engineer-warszawa-polna-11,oferta,1002976992",,,,"PwC, jako światowego lidera w obszarze usług chmurowych, wspiera zespół Cloud & Digital PwC Polska, liczący ponad 70 specjalistów. Świadczymy najwyższej jakości usługi we wszystkich obszarach związanych z chmurą, takich jak: Cloud Strategy, Cloud...",,"['AWS', 'Kubernetes']",python,2023-12-07
+48,Senior Business Systems Analyst,"https://www.pracuj.pl/praca/senior-business-systems-analyst-warszawa-towarowa-28,oferta,1003023703",,,,,,"['Microsoft Office', 'VBA', 'XML', 'PostrageSQL', 'Python', 'Diango', 'Java Script', 'PHP', 'SQL']",python,2023-12-07
+49,Technical Product Owner,"https://www.pracuj.pl/praca/technical-product-owner-katowice-wroclawska-54,oferta,1002950459",,,13 000–18 000 zł brutto / mies.,,,"['Java', 'Java Script', 'C#', 'Python']",python,2023-12-07
+50,Junior BI Developer,"https://www.pracuj.pl/praca/junior-bi-developer-warszawa-rondo-onz-1,oferta,1003016707",,,9 500–12 000 zł brutto / mies.,"Do rosnącego zespołu DCoE (Digital Centre of Excellence) w Warszawie, szukamy specjalistów oraz developerów Business Intelligence, którzy będą odpowiedzialni za projektowanie i tworzenie zaawansowanych rozwiązań analitycznych i wizualizacyjnych.",,[],python,2023-12-07
+51,PL/pgSQL Developer with Python,"https://www.pracuj.pl/praca/pl-pgsql-developer-with-python-wroclaw,oferta,1003019261",,,18 000–23 000 zł netto (+ VAT) / mies.,,,"['Python', 'SQL', 'Linux', 'Bash', 'Git', 'Docker']",python,2023-12-07
+52,,,,,,"W ramach projektu InstaKółko prowadzimy zajęcia matematyczno-informatyczne dla dzieci już od 2012 roku. Organizujemy również największy w Polsce trzyetapowy konkurs matematyczno-informatyczny, który uzyskał patronat honorowy Ministra Edukacji i...",,"['C', 'C++', 'Python']",python,2023-12-07
+53,Python Developer (Banking),"https://www.pracuj.pl/praca/python-developer-banking-warszawa-aleje-jerozolimskie-134,oferta,1002996560",,,,"Projekt realizowany jest u klienta z branży finansowej. Głównym jego celem jest migracja procesów biznesowych na architekturę mikroserwisową., , Stack technologiczny w projekcie:, , • Python: SQLAlchemy, FastAPI, Sanic;, • Java Script: React,...",,"['Python', 'SQL', 'FastAPI', 'Sanic', 'mikroserwisy']",python,2023-12-07
+54,Azure AKS DevOps Engineer,"https://www.pracuj.pl/praca/azure-aks-devops-engineer-warszawa-aleje-jerozolimskie-134,oferta,1002996562",,,,,,"['Kubernetes', 'Azure DevOps', 'GitHub', 'GitLab', 'Helm', 'PowerShell', 'Bash', 'Python', 'Postman', 'cURL', 'Linux']",python,2023-12-07
+55,Manual Tester,"https://www.pracuj.pl/praca/manual-tester-warszawa,oferta,1002993905",,,9 000–11 500 zł netto (+ VAT) / mies.,"We offer the opportunity for you to be a part of a unique journey in revolutionizing workforce management across Europe. Our Client’s cloud-based workforce management solution improves daily operations within retail, hospitality, and health...",,[],python,2023-12-07
+56,Senior Data Engineer,"https://www.pracuj.pl/praca/senior-data-engineer-wroclaw,oferta,1002993861",,,26 500–35 500 zł / mies. (zal. od umowy),,,"['AWS', 'Snowflake', 'Databricks', 'SQL', 'Python', 'Scala', 'PySpark']",python,2023-12-07
+57,Junior Data Engineer,"https://www.pracuj.pl/praca/junior-data-engineer-wroclaw,oferta,1002993829",,,,,,"['SQL', 'MySQL', 'PostgreSQL', 'Python', 'Apache Spark', 'Apache Flink', 'Apache Airflow']",python,2023-12-07
+58,Data Scientist,"https://www.pracuj.pl/praca/data-scientist-wroclaw,oferta,1002993832",,,,,,"['SQL', 'MySQL', 'PostgreSQL', 'HBase', 'DynamoDB', 'MongoDB', 'Apache Spark', 'Apache Flink', 'Python', 'R']",python,2023-12-07
+59,Data Engineer,"https://www.pracuj.pl/praca/data-engineer-wroclaw,oferta,1002993831",,,,,,"['SQL', 'MySQL', 'PostgreSQL', 'HBase', 'DynamoDB', 'MongoDB', 'Apache Spark', 'Apache Flink']",python,2023-12-07
+60,DevOps Engineer,"https://www.pracuj.pl/praca/devops-engineer-warszawa-ostrobramska-86,oferta,1003023502",,,,"Flagowym produktem firmy jest Redge Media – autorska platforma technologiczna dla telewizji internetowej, która wykorzystywana jest przez czołowych nadawców i operatorów telekomunikacyjnych na terenie Europy. W oparciu o Redge Media działają...",,"['Git', 'Jenkins', 'Puppet', 'Linux', 'Debian', 'Ubuntu', 'PostgreSQL', 'Tomcat', 'Spring Framework', 'Grafana']",python,2023-12-07
+61,Starszy/a Inżynier/ka oprogramowania,"https://www.pracuj.pl/praca/starszy-a-inzynier-ka-oprogramowania-warszawa-kolska-12,oferta,1003002608",,,9 000–17 000 zł brutto / mies.,,,[],python,2023-12-07
+62,Administrator Baz Danych,"https://www.pracuj.pl/praca/administrator-baz-danych-warszawa-pulawska-464,oferta,1003002604",,,,,,[],python,2023-12-07
+63,,,,,,,,"['PostgreSQL', 'SQL']",python,2023-12-07
+64,,,,,,,,[],python,2023-12-07
+65,Cloud Engineer,"https://www.pracuj.pl/praca/cloud-engineer-katowice-zelazna-4,oferta,1003023433",,,,,,"['AWS', 'Terraform', 'GitHub', 'Node.js', 'Python', 'Bash']",python,2023-12-07
+66,Specjalista ds. Cyberbezpieczeństwa OT – Inspektor Nadzoru,"https://www.pracuj.pl/praca/specjalista-ds-cyberbezpieczenstwa-ot-inspektor-nadzoru-opole-elektrowniana-25,oferta,1002996386",,,,,,['Active Directory'],python,2023-12-07
+67,Full Stack Staff Software Engineer - Google Compute Engine,"https://www.pracuj.pl/praca/full-stack-staff-software-engineer-google-compute-engine-warszawa-emilii-plater-53,oferta,1002996348",,,,,,[],python,2023-12-07
+68,Java Developer,"https://www.pracuj.pl/praca/java-developer-gdansk,oferta,1002993681",,,,,,"['Java', 'AWS']",python,2023-12-07
+69,CAE software Engineer,"https://www.pracuj.pl/praca/cae-software-engineer-gliwice-uslugowa-20,oferta,1002976549",,,,,,"['Python', 'Django', 'JavaScript', 'React.js', 'SQL', 'PostgreSQL', 'MySQL', 'Git']",python,2023-12-07
+70,GCP Technical Lead,"https://www.pracuj.pl/praca/gcp-technical-lead-krakow,oferta,1003002490",,,23 100–27 300 zł / mies. (zal. od umowy),"As an GCP Technical Lead, you will be working for our client, a global financial institution, on a critical project related to Google Cloud Platform (GCP) environments, with a primary focus on Identity and Access Management (IAM) practices and...",,"['Google Cloud Platform', 'Python', 'Go', 'Bash']",python,2023-12-07
+71,Software Engineer III - Full Stack - Google Cloud,"https://www.pracuj.pl/praca/software-engineer-iii-full-stack-google-cloud-warszawa-emilii-plater-53,oferta,1002996328",,,,,,"['Python', 'C', 'Java', 'Go', 'JavaScript', 'TypeScript', 'HTML', 'CSS']",python,2023-12-07
+72,Software Engineer II - Fitbit,"https://www.pracuj.pl/praca/software-engineer-ii-fitbit-warszawa-emilii-plater-53,oferta,1002996311",,,,,,"['Python', 'C', 'C++', 'Java', 'JavaScript']",python,2023-12-07
+73,Software Engineer II - Google Cloud,"https://www.pracuj.pl/praca/software-engineer-ii-google-cloud-warszawa-emilii-plater-53,oferta,1002996297",,,,,,"['Python', 'C', 'C++', 'Java', 'JavaScript']",python,2023-12-07
+74,Full-stack Python Developer – Infrastructure Developer,"https://www.pracuj.pl/praca/full-stack-python-developer-infrastructure-developer-warszawa,oferta,1003002465",,,14 700–21 840 zł / mies. (zal. od umowy),"As a Full-stack Python Developer, you will be working with a team of highly skilled and experienced engineers for our Client, an innovation leader among Polish financial institutions, providing a full range of modern financial services for...",,"['Python', 'JavaScript', 'React.js', 'Redux', 'CSS', 'Git', 'SQL', 'Gerrit', 'Jenkins', 'Sentry', 'Btibucket', 'Grafana', 'GitHub', 'Linux', 'Django']",python,2023-12-07
+75,Technical Solutions Engineer - Google Cloud,"https://www.pracuj.pl/praca/technical-solutions-engineer-google-cloud-warszawa-emilii-plater-53,oferta,1002996267",,,,,,"['Google Cloud Platform', 'Java', 'C', 'C++', 'Python', 'Perl', 'JavaScript']",python,2023-12-07
+76,Senior Test Engineer,"https://www.pracuj.pl/praca/senior-test-engineer-krakow,oferta,1003023295",,,110–125 zł netto (+ VAT) / godz.,"Vision-focused initiative. The project is in its initial phases, with preliminary tests being conducted on the first set of vehicles. The team is overseeing a Vehicle System Integration test to confirm the effectiveness of communication between...",,"['CAN bus', 'CAPL', 'Python']",python,2023-12-07
+77,Senior Site Reliability Engineer,"https://www.pracuj.pl/praca/senior-site-reliability-engineer-krakow,oferta,1003009963",,,,"Apptio is a global provider of a SaaS solution across Information Technology, multi-cloud FinOps, and product development., , We are seeking a Senior Site Reliability Engineer for Apptio Targetprocess product that empowers businesses to adopt and...",,"['AWS', 'Google Cloud Platform', 'Microsoft Azure', 'Docker', 'Kubernetes', 'Terraform', 'Terragrunt', 'PowerShell', 'Bash', 'Python', 'Prometheus', 'Grafana', 'Datadog', 'Splunk']",python,2023-12-07
+78,Senior QA Automation Engineer (Python),"https://www.pracuj.pl/praca/senior-qa-automation-engineer-python-wroclaw-powstancow-slaskich-9,oferta,1002968489",,,150–160 zł netto (+ VAT) / godz.,,,"['Python', 'Docker', 'SQL', 'AWS']",python,2023-12-07
+79,Fullstack Engineer,"https://www.pracuj.pl/praca/fullstack-engineer-krakow,oferta,1002991129",,,,"We are looking for skilled individuals for the Production Engineering Team (Payments IT department). Team is responsible for technical operations of global Payments Execution, Messaging & Orchestration and Sanctions & Investigation services. Based...",,"['JavaScript', 'CSS', 'HTML', 'Node.js', 'React.js', 'Oracle', 'PostgreSQL', 'MongoDB', 'Bash', 'Python', 'Kubernetes']",python,2023-12-07
+80,Machine Learning Engineer,"https://www.pracuj.pl/praca/machine-learning-engineer-krakow-aleja-jana-pawla-ii-43a,oferta,1002988090",,,,"Digital & Technology Team (D&T) is an integral division of HEINEKEN Global Shared Services Center. We are committed to making Heineken the most connected brewery. That includes digitalizing and integrating our processes, ensuring best-in-class...",,"['SQL', 'Hadoop', 'Spark', 'Python']",python,2023-12-07
+81,Junior Excel / Python Modeller,"https://www.pracuj.pl/praca/junior-excel-python-modeller-warszawa,oferta,1002976206",,,,,,['Python'],python,2023-12-07
+82,Android Automotive Software Developer,"https://www.pracuj.pl/praca/android-automotive-software-developer-krakow,oferta,1002993414",,,20 000–26 880 zł / mies. (zal. od umowy),"At Company, we’re on a mission to make people’s lives less complicated. We never start with technology and try to squeeze people in around it – we always design our cars around people, and we innovate to provide safe, sustainable and convenient...",,"['Java', 'Kotlin', 'C++', 'Python', 'Android', 'Git']",python,2023-12-07
+83,Data Engineer,"https://www.pracuj.pl/praca/data-engineer-warszawa,oferta,1002976193",,,,,,"['R', 'SQL']",python,2023-12-07
+84,Data Engineer,"https://www.pracuj.pl/praca/data-engineer-krakow-aleja-jana-pawla-ii-43a,oferta,1002988076",,,,"Digital & Technology Team (D&T) is an integral division of HEINEKEN Global Shared Services Center. We are committed to making Heineken the most connected brewery. That includes digitalizing and integrating our processes, ensuring best-in-class...",,"['Python', 'SQL', 'Scala']",python,2023-12-07
+85,Senior Backend Developer (Python),"https://www.pracuj.pl/praca/senior-backend-developer-python-warszawa,oferta,1003002229",,,27 720–31 080 zł netto (+ VAT) / mies.,"Currently we are looking for Senior Backend Developer with strong knowledge and experience working with Python., , You will join a new team focusing on developing a greenfield product in the probabilistic graph modelling domain., The team is...",,"['Python', 'Flask', 'Swagger', 'OpenAPI', 'SQL', 'NoSQL', 'Pandas', 'Numpy', 'Dask', 'Spark', 'AWS']",python,2023-12-07
+86,System Administrator,"https://www.pracuj.pl/praca/system-administrator-szczecin,oferta,1003009858",,,6 200–16 000 zł / mies. (zal. od umowy),,,[],python,2023-12-07
+87,Lead Data Engineer,"https://www.pracuj.pl/praca/lead-data-engineer-warszawa,oferta,1002976162",,,,,,"['R', 'SQL']",python,2023-12-07
+88,Software Developer C# ASP.NET,"https://www.pracuj.pl/praca/software-developer-c%23-asp-net-zawiercie,oferta,1003023120",,,,,,"['C#', 'ASP.NET', 'WebAssembly', 'Blazor']",python,2023-12-07
+89,Security Analyst,"https://www.pracuj.pl/praca/security-analyst-krakow,oferta,1003023100",,,23 800–25 000 zł / mies. (zal. od umowy),,,"['Java', 'Vulnerability Management', 'Python']",python,2023-12-07
+90,Software Developer,"https://www.pracuj.pl/praca/software-developer-poznan,oferta,1002995858",,,,,,"['C++', 'Python']",python,2023-12-07
+91,Lead Developer,"https://www.pracuj.pl/praca/lead-developer-warszawa-tasmowa-10,oferta,1003002144",,,,,,"['Java', 'Python', 'JavaScript', 'TypeScript', 'Spring Boot', 'Kafka']",python,2023-12-07
+92,Data Analyst,"https://www.pracuj.pl/praca/data-analyst-warszawa-mokotowska-49,oferta,1003009811",,,20 000–25 000 zł / mies. (zal. od umowy),"HYBRID JOB - OFFICE IS LOCATED IN WARSAW, POLAND, , Our Client's Data Engineering Technology team provides company with a scale-able data engineering capability and set of data services to support the Firm’s expanding data needs. This company...",,"['SQL', 'Excel', 'Data Analysis']",python,2023-12-07
+93,,,,,,,,"['Enterprise Architect', 'Cisco', 'PowerShell', 'Python']",python,2023-12-07
+94,Senior Performance Engineer - Smart City,"https://www.pracuj.pl/praca/senior-performance-engineer-smart-city-lodz-aleja-marsz-jozefa-pilsudskiego-24,oferta,1003015668",,,18 000–29 400 zł / mies. (zal. od umowy),"We are currently working with a French company that is a world leader in end-to-end smart mobility and mobility management, including innovative parking solutions, EV charging, mobility management, and more., , A Street Smart hub is a Mobility as...",,"['Gatling', 'JMeter', 'Python', 'Scala', 'Druid', 'PostgreSQL', 'Elasticsearch']",python,2023-12-07
+95,Integration Systems Engineer (GCP),"https://www.pracuj.pl/praca/integration-systems-engineer-gcp-gdansk-aleja-grunwaldzka-415,oferta,1002976030",,,10 000–16 000 zł brutto / mies.,"We're seeking a talented Integration Systems Engineer to work on an exciting project for a leading Swiss company, leveraging Google Cloud to transform their operations and revolutionize their customer experience. This is a unique opportunity to...",,"['Google Cloud Platform', 'Azure DevOps', 'Terraform', 'Git', 'Bash', 'PowerShell', 'Python']",python,2023-12-07
+96,Senior Integration Systems Engineer (GCP),"https://www.pracuj.pl/praca/senior-integration-systems-engineer-gcp-gdansk-aleja-grunwaldzka-415,oferta,1002995736",,,14 000–29 400 zł / mies. (zal. od umowy),"We're seeking a talented Senior Integration Systems Engineer to work on an exciting project for a leading Swiss company, leveraging Google Cloud to transform their operations and revolutionize their customer experience. This is a unique...",,"['Google Cloud Platform', 'Azure DevOps', 'Terraform', 'Git', 'Bash', 'PowerShell', 'Python']",python,2023-12-07
+97,"Junior Consultant – Quant (credit risk, market risk and actuary) - płatny staż","https://www.pracuj.pl/praca/junior-consultant-quant-credit-risk-market-risk-and-actuary-platny-staz-warszawa-piekna-18,oferta,1002965193",,,,,,[],python,2023-12-07
+98,,,,,,"Client is an American e-book and audiobook subscription service that includes one million titles. Platform hosts 60 million documents on its open publishing platform., The platform allows:, — anyone to share his/her ideas with the world;, — access...",,"['Apache Spark', 'Scala', 'SQL']",python,2023-12-07
+99,Integration Developer (WSO2),"https://www.pracuj.pl/praca/integration-developer-wso2-warszawa,oferta,1003009653",,,,"Miej wpływ na przyszłość edukacji jako Java i WSO2 Developer w skandynawskiej Sanoma Learning!, , Jeśli szukasz pracy z misją, lubisz pracować w Scrumie i jesteś graczem zespołowym - zapraszamy do nas! Dołącz do międzynarodowego, zwinnego zespołu...",,"['Java', 'WSO2']",python,2023-12-07
+0,Senior Python Developer,senior-python-developer-23knots-remote-1,23knots,,15000.0 - 19000.0,,2023-12-04,Python,python,2023-12-07
+1,Senior Python Developer,senior-python-developer-23knots-poznan,23knots,,15000.0 - 19000.0,,2023-12-04,Python,python,2023-12-07
+2,Senior Python Developer,senior-python-developer-23knots-lower-silesian,23knots,,15000.0 - 19000.0,,2023-12-04,Python,python,2023-12-07
+3,Senior Python Developer,senior-python-developer-23knots-kuyavian-pomeranian,23knots,,15000.0 - 19000.0,,2023-12-04,Python,python,2023-12-07
+4,Senior Python Developer,senior-python-developer-23knots-lodz,23knots,,15000.0 - 19000.0,,2023-12-04,Python,python,2023-12-07
+5,Senior Python Developer,senior-python-developer-23knots-lublin,23knots,,15000.0 - 19000.0,,2023-12-04,Python,python,2023-12-07
+6,Senior Python Developer,senior-python-developer-23knots-lubusz,23knots,,15000.0 - 19000.0,,2023-12-04,Python,python,2023-12-07
+7,Senior Python Developer,senior-python-developer-23knots-lesser-poland,23knots,,15000.0 - 19000.0,,2023-12-04,Python,python,2023-12-07
+8,Senior Python Developer,senior-python-developer-23knots-masovian,23knots,,15000.0 - 19000.0,,2023-12-04,Python,python,2023-12-07
+9,Senior Python Developer,senior-python-developer-23knots-opole,23knots,,15000.0 - 19000.0,,2023-12-04,Python,python,2023-12-07
+10,Senior Python Developer,senior-python-developer-23knots-subcarpathian,23knots,,15000.0 - 19000.0,,2023-12-04,Python,python,2023-12-07
+11,Senior Python Developer,senior-python-developer-23knots-podlaskie,23knots,,15000.0 - 19000.0,,2023-12-04,Python,python,2023-12-07
+12,Senior Python Developer,senior-python-developer-23knots-pomeranian,23knots,,15000.0 - 19000.0,,2023-12-04,Python,python,2023-12-07
+13,Senior Python Developer,senior-python-developer-23knots-silesian,23knots,,15000.0 - 19000.0,,2023-12-04,Python,python,2023-12-07
+14,Senior Python Developer,senior-python-developer-23knots-holy-cross,23knots,,15000.0 - 19000.0,,2023-12-04,Python,python,2023-12-07
+15,Senior Python Developer,senior-python-developer-23knots-warmian-masurian,23knots,,15000.0 - 19000.0,,2023-12-04,Python,python,2023-12-07
+16,Senior Python Developer,senior-python-developer-23knots-west-pomeranian,23knots,,15000.0 - 19000.0,,2023-12-04,Python,python,2023-12-07
+17,Python Automation Developer,python-automation-developer-onwelo-remote,Onwelo S.A.,,15000.0 - 21000.0,,2023-12-07,Python,python,2023-12-07
+18,Python Automation Developer,python-automation-developer-onwelo-katowice,Onwelo S.A.,,15000.0 - 21000.0,,2023-12-07,Python,python,2023-12-07
+19,Python Automation Developer,python-automation-developer-onwelo-krakow,Onwelo S.A.,,15000.0 - 21000.0,,2023-12-07,Python,python,2023-12-07
+20,Python Automation Developer,python-automation-developer-onwelo-warszawa,Onwelo S.A.,,15000.0 - 21000.0,,2023-12-07,Python,python,2023-12-07
+21,Python Automation Developer,python-automation-developer-onwelo-lublin,Onwelo S.A.,,15000.0 - 21000.0,,2023-12-07,Python,python,2023-12-07
+22,Python Automation Developer,python-automation-developer-onwelo-lodz,Onwelo S.A.,,15000.0 - 21000.0,,2023-12-07,Python,python,2023-12-07
+23,Python Automation Developer,python-automation-developer-onwelo-lower-silesian,Onwelo S.A.,,15000.0 - 21000.0,,2023-12-07,Python,python,2023-12-07
+24,Python Automation Developer,python-automation-developer-onwelo-kuyavian-pomeranian,Onwelo S.A.,,15000.0 - 21000.0,,2023-12-07,Python,python,2023-12-07
+25,Python Automation Developer,python-automation-developer-onwelo-lubusz,Onwelo S.A.,,15000.0 - 21000.0,,2023-12-07,Python,python,2023-12-07
+26,Python Automation Developer,python-automation-developer-onwelo-opole,Onwelo S.A.,,15000.0 - 21000.0,,2023-12-07,Python,python,2023-12-07
+27,Python Automation Developer,python-automation-developer-onwelo-subcarpathian,Onwelo S.A.,,15000.0 - 21000.0,,2023-12-07,Python,python,2023-12-07
+28,Python Automation Developer,python-automation-developer-onwelo-podlaskie,Onwelo S.A.,,15000.0 - 21000.0,,2023-12-07,Python,python,2023-12-07
+29,Python Automation Developer,python-automation-developer-onwelo-pomeranian,Onwelo S.A.,,15000.0 - 21000.0,,2023-12-07,Python,python,2023-12-07
+30,Python Automation Developer,python-automation-developer-onwelo-holy-cross,Onwelo S.A.,,15000.0 - 21000.0,,2023-12-07,Python,python,2023-12-07
+31,Python Automation Developer,python-automation-developer-onwelo-warmian-masurian,Onwelo S.A.,,15000.0 - 21000.0,,2023-12-07,Python,python,2023-12-07
+32,Python Automation Developer,python-automation-developer-onwelo-greater-poland,Onwelo S.A.,,15000.0 - 21000.0,,2023-12-07,Python,python,2023-12-07
+33,Python Automation Developer,python-automation-developer-onwelo-west-pomeranian,Onwelo S.A.,,15000.0 - 21000.0,,2023-12-07,Python,python,2023-12-07
+34,Senior Python Developer,senior-python-developer-pcautomotive-budapest,PCAUTOMOTIVE,,11380.0 - 18208.0,,2023-11-10,Python,python,2023-12-07
+35,Django Python dev with Ethical Hacking experience,django-python-dev-with-ethical-hacking-experience-horalix-cairo,Horalix,,10049.0 - 16079.0,,2023-12-02,Python,python,2023-12-07
+36,Senior Python Software Engineer,senior-python-software-engineer-innovecs-remote,Innovecs,,16079.0 - 19697.0,,2023-11-15,Python,python,2023-12-07
+37,Senior Python Software Engineer,senior-python-software-engineer-innovecs-lower-silesian,Innovecs,,16079.0 - 19697.0,,2023-11-15,Python,python,2023-12-07
+38,Senior Python Software Engineer,senior-python-software-engineer-innovecs-kuyavian-pomeranian,Innovecs,,16079.0 - 19697.0,,2023-11-15,Python,python,2023-12-07
+39,Senior Python Software Engineer,senior-python-software-engineer-innovecs-lodz,Innovecs,,16079.0 - 19697.0,,2023-11-15,Python,python,2023-12-07
+40,Senior Python Software Engineer,senior-python-software-engineer-innovecs-lublin,Innovecs,,16079.0 - 19697.0,,2023-11-15,Python,python,2023-12-07
+41,Senior Python Software Engineer,senior-python-software-engineer-innovecs-lubusz,Innovecs,,16079.0 - 19697.0,,2023-11-15,Python,python,2023-12-07
+42,Senior Python Software Engineer,senior-python-software-engineer-innovecs-lesser-poland,Innovecs,,16079.0 - 19697.0,,2023-11-15,Python,python,2023-12-07
+43,Senior Python Software Engineer,senior-python-software-engineer-innovecs-masovian,Innovecs,,16079.0 - 19697.0,,2023-11-15,Python,python,2023-12-07
+44,Senior Python Software Engineer,senior-python-software-engineer-innovecs-opole,Innovecs,,16079.0 - 19697.0,,2023-11-15,Python,python,2023-12-07
+45,Senior Python Software Engineer,senior-python-software-engineer-innovecs-subcarpathian,Innovecs,,16079.0 - 19697.0,,2023-11-15,Python,python,2023-12-07
+46,Senior Python Software Engineer,senior-python-software-engineer-innovecs-podlaskie,Innovecs,,16079.0 - 19697.0,,2023-11-15,Python,python,2023-12-07
+47,Senior Python Software Engineer,senior-python-software-engineer-innovecs-pomeranian,Innovecs,,16079.0 - 19697.0,,2023-11-15,Python,python,2023-12-07
+48,Senior Python Software Engineer,senior-python-software-engineer-innovecs-silesian,Innovecs,,16079.0 - 19697.0,,2023-11-15,Python,python,2023-12-07
+49,Senior Python Software Engineer,senior-python-software-engineer-innovecs-holy-cross,Innovecs,,16079.0 - 19697.0,,2023-11-15,Python,python,2023-12-07
+50,Senior Python Software Engineer,senior-python-software-engineer-innovecs-warmian-masurian,Innovecs,,16079.0 - 19697.0,,2023-11-15,Python,python,2023-12-07
+51,Senior Python Software Engineer,senior-python-software-engineer-innovecs-greater-poland,Innovecs,,16079.0 - 19697.0,,2023-11-15,Python,python,2023-12-07
+52,Senior Python Software Engineer,senior-python-software-engineer-innovecs-west-pomeranian,Innovecs,,16079.0 - 19697.0,,2023-11-15,Python,python,2023-12-07
+53,Strong Junior Python Developer with Ukrainian,strong-junior-python-developer-with-ukrainian-starnavi-remote,Starnavi,,6029.0 - 12059.0,,2023-12-01,Python,python,2023-12-07
+54,Strong Junior Python Developer with Ukrainian,strong-junior-python-developer-with-ukrainian-starnavi-lower-silesian,Starnavi,,6029.0 - 12059.0,,2023-12-01,Python,python,2023-12-07
+55,Strong Junior Python Developer with Ukrainian,strong-junior-python-developer-with-ukrainian-starnavi-kuyavian-pomeranian,Starnavi,,6029.0 - 12059.0,,2023-12-01,Python,python,2023-12-07
+56,Strong Junior Python Developer with Ukrainian,strong-junior-python-developer-with-ukrainian-starnavi-lodz,Starnavi,,6029.0 - 12059.0,,2023-12-01,Python,python,2023-12-07
+57,Strong Junior Python Developer with Ukrainian,strong-junior-python-developer-with-ukrainian-starnavi-lublin,Starnavi,,6029.0 - 12059.0,,2023-12-01,Python,python,2023-12-07
+58,Strong Junior Python Developer with Ukrainian,strong-junior-python-developer-with-ukrainian-starnavi-lubusz,Starnavi,,6029.0 - 12059.0,,2023-12-01,Python,python,2023-12-07
+59,Strong Junior Python Developer with Ukrainian,strong-junior-python-developer-with-ukrainian-starnavi-lesser-poland,Starnavi,,6029.0 - 12059.0,,2023-12-01,Python,python,2023-12-07
+60,Strong Junior Python Developer with Ukrainian,strong-junior-python-developer-with-ukrainian-starnavi-masovian,Starnavi,,6029.0 - 12059.0,,2023-12-01,Python,python,2023-12-07
+61,Strong Junior Python Developer with Ukrainian,strong-junior-python-developer-with-ukrainian-starnavi-opole,Starnavi,,6029.0 - 12059.0,,2023-12-01,Python,python,2023-12-07
+62,Strong Junior Python Developer with Ukrainian,strong-junior-python-developer-with-ukrainian-starnavi-subcarpathian,Starnavi,,6029.0 - 12059.0,,2023-12-01,Python,python,2023-12-07
+63,Strong Junior Python Developer with Ukrainian,strong-junior-python-developer-with-ukrainian-starnavi-podlaskie,Starnavi,,6029.0 - 12059.0,,2023-12-01,Python,python,2023-12-07
+64,Strong Junior Python Developer with Ukrainian,strong-junior-python-developer-with-ukrainian-starnavi-pomeranian,Starnavi,,6029.0 - 12059.0,,2023-12-01,Python,python,2023-12-07
+65,Strong Junior Python Developer with Ukrainian,strong-junior-python-developer-with-ukrainian-starnavi-silesian,Starnavi,,6029.0 - 12059.0,,2023-12-01,Python,python,2023-12-07
+66,Strong Junior Python Developer with Ukrainian,strong-junior-python-developer-with-ukrainian-starnavi-holy-cross,Starnavi,,6029.0 - 12059.0,,2023-12-01,Python,python,2023-12-07
+67,Strong Junior Python Developer with Ukrainian,strong-junior-python-developer-with-ukrainian-starnavi-warmian-masurian,Starnavi,,6029.0 - 12059.0,,2023-12-01,Python,python,2023-12-07
+68,Strong Junior Python Developer with Ukrainian,strong-junior-python-developer-with-ukrainian-starnavi-greater-poland,Starnavi,,6029.0 - 12059.0,,2023-12-01,Python,python,2023-12-07
+69,Strong Junior Python Developer with Ukrainian,strong-junior-python-developer-with-ukrainian-starnavi-west-pomeranian,Starnavi,,6029.0 - 12059.0,,2023-12-01,Python,python,2023-12-07
+70,Senior Python Developer ,senior-python-developer-lingaro-remote-2,Lingaro,,20160.0 - 26040.0,,2023-11-20,Python,python,2023-12-07
+71,Senior Python Developer ,senior-python-developer-lingaro-warsaw-1,Lingaro,,20160.0 - 26040.0,,2023-11-20,Python,python,2023-12-07
+72,Senior Python Developer ,senior-python-developer-lingaro-lower-silesian,Lingaro,,20160.0 - 26040.0,,2023-11-20,Python,python,2023-12-07
+73,Senior Python Developer ,senior-python-developer-lingaro-kuyavian-pomeranian,Lingaro,,20160.0 - 26040.0,,2023-11-20,Python,python,2023-12-07
+74,Senior Python Developer ,senior-python-developer-lingaro-lodz,Lingaro,,20160.0 - 26040.0,,2023-11-20,Python,python,2023-12-07
+75,Senior Python Developer ,senior-python-developer-lingaro-lublin-1,Lingaro,,20160.0 - 26040.0,,2023-11-20,Python,python,2023-12-07
+76,Senior Python Developer ,senior-python-developer-lingaro-lubusz,Lingaro,,20160.0 - 26040.0,,2023-11-20,Python,python,2023-12-07
+77,Senior Python Developer ,senior-python-developer-lingaro-lesser-poland,Lingaro,,20160.0 - 26040.0,,2023-11-20,Python,python,2023-12-07
+78,Senior Python Developer ,senior-python-developer-lingaro-opole,Lingaro,,20160.0 - 26040.0,,2023-11-20,Python,python,2023-12-07
+79,Senior Python Developer ,senior-python-developer-lingaro-subcarpathian,Lingaro,,20160.0 - 26040.0,,2023-11-20,Python,python,2023-12-07
+80,Senior Python Developer ,senior-python-developer-lingaro-podlaskie,Lingaro,,20160.0 - 26040.0,,2023-11-20,Python,python,2023-12-07
+81,Senior Python Developer ,senior-python-developer-lingaro-pomeranian,Lingaro,,20160.0 - 26040.0,,2023-11-20,Python,python,2023-12-07
+82,Senior Python Developer ,senior-python-developer-lingaro-silesian,Lingaro,,20160.0 - 26040.0,,2023-11-20,Python,python,2023-12-07
+83,Senior Python Developer ,senior-python-developer-lingaro-holy-cross,Lingaro,,20160.0 - 26040.0,,2023-11-20,Python,python,2023-12-07
+84,Senior Python Developer ,senior-python-developer-lingaro-warmian-masurian,Lingaro,,20160.0 - 26040.0,,2023-11-20,Python,python,2023-12-07
+85,Senior Python Developer ,senior-python-developer-lingaro-greater-poland,Lingaro,,20160.0 - 26040.0,,2023-11-20,Python,python,2023-12-07
+86,Senior Python Developer ,senior-python-developer-lingaro-west-pomeranian,Lingaro,,20160.0 - 26040.0,,2023-11-20,Python,python,2023-12-07
+87,Junior Python Developer,junior-python-developer-nix-tech-kft--budapest-1,NIX Tech Kft.,,4552.0 - 6828.0,,2023-11-15,Python,python,2023-12-07
+88,Senior Backend Developer (Python),senior-backend-developer-python-cthings-co-warsaw,CTHINGS.CO,,22000.0 - 27000.0,,2023-11-18,Python,python,2023-12-07
+89,Senior Python Developer z wiedzą bio/ chemiczną,senior-python-developer-z-wiedza-bio-chemiczna-code-poets-remote,Code Poets sp. z o.o.,,16800.0 - 23520.0,,2023-12-05,Python,python,2023-12-07
+90,Senior Python Developer z wiedzą bio/ chemiczną,senior-python-developer-z-wiedza-bio-chemiczna-code-poets-wroclaw,Code Poets sp. z o.o.,,16800.0 - 23520.0,,2023-12-05,Python,python,2023-12-07
+91,Senior Python Developer z wiedzą bio/ chemiczną,senior-python-developer-z-wiedza-bio-chemiczna-code-poets-warszawa,Code Poets sp. z o.o.,,16800.0 - 23520.0,,2023-12-05,Python,python,2023-12-07
+92,Senior Python Developer z wiedzą bio/ chemiczną,senior-python-developer-z-wiedza-bio-chemiczna-code-poets-poznan,Code Poets sp. z o.o.,,16800.0 - 23520.0,,2023-12-05,Python,python,2023-12-07
+93,Senior Python Developer z wiedzą bio/ chemiczną,senior-python-developer-z-wiedza-bio-chemiczna-code-poets-lodz,Code Poets sp. z o.o.,,16800.0 - 23520.0,,2023-12-05,Python,python,2023-12-07
+94,Senior Python Developer z wiedzą bio/ chemiczną,senior-python-developer-z-wiedza-bio-chemiczna-code-poets-krakow,Code Poets sp. z o.o.,,16800.0 - 23520.0,,2023-12-05,Python,python,2023-12-07
+95,Senior Python Developer z wiedzą bio/ chemiczną,senior-python-developer-z-wiedza-bio-chemiczna-code-poets-kuyavian-pomeranian,Code Poets sp. z o.o.,,16800.0 - 23520.0,,2023-12-05,Python,python,2023-12-07
+96,Senior Python Developer z wiedzą bio/ chemiczną,senior-python-developer-z-wiedza-bio-chemiczna-code-poets-lublin,Code Poets sp. z o.o.,,16800.0 - 23520.0,,2023-12-05,Python,python,2023-12-07
+97,Senior Python Developer z wiedzą bio/ chemiczną,senior-python-developer-z-wiedza-bio-chemiczna-code-poets-lubusz,Code Poets sp. z o.o.,,16800.0 - 23520.0,,2023-12-05,Python,python,2023-12-07
+98,Senior Python Developer z wiedzą bio/ chemiczną,senior-python-developer-z-wiedza-bio-chemiczna-code-poets-opole,Code Poets sp. z o.o.,,16800.0 - 23520.0,,2023-12-05,Python,python,2023-12-07
+99,Senior Python Developer z wiedzą bio/ chemiczną,senior-python-developer-z-wiedza-bio-chemiczna-code-poets-subcarpathian,Code Poets sp. z o.o.,,16800.0 - 23520.0,,2023-12-05,Python,python,2023-12-07
+100,Senior Python Developer z wiedzą bio/ chemiczną,senior-python-developer-z-wiedza-bio-chemiczna-code-poets-podlaskie,Code Poets sp. z o.o.,,16800.0 - 23520.0,,2023-12-05,Python,python,2023-12-07
+101,Senior Python Developer z wiedzą bio/ chemiczną,senior-python-developer-z-wiedza-bio-chemiczna-code-poets-pomeranian,Code Poets sp. z o.o.,,16800.0 - 23520.0,,2023-12-05,Python,python,2023-12-07
+102,Senior Python Developer z wiedzą bio/ chemiczną,senior-python-developer-z-wiedza-bio-chemiczna-code-poets-silesian,Code Poets sp. z o.o.,,16800.0 - 23520.0,,2023-12-05,Python,python,2023-12-07
+103,Senior Python Developer z wiedzą bio/ chemiczną,senior-python-developer-z-wiedza-bio-chemiczna-code-poets-holy-cross,Code Poets sp. z o.o.,,16800.0 - 23520.0,,2023-12-05,Python,python,2023-12-07
+104,Senior Python Developer z wiedzą bio/ chemiczną,senior-python-developer-z-wiedza-bio-chemiczna-code-poets-warmian-masurian,Code Poets sp. z o.o.,,16800.0 - 23520.0,,2023-12-05,Python,python,2023-12-07
+105,Senior Python Developer z wiedzą bio/ chemiczną,senior-python-developer-z-wiedza-bio-chemiczna-code-poets-west-pomeranian,Code Poets sp. z o.o.,,16800.0 - 23520.0,,2023-12-05,Python,python,2023-12-07
+106,Senior Python Developer with Front End skills,senior-python-developer-with-front-end-skills-avenga-gdynia,AVENGA,,20160.0 - 23520.0,,2023-11-17,Python,python,2023-12-07
+107,Senior Python Developer with Front End skills,senior-python-developer-with-front-end-skills-avenga-warszawa,AVENGA,,20160.0 - 23520.0,,2023-11-17,Python,python,2023-12-07
+108,Senior Python Developer with Front End skills,senior-python-developer-with-front-end-skills-avenga-gdansk,AVENGA,,20160.0 - 23520.0,,2023-11-17,Python,python,2023-12-07
+109,Senior Python Engineer,senior-python-engineer-ringier-axel-springer-tech-krakow-2,Ringier Axel Springer Tech,,15100.0 - 25200.0,,2023-12-04,Python,python,2023-12-07
+110,Senior Python Engineer,senior-python-engineer-ringier-axel-springer-tech-warsawcracow,Ringier Axel Springer Tech,,15100.0 - 25200.0,,2023-12-04,Python,python,2023-12-07
+111,Senior Python Engineer,senior-python-engineer-ringier-axel-springer-tech-wroclaw-1,Ringier Axel Springer Tech,,15100.0 - 25200.0,,2023-12-04,Python,python,2023-12-07
+112,Python Engineer,python-engineer-adaptiq-remote,Adaptiq,,25325.0 - 26129.0,,2023-11-30,Python,python,2023-12-07
+113,Python Engineer,python-engineer-adaptiq-lower-silesian,Adaptiq,,25325.0 - 26129.0,,2023-11-30,Python,python,2023-12-07
+114,Python Engineer,python-engineer-adaptiq-kuyavian-pomeranian,Adaptiq,,25325.0 - 26129.0,,2023-11-30,Python,python,2023-12-07
+115,Python Engineer,python-engineer-adaptiq-lodz,Adaptiq,,25325.0 - 26129.0,,2023-11-30,Python,python,2023-12-07
+116,Python Engineer,python-engineer-adaptiq-lublin,Adaptiq,,25325.0 - 26129.0,,2023-11-30,Python,python,2023-12-07
+117,Python Engineer,python-engineer-adaptiq-lubusz,Adaptiq,,25325.0 - 26129.0,,2023-11-30,Python,python,2023-12-07
+118,Python Engineer,python-engineer-adaptiq-lesser-poland,Adaptiq,,25325.0 - 26129.0,,2023-11-30,Python,python,2023-12-07
+119,Python Engineer,python-engineer-adaptiq-masovian,Adaptiq,,25325.0 - 26129.0,,2023-11-30,Python,python,2023-12-07
+120,Python Engineer,python-engineer-adaptiq-opole,Adaptiq,,25325.0 - 26129.0,,2023-11-30,Python,python,2023-12-07
+121,Python Engineer,python-engineer-adaptiq-subcarpathian,Adaptiq,,25325.0 - 26129.0,,2023-11-30,Python,python,2023-12-07
+122,Python Engineer,python-engineer-adaptiq-podlaskie,Adaptiq,,25325.0 - 26129.0,,2023-11-30,Python,python,2023-12-07
+123,Python Engineer,python-engineer-adaptiq-pomeranian,Adaptiq,,25325.0 - 26129.0,,2023-11-30,Python,python,2023-12-07
+124,Python Engineer,python-engineer-adaptiq-silesian,Adaptiq,,25325.0 - 26129.0,,2023-11-30,Python,python,2023-12-07
+125,Python Engineer,python-engineer-adaptiq-holy-cross,Adaptiq,,25325.0 - 26129.0,,2023-11-30,Python,python,2023-12-07
+126,Python Engineer,python-engineer-adaptiq-warmian-masurian,Adaptiq,,25325.0 - 26129.0,,2023-11-30,Python,python,2023-12-07
+127,Python Engineer,python-engineer-adaptiq-greater-poland,Adaptiq,,25325.0 - 26129.0,,2023-11-30,Python,python,2023-12-07
+128,Python Engineer,python-engineer-adaptiq-west-pomeranian,Adaptiq,,25325.0 - 26129.0,,2023-11-30,Python,python,2023-12-07
+129,Python Developer,python-developer-avenga-remote-20,Avenga,,19800.0 - 21800.0,,2023-11-16,Python,python,2023-12-07
+130,Python Developer,python-developer-avenga-poznan-2,Avenga,,19800.0 - 21800.0,,2023-11-16,Python,python,2023-12-07
+131,Python Developer,python-developer-avenga-wroclaw-8,Avenga,,19800.0 - 21800.0,,2023-11-16,Python,python,2023-12-07
+132,Python Developer,python-developer-avenga-warszawa-4,Avenga,,19800.0 - 21800.0,,2023-11-16,Python,python,2023-12-07
+133,Python Developer,python-developer-flugger-poland-gdansk,Flügger Poland sp. z o.o.,,20000.0 - 25000.0,,2023-11-30,Python,python,2023-12-07
+134,Senior Python Developer,senior-python-developer-avenga-remote-9,Avenga,,26880.0 - 28560.0,,2023-11-14,Python,python,2023-12-07
+135,Senior Python Developer,senior-python-developer-avenga-lower-silesian-3,Avenga,,26880.0 - 28560.0,,2023-11-14,Python,python,2023-12-07
+136,Senior Python Developer,senior-python-developer-avenga-kuyavian-pomeranian-3,Avenga,,26880.0 - 28560.0,,2023-11-14,Python,python,2023-12-07
+137,Senior Python Developer,senior-python-developer-avenga-lodz-3,Avenga,,26880.0 - 28560.0,,2023-11-14,Python,python,2023-12-07
+138,Senior Python Developer,senior-python-developer-avenga-lublin-3,Avenga,,26880.0 - 28560.0,,2023-11-14,Python,python,2023-12-07
+139,Senior Python Developer,senior-python-developer-avenga-lubusz-3,Avenga,,26880.0 - 28560.0,,2023-11-14,Python,python,2023-12-07
+140,Senior Python Developer,senior-python-developer-avenga-lesser-poland-3,Avenga,,26880.0 - 28560.0,,2023-11-14,Python,python,2023-12-07
+141,Senior Python Developer,senior-python-developer-avenga-masovian-3,Avenga,,26880.0 - 28560.0,,2023-11-14,Python,python,2023-12-07
+142,Senior Python Developer,senior-python-developer-avenga-opole-3,Avenga,,26880.0 - 28560.0,,2023-11-14,Python,python,2023-12-07
+143,Senior Python Developer,senior-python-developer-avenga-subcarpathian-3,Avenga,,26880.0 - 28560.0,,2023-11-14,Python,python,2023-12-07
+144,Senior Python Developer,senior-python-developer-avenga-podlaskie-3,Avenga,,26880.0 - 28560.0,,2023-11-14,Python,python,2023-12-07
+145,Senior Python Developer,senior-python-developer-avenga-pomeranian-3,Avenga,,26880.0 - 28560.0,,2023-11-14,Python,python,2023-12-07
+146,Senior Python Developer,senior-python-developer-avenga-silesian-3,Avenga,,26880.0 - 28560.0,,2023-11-14,Python,python,2023-12-07
+147,Senior Python Developer,senior-python-developer-avenga-holy-cross-3,Avenga,,26880.0 - 28560.0,,2023-11-14,Python,python,2023-12-07
+148,Senior Python Developer,senior-python-developer-avenga-warmian-masurian-3,Avenga,,26880.0 - 28560.0,,2023-11-14,Python,python,2023-12-07
+149,Senior Python Developer,senior-python-developer-avenga-greater-poland-4,Avenga,,26880.0 - 28560.0,,2023-11-14,Python,python,2023-12-07
+150,Senior Python Developer,senior-python-developer-avenga-west-pomeranian-3,Avenga,,26880.0 - 28560.0,,2023-11-14,Python,python,2023-12-07
+151,Python Engineer,python-engineer-msd-prague-1,MSD,,12460.0 - 17800.0,,2023-10-14,Python,python,2023-12-07
+152,Python Engineer,python-engineer-msd-prague,MSD,,12460.0 - 17800.0,,2023-10-14,Python,python,2023-12-07
+153,Senior Python Developer,senior-python-developer-link-group-remote-2,Link Group,,22000.0 - 25000.0,,2023-11-24,Python,python,2023-12-07
+154,Senior Python Developer,senior-python-developer-link-group-poznan,Link Group,,22000.0 - 25000.0,,2023-11-24,Python,python,2023-12-07
+155,Senior Python Developer,senior-python-developer-link-group-gdynia-1,Link Group,,22000.0 - 25000.0,,2023-11-24,Python,python,2023-12-07
+156,Senior Python Developer,senior-python-developer-link-group-krakow-1,Link Group,,22000.0 - 25000.0,,2023-11-24,Python,python,2023-12-07
+157,Senior Python Developer,senior-python-developer-link-group-gdansk,Link Group,,22000.0 - 25000.0,,2023-11-24,Python,python,2023-12-07
+158,Senior Python Developer,senior-python-developer-link-group-wroclaw,Link Group,,22000.0 - 25000.0,,2023-11-24,Python,python,2023-12-07
+159,Senior Python Developer,senior-python-developer-link-group-katowice,Link Group,,22000.0 - 25000.0,,2023-11-24,Python,python,2023-12-07
+160,Senior Python Developer,senior-python-developer-link-group-kuyavian-pomeranian,Link Group,,22000.0 - 25000.0,,2023-11-24,Python,python,2023-12-07
+161,Senior Python Developer,senior-python-developer-link-group-lodz,Link Group,,22000.0 - 25000.0,,2023-11-24,Python,python,2023-12-07
+162,Senior Python Developer,senior-python-developer-link-group-lublin,Link Group,,22000.0 - 25000.0,,2023-11-24,Python,python,2023-12-07
+163,Senior Python Developer,senior-python-developer-link-group-lubusz,Link Group,,22000.0 - 25000.0,,2023-11-24,Python,python,2023-12-07
+164,Senior Python Developer,senior-python-developer-link-group-masovian,Link Group,,22000.0 - 25000.0,,2023-11-24,Python,python,2023-12-07
+165,Senior Python Developer,senior-python-developer-link-group-opole,Link Group,,22000.0 - 25000.0,,2023-11-24,Python,python,2023-12-07
+166,Senior Python Developer,senior-python-developer-link-group-subcarpathian,Link Group,,22000.0 - 25000.0,,2023-11-24,Python,python,2023-12-07
+167,Senior Python Developer,senior-python-developer-link-group-podlaskie,Link Group,,22000.0 - 25000.0,,2023-11-24,Python,python,2023-12-07
+168,Senior Python Developer,senior-python-developer-link-group-holy-cross,Link Group,,22000.0 - 25000.0,,2023-11-24,Python,python,2023-12-07
+169,Senior Python Developer,senior-python-developer-link-group-warmian-masurian,Link Group,,22000.0 - 25000.0,,2023-11-24,Python,python,2023-12-07
+170,Senior Python Developer,senior-python-developer-link-group-west-pomeranian,Link Group,,22000.0 - 25000.0,,2023-11-24,Python,python,2023-12-07
+171,Junior Odoo Developer/ Python,junior-odoo-developer-python-green-minds-remote-1,Green Minds Sp.z o.o.,,9000.0 - 12000.0,,2023-10-23,Python,python,2023-12-07
+172,Junior Odoo Developer/ Python,junior-odoo-developer-python-green-minds-warsaw,Green Minds Sp.z o.o.,,9000.0 - 12000.0,,2023-10-23,Python,python,2023-12-07
+173,Junior Odoo Developer/ Python,junior-odoo-developer-python-green-minds-lower-silesian,Green Minds Sp.z o.o.,,9000.0 - 12000.0,,2023-10-23,Python,python,2023-12-07
+174,Junior Odoo Developer/ Python,junior-odoo-developer-python-green-minds-kuyavian-pomeranian,Green Minds Sp.z o.o.,,9000.0 - 12000.0,,2023-10-23,Python,python,2023-12-07
+175,Junior Odoo Developer/ Python,junior-odoo-developer-python-green-minds-lodz,Green Minds Sp.z o.o.,,9000.0 - 12000.0,,2023-10-23,Python,python,2023-12-07
+176,Junior Odoo Developer/ Python,junior-odoo-developer-python-green-minds-lublin,Green Minds Sp.z o.o.,,9000.0 - 12000.0,,2023-10-23,Python,python,2023-12-07
+177,Junior Odoo Developer/ Python,junior-odoo-developer-python-green-minds-lubusz,Green Minds Sp.z o.o.,,9000.0 - 12000.0,,2023-10-23,Python,python,2023-12-07
+178,Junior Odoo Developer/ Python,junior-odoo-developer-python-green-minds-lesser-poland,Green Minds Sp.z o.o.,,9000.0 - 12000.0,,2023-10-23,Python,python,2023-12-07
+179,Junior Odoo Developer/ Python,junior-odoo-developer-python-green-minds-opole,Green Minds Sp.z o.o.,,9000.0 - 12000.0,,2023-10-23,Python,python,2023-12-07
+180,Junior Odoo Developer/ Python,junior-odoo-developer-python-green-minds-subcarpathian,Green Minds Sp.z o.o.,,9000.0 - 12000.0,,2023-10-23,Python,python,2023-12-07
+181,Junior Odoo Developer/ Python,junior-odoo-developer-python-green-minds-podlaskie,Green Minds Sp.z o.o.,,9000.0 - 12000.0,,2023-10-23,Python,python,2023-12-07
+182,Junior Odoo Developer/ Python,junior-odoo-developer-python-green-minds-pomeranian,Green Minds Sp.z o.o.,,9000.0 - 12000.0,,2023-10-23,Python,python,2023-12-07
+183,Junior Odoo Developer/ Python,junior-odoo-developer-python-green-minds-silesian,Green Minds Sp.z o.o.,,9000.0 - 12000.0,,2023-10-23,Python,python,2023-12-07
+184,Junior Odoo Developer/ Python,junior-odoo-developer-python-green-minds-holy-cross,Green Minds Sp.z o.o.,,9000.0 - 12000.0,,2023-10-23,Python,python,2023-12-07
+185,Junior Odoo Developer/ Python,junior-odoo-developer-python-green-minds-warmian-masurian,Green Minds Sp.z o.o.,,9000.0 - 12000.0,,2023-10-23,Python,python,2023-12-07
+186,Junior Odoo Developer/ Python,junior-odoo-developer-python-green-minds-greater-poland,Green Minds Sp.z o.o.,,9000.0 - 12000.0,,2023-10-23,Python,python,2023-12-07
+187,Junior Odoo Developer/ Python,junior-odoo-developer-python-green-minds-west-pomeranian,Green Minds Sp.z o.o.,,9000.0 - 12000.0,,2023-10-23,Python,python,2023-12-07
+188,Middle/Senior Python Engineer,middle-senior-python-engineer-n-ix-remote,N-iX,,14471.0 - 24119.0,,2023-11-22,Python,python,2023-12-07
+189,Middle/Senior Python Engineer,middle-senior-python-engineer-n-ix-krakow,N-iX,,14471.0 - 24119.0,,2023-11-22,Python,python,2023-12-07
+190,Middle/Senior Python Engineer,middle-senior-python-engineer-n-ix-lower-silesian,N-iX,,14471.0 - 24119.0,,2023-11-22,Python,python,2023-12-07
+191,Middle/Senior Python Engineer,middle-senior-python-engineer-n-ix-kuyavian-pomeranian,N-iX,,14471.0 - 24119.0,,2023-11-22,Python,python,2023-12-07
+192,Middle/Senior Python Engineer,middle-senior-python-engineer-n-ix-lodz,N-iX,,14471.0 - 24119.0,,2023-11-22,Python,python,2023-12-07
+193,Middle/Senior Python Engineer,middle-senior-python-engineer-n-ix-lublin,N-iX,,14471.0 - 24119.0,,2023-11-22,Python,python,2023-12-07
+194,Middle/Senior Python Engineer,middle-senior-python-engineer-n-ix-lubusz,N-iX,,14471.0 - 24119.0,,2023-11-22,Python,python,2023-12-07
+195,Middle/Senior Python Engineer,middle-senior-python-engineer-n-ix-masovian,N-iX,,14471.0 - 24119.0,,2023-11-22,Python,python,2023-12-07
+196,Middle/Senior Python Engineer,middle-senior-python-engineer-n-ix-opole,N-iX,,14471.0 - 24119.0,,2023-11-22,Python,python,2023-12-07
+197,Middle/Senior Python Engineer,middle-senior-python-engineer-n-ix-subcarpathian,N-iX,,14471.0 - 24119.0,,2023-11-22,Python,python,2023-12-07
+198,Middle/Senior Python Engineer,middle-senior-python-engineer-n-ix-podlaskie,N-iX,,14471.0 - 24119.0,,2023-11-22,Python,python,2023-12-07
+199,Middle/Senior Python Engineer,middle-senior-python-engineer-n-ix-pomeranian,N-iX,,14471.0 - 24119.0,,2023-11-22,Python,python,2023-12-07
+200,Middle/Senior Python Engineer,middle-senior-python-engineer-n-ix-silesian,N-iX,,14471.0 - 24119.0,,2023-11-22,Python,python,2023-12-07
+201,Middle/Senior Python Engineer,middle-senior-python-engineer-n-ix-holy-cross,N-iX,,14471.0 - 24119.0,,2023-11-22,Python,python,2023-12-07
+202,Middle/Senior Python Engineer,middle-senior-python-engineer-n-ix-warmian-masurian,N-iX,,14471.0 - 24119.0,,2023-11-22,Python,python,2023-12-07
+203,Middle/Senior Python Engineer,middle-senior-python-engineer-n-ix-greater-poland,N-iX,,14471.0 - 24119.0,,2023-11-22,Python,python,2023-12-07
+204,Middle/Senior Python Engineer,middle-senior-python-engineer-n-ix-west-pomeranian,N-iX,,14471.0 - 24119.0,,2023-11-22,Python,python,2023-12-07
+205,Medior Python Backend Developer,medior-python-backend-developer-nix-tech-kft--budapest,NIX Tech Kft.,,9104.0 - 13656.0,,2023-11-20,Python,python,2023-12-07
+206,Mid Fullstack Python Developer,mid-fullstack-python-developer-lokey-remote,Lokey,,7000.0 - 12000.0,,2023-11-13,Python,python,2023-12-07
+207,Mid Fullstack Python Developer,mid-fullstack-python-developer-lokey-lower-silesian,Lokey,,7000.0 - 12000.0,,2023-11-13,Python,python,2023-12-07
+208,Mid Fullstack Python Developer,mid-fullstack-python-developer-lokey-kuyavian-pomeranian,Lokey,,7000.0 - 12000.0,,2023-11-13,Python,python,2023-12-07
+209,Mid Fullstack Python Developer,mid-fullstack-python-developer-lokey-lodz,Lokey,,7000.0 - 12000.0,,2023-11-13,Python,python,2023-12-07
+210,Mid Fullstack Python Developer,mid-fullstack-python-developer-lokey-lublin,Lokey,,7000.0 - 12000.0,,2023-11-13,Python,python,2023-12-07
+211,Mid Fullstack Python Developer,mid-fullstack-python-developer-lokey-lubusz,Lokey,,7000.0 - 12000.0,,2023-11-13,Python,python,2023-12-07
+212,Mid Fullstack Python Developer,mid-fullstack-python-developer-lokey-lesser-poland,Lokey,,7000.0 - 12000.0,,2023-11-13,Python,python,2023-12-07
+213,Mid Fullstack Python Developer,mid-fullstack-python-developer-lokey-masovian,Lokey,,7000.0 - 12000.0,,2023-11-13,Python,python,2023-12-07
+214,Mid Fullstack Python Developer,mid-fullstack-python-developer-lokey-opole,Lokey,,7000.0 - 12000.0,,2023-11-13,Python,python,2023-12-07
+215,Mid Fullstack Python Developer,mid-fullstack-python-developer-lokey-subcarpathian,Lokey,,7000.0 - 12000.0,,2023-11-13,Python,python,2023-12-07
+216,Mid Fullstack Python Developer,mid-fullstack-python-developer-lokey-podlaskie,Lokey,,7000.0 - 12000.0,,2023-11-13,Python,python,2023-12-07
+217,Mid Fullstack Python Developer,mid-fullstack-python-developer-lokey-pomeranian,Lokey,,7000.0 - 12000.0,,2023-11-13,Python,python,2023-12-07
+218,Mid Fullstack Python Developer,mid-fullstack-python-developer-lokey-silesian,Lokey,,7000.0 - 12000.0,,2023-11-13,Python,python,2023-12-07
+219,Mid Fullstack Python Developer,mid-fullstack-python-developer-lokey-holy-cross,Lokey,,7000.0 - 12000.0,,2023-11-13,Python,python,2023-12-07
+220,Mid Fullstack Python Developer,mid-fullstack-python-developer-lokey-warmian-masurian,Lokey,,7000.0 - 12000.0,,2023-11-13,Python,python,2023-12-07
+221,Mid Fullstack Python Developer,mid-fullstack-python-developer-lokey-greater-poland,Lokey,,7000.0 - 12000.0,,2023-11-13,Python,python,2023-12-07
+222,Mid Fullstack Python Developer,mid-fullstack-python-developer-lokey-west-pomeranian,Lokey,,7000.0 - 12000.0,,2023-11-13,Python,python,2023-12-07
+223,Junior Python Developer,junior-python-developer-endysoft-remote,EndySoft,,8000.0 - 12000.0,,2023-11-09,Python,python,2023-12-07
+224,Junior Python Developer,junior-python-developer-endysoft-krakow,EndySoft,,8000.0 - 12000.0,,2023-11-09,Python,python,2023-12-07
+225,Junior Python Developer,junior-python-developer-endysoft-gdansk,EndySoft,,8000.0 - 12000.0,,2023-11-09,Python,python,2023-12-07
+226,Junior Python Developer,junior-python-developer-endysoft-warszawa,EndySoft,,8000.0 - 12000.0,,2023-11-09,Python,python,2023-12-07
+227,Junior Python Developer,junior-python-developer-endysoft-lower-silesian,EndySoft,,8000.0 - 12000.0,,2023-11-09,Python,python,2023-12-07
+228,Junior Python Developer,junior-python-developer-endysoft-kuyavian-pomeranian,EndySoft,,8000.0 - 12000.0,,2023-11-09,Python,python,2023-12-07
+229,Junior Python Developer,junior-python-developer-endysoft-lodz,EndySoft,,8000.0 - 12000.0,,2023-11-09,Python,python,2023-12-07
+230,Junior Python Developer,junior-python-developer-endysoft-lublin,EndySoft,,8000.0 - 12000.0,,2023-11-09,Python,python,2023-12-07
+231,Junior Python Developer,junior-python-developer-endysoft-lubusz,EndySoft,,8000.0 - 12000.0,,2023-11-09,Python,python,2023-12-07
+232,Junior Python Developer,junior-python-developer-endysoft-opole,EndySoft,,8000.0 - 12000.0,,2023-11-09,Python,python,2023-12-07
+233,Junior Python Developer,junior-python-developer-endysoft-subcarpathian,EndySoft,,8000.0 - 12000.0,,2023-11-09,Python,python,2023-12-07
+234,Junior Python Developer,junior-python-developer-endysoft-podlaskie,EndySoft,,8000.0 - 12000.0,,2023-11-09,Python,python,2023-12-07
+235,Junior Python Developer,junior-python-developer-endysoft-silesian,EndySoft,,8000.0 - 12000.0,,2023-11-09,Python,python,2023-12-07
+236,Junior Python Developer,junior-python-developer-endysoft-holy-cross,EndySoft,,8000.0 - 12000.0,,2023-11-09,Python,python,2023-12-07
+237,Junior Python Developer,junior-python-developer-endysoft-warmian-masurian,EndySoft,,8000.0 - 12000.0,,2023-11-09,Python,python,2023-12-07
+238,Junior Python Developer,junior-python-developer-endysoft-greater-poland,EndySoft,,8000.0 - 12000.0,,2023-11-09,Python,python,2023-12-07
+239,Junior Python Developer,junior-python-developer-endysoft-west-pomeranian,EndySoft,,8000.0 - 12000.0,,2023-11-09,Python,python,2023-12-07
+240,Senior FullStack Developer z j.angielskim ,senior-fullstack-developer-z-j-angielskim-dmtech-remote,dmTECH,,20000.0 - 27000.0,,2023-12-04,Python,python,2023-12-07
+241,Senior FullStack Developer z j.angielskim ,senior-fullstack-developer-z-j-angielskim-dmtech-wroclaw,dmTECH,,20000.0 - 27000.0,,2023-12-04,Python,python,2023-12-07
+242,Senior FullStack Developer z j.angielskim ,senior-fullstack-developer-z-j-angielskim-dmtech-kuyavian-pomeranian,dmTECH,,20000.0 - 27000.0,,2023-12-04,Python,python,2023-12-07
+243,Senior FullStack Developer z j.angielskim ,senior-fullstack-developer-z-j-angielskim-dmtech-lodz,dmTECH,,20000.0 - 27000.0,,2023-12-04,Python,python,2023-12-07
+244,Senior FullStack Developer z j.angielskim ,senior-fullstack-developer-z-j-angielskim-dmtech-lublin,dmTECH,,20000.0 - 27000.0,,2023-12-04,Python,python,2023-12-07
+245,Senior FullStack Developer z j.angielskim ,senior-fullstack-developer-z-j-angielskim-dmtech-lubusz,dmTECH,,20000.0 - 27000.0,,2023-12-04,Python,python,2023-12-07
+246,Senior FullStack Developer z j.angielskim ,senior-fullstack-developer-z-j-angielskim-dmtech-lesser-poland,dmTECH,,20000.0 - 27000.0,,2023-12-04,Python,python,2023-12-07
+247,Senior FullStack Developer z j.angielskim ,senior-fullstack-developer-z-j-angielskim-dmtech-masovian,dmTECH,,20000.0 - 27000.0,,2023-12-04,Python,python,2023-12-07
+248,Senior FullStack Developer z j.angielskim ,senior-fullstack-developer-z-j-angielskim-dmtech-opole,dmTECH,,20000.0 - 27000.0,,2023-12-04,Python,python,2023-12-07
+249,Senior FullStack Developer z j.angielskim ,senior-fullstack-developer-z-j-angielskim-dmtech-subcarpathian,dmTECH,,20000.0 - 27000.0,,2023-12-04,Python,python,2023-12-07
+250,Senior FullStack Developer z j.angielskim ,senior-fullstack-developer-z-j-angielskim-dmtech-podlaskie,dmTECH,,20000.0 - 27000.0,,2023-12-04,Python,python,2023-12-07
+251,Senior FullStack Developer z j.angielskim ,senior-fullstack-developer-z-j-angielskim-dmtech-pomeranian,dmTECH,,20000.0 - 27000.0,,2023-12-04,Python,python,2023-12-07
+252,Senior FullStack Developer z j.angielskim ,senior-fullstack-developer-z-j-angielskim-dmtech-silesian,dmTECH,,20000.0 - 27000.0,,2023-12-04,Python,python,2023-12-07
+253,Senior FullStack Developer z j.angielskim ,senior-fullstack-developer-z-j-angielskim-dmtech-holy-cross,dmTECH,,20000.0 - 27000.0,,2023-12-04,Python,python,2023-12-07
+254,Senior FullStack Developer z j.angielskim ,senior-fullstack-developer-z-j-angielskim-dmtech-warmian-masurian,dmTECH,,20000.0 - 27000.0,,2023-12-04,Python,python,2023-12-07
+255,Senior FullStack Developer z j.angielskim ,senior-fullstack-developer-z-j-angielskim-dmtech-greater-poland,dmTECH,,20000.0 - 27000.0,,2023-12-04,Python,python,2023-12-07
+256,Senior FullStack Developer z j.angielskim ,senior-fullstack-developer-z-j-angielskim-dmtech-west-pomeranian,dmTECH,,20000.0 - 27000.0,,2023-12-04,Python,python,2023-12-07
+257,Tester Systemowy (staż/praca),tester-systemowy-staz-praca-jpembedded-mazan-filipek-spolka-jawna-krakow-1,JPEmbedded Mazan FIlipek Spółka Jawna,,5000.0 - 7000.0,,2023-12-07,Python,python,2023-12-07
+258,Full Stack Developer,full-stack-developer-envirly-quantifier-warszawa,ENVIRLY / QUANTIFIER,,10000.0 - 20000.0,,2023-12-04,Python,python,2023-12-07
+259,Embedded Software Engineer,embedded-software-engineer-kp-labs-gliwice,KP Labs Sp. z o.o.,,9000.0 - 13000.0,,2023-12-06,Python,python,2023-12-07
+260,Fullstack Developer (Python+React),fullstack-developer-python-react-avenga-warszawa-1,Avenga,,20160.0 - 23520.0,,2023-11-28,Python,python,2023-12-07
+261,Senior Fullstack Developer (Python+JavaScript),senior-fullstack-developer-python-javascript-astek-polska-remote,ASTEK Polska,,18900.0 - 26250.0,,2023-11-16,Python,python,2023-12-07
+262,Senior Fullstack Developer (Python+JavaScript),senior-fullstack-developer-python-javascript-astek-polska-lower-silesian,ASTEK Polska,,18900.0 - 26250.0,,2023-11-16,Python,python,2023-12-07
+263,Senior Fullstack Developer (Python+JavaScript),senior-fullstack-developer-python-javascript-astek-polska-kuyavian-pomeranian,ASTEK Polska,,18900.0 - 26250.0,,2023-11-16,Python,python,2023-12-07
+264,Senior Fullstack Developer (Python+JavaScript),senior-fullstack-developer-python-javascript-astek-polska-lodz,ASTEK Polska,,18900.0 - 26250.0,,2023-11-16,Python,python,2023-12-07
+265,Senior Fullstack Developer (Python+JavaScript),senior-fullstack-developer-python-javascript-astek-polska-lublin,ASTEK Polska,,18900.0 - 26250.0,,2023-11-16,Python,python,2023-12-07
+266,Senior Fullstack Developer (Python+JavaScript),senior-fullstack-developer-python-javascript-astek-polska-lubusz,ASTEK Polska,,18900.0 - 26250.0,,2023-11-16,Python,python,2023-12-07
+267,Senior Fullstack Developer (Python+JavaScript),senior-fullstack-developer-python-javascript-astek-polska-lesser-poland,ASTEK Polska,,18900.0 - 26250.0,,2023-11-16,Python,python,2023-12-07
+268,Senior Fullstack Developer (Python+JavaScript),senior-fullstack-developer-python-javascript-astek-polska-masovian,ASTEK Polska,,18900.0 - 26250.0,,2023-11-16,Python,python,2023-12-07
+269,Senior Fullstack Developer (Python+JavaScript),senior-fullstack-developer-python-javascript-astek-polska-opole,ASTEK Polska,,18900.0 - 26250.0,,2023-11-16,Python,python,2023-12-07
+270,Senior Fullstack Developer (Python+JavaScript),senior-fullstack-developer-python-javascript-astek-polska-subcarpathian,ASTEK Polska,,18900.0 - 26250.0,,2023-11-16,Python,python,2023-12-07
+271,Senior Fullstack Developer (Python+JavaScript),senior-fullstack-developer-python-javascript-astek-polska-podlaskie,ASTEK Polska,,18900.0 - 26250.0,,2023-11-16,Python,python,2023-12-07
+272,Senior Fullstack Developer (Python+JavaScript),senior-fullstack-developer-python-javascript-astek-polska-pomeranian,ASTEK Polska,,18900.0 - 26250.0,,2023-11-16,Python,python,2023-12-07
+273,Senior Fullstack Developer (Python+JavaScript),senior-fullstack-developer-python-javascript-astek-polska-silesian,ASTEK Polska,,18900.0 - 26250.0,,2023-11-16,Python,python,2023-12-07
+274,Senior Fullstack Developer (Python+JavaScript),senior-fullstack-developer-python-javascript-astek-polska-holy-cross,ASTEK Polska,,18900.0 - 26250.0,,2023-11-16,Python,python,2023-12-07
+275,Senior Fullstack Developer (Python+JavaScript),senior-fullstack-developer-python-javascript-astek-polska-warmian-masurian,ASTEK Polska,,18900.0 - 26250.0,,2023-11-16,Python,python,2023-12-07
+276,Senior Fullstack Developer (Python+JavaScript),senior-fullstack-developer-python-javascript-astek-polska-greater-poland,ASTEK Polska,,18900.0 - 26250.0,,2023-11-16,Python,python,2023-12-07
+277,Senior Fullstack Developer (Python+JavaScript),senior-fullstack-developer-python-javascript-astek-polska-west-pomeranian,ASTEK Polska,,18900.0 - 26250.0,,2023-11-16,Python,python,2023-12-07
+278,Senior Backend Developer,senior-backend-developer-focal-systems-remote,Focal Systems,,37000.0 - 55000.0,,2023-11-11,Python,python,2023-12-07
+279,Senior Backend Developer,senior-backend-developer-focal-systems-lower-silesian,Focal Systems,,37000.0 - 55000.0,,2023-11-11,Python,python,2023-12-07
+280,Senior Backend Developer,senior-backend-developer-focal-systems-kuyavian-pomeranian,Focal Systems,,37000.0 - 55000.0,,2023-11-11,Python,python,2023-12-07
+281,Senior Backend Developer,senior-backend-developer-focal-systems-lodz,Focal Systems,,37000.0 - 55000.0,,2023-11-11,Python,python,2023-12-07
+282,Senior Backend Developer,senior-backend-developer-focal-systems-lublin,Focal Systems,,37000.0 - 55000.0,,2023-11-11,Python,python,2023-12-07
+283,Senior Backend Developer,senior-backend-developer-focal-systems-lubusz,Focal Systems,,37000.0 - 55000.0,,2023-11-11,Python,python,2023-12-07
+284,Senior Backend Developer,senior-backend-developer-focal-systems-lesser-poland,Focal Systems,,37000.0 - 55000.0,,2023-11-11,Python,python,2023-12-07
+285,Senior Backend Developer,senior-backend-developer-focal-systems-masovian,Focal Systems,,37000.0 - 55000.0,,2023-11-11,Python,python,2023-12-07
+286,Senior Backend Developer,senior-backend-developer-focal-systems-opole,Focal Systems,,37000.0 - 55000.0,,2023-11-11,Python,python,2023-12-07
+287,Senior Backend Developer,senior-backend-developer-focal-systems-subcarpathian,Focal Systems,,37000.0 - 55000.0,,2023-11-11,Python,python,2023-12-07
+288,Senior Backend Developer,senior-backend-developer-focal-systems-podlaskie,Focal Systems,,37000.0 - 55000.0,,2023-11-11,Python,python,2023-12-07
+289,Senior Backend Developer,senior-backend-developer-focal-systems-pomeranian,Focal Systems,,37000.0 - 55000.0,,2023-11-11,Python,python,2023-12-07
+290,Senior Backend Developer,senior-backend-developer-focal-systems-silesian,Focal Systems,,37000.0 - 55000.0,,2023-11-11,Python,python,2023-12-07
+291,Senior Backend Developer,senior-backend-developer-focal-systems-holy-cross,Focal Systems,,37000.0 - 55000.0,,2023-11-11,Python,python,2023-12-07
+292,Senior Backend Developer,senior-backend-developer-focal-systems-warmian-masurian,Focal Systems,,37000.0 - 55000.0,,2023-11-11,Python,python,2023-12-07
+293,Senior Backend Developer,senior-backend-developer-focal-systems-greater-poland,Focal Systems,,37000.0 - 55000.0,,2023-11-11,Python,python,2023-12-07
+294,Senior Backend Developer,senior-backend-developer-focal-systems-west-pomeranian,Focal Systems,,37000.0 - 55000.0,,2023-11-11,Python,python,2023-12-07
+295,Software Engineer II,software-engineer-ii-akamai-remote,Akamai,,13000.0 - 16000.0,,2023-11-28,Python,python,2023-12-07
+296,Software Engineer II,software-engineer-ii-akamai-krakow-1,Akamai,,13000.0 - 16000.0,,2023-11-28,Python,python,2023-12-07
+297,Software Engineer II,software-engineer-ii-akamai-lower-silesian,Akamai,,13000.0 - 16000.0,,2023-11-28,Python,python,2023-12-07
+298,Software Engineer II,software-engineer-ii-akamai-kuyavian-pomeranian,Akamai,,13000.0 - 16000.0,,2023-11-28,Python,python,2023-12-07
+299,Software Engineer II,software-engineer-ii-akamai-lodz,Akamai,,13000.0 - 16000.0,,2023-11-28,Python,python,2023-12-07
+300,Software Engineer II,software-engineer-ii-akamai-lublin,Akamai,,13000.0 - 16000.0,,2023-11-28,Python,python,2023-12-07
+301,Software Engineer II,software-engineer-ii-akamai-lubusz,Akamai,,13000.0 - 16000.0,,2023-11-28,Python,python,2023-12-07
+302,Software Engineer II,software-engineer-ii-akamai-masovian,Akamai,,13000.0 - 16000.0,,2023-11-28,Python,python,2023-12-07
+303,Software Engineer II,software-engineer-ii-akamai-opole,Akamai,,13000.0 - 16000.0,,2023-11-28,Python,python,2023-12-07
+304,Software Engineer II,software-engineer-ii-akamai-subcarpathian,Akamai,,13000.0 - 16000.0,,2023-11-28,Python,python,2023-12-07
+305,Software Engineer II,software-engineer-ii-akamai-podlaskie,Akamai,,13000.0 - 16000.0,,2023-11-28,Python,python,2023-12-07
+306,Software Engineer II,software-engineer-ii-akamai-pomeranian,Akamai,,13000.0 - 16000.0,,2023-11-28,Python,python,2023-12-07
+307,Software Engineer II,software-engineer-ii-akamai-silesian,Akamai,,13000.0 - 16000.0,,2023-11-28,Python,python,2023-12-07
+308,Software Engineer II,software-engineer-ii-akamai-holy-cross,Akamai,,13000.0 - 16000.0,,2023-11-28,Python,python,2023-12-07
+309,Software Engineer II,software-engineer-ii-akamai-warmian-masurian,Akamai,,13000.0 - 16000.0,,2023-11-28,Python,python,2023-12-07
+310,Software Engineer II,software-engineer-ii-akamai-greater-poland,Akamai,,13000.0 - 16000.0,,2023-11-28,Python,python,2023-12-07
+311,Software Engineer II,software-engineer-ii-akamai-west-pomeranian,Akamai,,13000.0 - 16000.0,,2023-11-28,Python,python,2023-12-07
+312,Software Engineering Intern,software-engineering-intern-hearsay-budapestix,Hearsay,,5018.0 - 5018.0,,2023-11-27,Python,python,2023-12-07
+313,Senior Embedded Engineer,senior-embedded-engineer-focal-systems-remote,Focal Systems,,37000.0 - 55000.0,,2023-11-27,Python,python,2023-12-07
+314,Senior Embedded Engineer,senior-embedded-engineer-focal-systems-lower-silesian,Focal Systems,,37000.0 - 55000.0,,2023-11-27,Python,python,2023-12-07
+315,Senior Embedded Engineer,senior-embedded-engineer-focal-systems-kuyavian-pomeranian,Focal Systems,,37000.0 - 55000.0,,2023-11-27,Python,python,2023-12-07
+316,Senior Embedded Engineer,senior-embedded-engineer-focal-systems-lodz,Focal Systems,,37000.0 - 55000.0,,2023-11-27,Python,python,2023-12-07
+317,Senior Embedded Engineer,senior-embedded-engineer-focal-systems-lublin,Focal Systems,,37000.0 - 55000.0,,2023-11-27,Python,python,2023-12-07
+318,Senior Embedded Engineer,senior-embedded-engineer-focal-systems-lubusz,Focal Systems,,37000.0 - 55000.0,,2023-11-27,Python,python,2023-12-07
+319,Senior Embedded Engineer,senior-embedded-engineer-focal-systems-lesser-poland,Focal Systems,,37000.0 - 55000.0,,2023-11-27,Python,python,2023-12-07
+320,Senior Embedded Engineer,senior-embedded-engineer-focal-systems-masovian,Focal Systems,,37000.0 - 55000.0,,2023-11-27,Python,python,2023-12-07
+321,Senior Embedded Engineer,senior-embedded-engineer-focal-systems-opole,Focal Systems,,37000.0 - 55000.0,,2023-11-27,Python,python,2023-12-07
+322,Senior Embedded Engineer,senior-embedded-engineer-focal-systems-subcarpathian,Focal Systems,,37000.0 - 55000.0,,2023-11-27,Python,python,2023-12-07
+323,Senior Embedded Engineer,senior-embedded-engineer-focal-systems-podlaskie,Focal Systems,,37000.0 - 55000.0,,2023-11-27,Python,python,2023-12-07
+324,Senior Embedded Engineer,senior-embedded-engineer-focal-systems-pomeranian,Focal Systems,,37000.0 - 55000.0,,2023-11-27,Python,python,2023-12-07
+325,Senior Embedded Engineer,senior-embedded-engineer-focal-systems-silesian,Focal Systems,,37000.0 - 55000.0,,2023-11-27,Python,python,2023-12-07
+326,Senior Embedded Engineer,senior-embedded-engineer-focal-systems-holy-cross,Focal Systems,,37000.0 - 55000.0,,2023-11-27,Python,python,2023-12-07
+327,Senior Embedded Engineer,senior-embedded-engineer-focal-systems-warmian-masurian,Focal Systems,,37000.0 - 55000.0,,2023-11-27,Python,python,2023-12-07
+328,Senior Embedded Engineer,senior-embedded-engineer-focal-systems-greater-poland,Focal Systems,,37000.0 - 55000.0,,2023-11-27,Python,python,2023-12-07
+329,Senior Embedded Engineer,senior-embedded-engineer-focal-systems-west-pomeranian,Focal Systems,,37000.0 - 55000.0,,2023-11-27,Python,python,2023-12-07
+330,Tech Squad Lead,tech-squad-lead-integral-vision-remote,Integral Vision,,20583.0 - 22880.0,,2023-11-13,Python,python,2023-12-07
+331,Tech Squad Lead,tech-squad-lead-integral-vision-bacs-kiskun,Integral Vision,,20583.0 - 22880.0,,2023-11-13,Python,python,2023-12-07
+332,Tech Squad Lead,tech-squad-lead-integral-vision-baranya,Integral Vision,,20583.0 - 22880.0,,2023-11-13,Python,python,2023-12-07
+333,Tech Squad Lead,tech-squad-lead-integral-vision-bekes,Integral Vision,,20583.0 - 22880.0,,2023-11-13,Python,python,2023-12-07
+334,Tech Squad Lead,tech-squad-lead-integral-vision-borsod-abauj-zemplen,Integral Vision,,20583.0 - 22880.0,,2023-11-13,Python,python,2023-12-07
+335,Tech Squad Lead,tech-squad-lead-integral-vision-csongrad,Integral Vision,,20583.0 - 22880.0,,2023-11-13,Python,python,2023-12-07
+336,Tech Squad Lead,tech-squad-lead-integral-vision-fejer,Integral Vision,,20583.0 - 22880.0,,2023-11-13,Python,python,2023-12-07
+337,Tech Squad Lead,tech-squad-lead-integral-vision-gyor-moson-sopron,Integral Vision,,20583.0 - 22880.0,,2023-11-13,Python,python,2023-12-07
+338,Tech Squad Lead,tech-squad-lead-integral-vision-hajdu-bihar,Integral Vision,,20583.0 - 22880.0,,2023-11-13,Python,python,2023-12-07
+339,Tech Squad Lead,tech-squad-lead-integral-vision-heves,Integral Vision,,20583.0 - 22880.0,,2023-11-13,Python,python,2023-12-07
+340,Tech Squad Lead,tech-squad-lead-integral-vision-jasz-nagykun-szolnok,Integral Vision,,20583.0 - 22880.0,,2023-11-13,Python,python,2023-12-07
+341,Tech Squad Lead,tech-squad-lead-integral-vision-komarom-esztergom,Integral Vision,,20583.0 - 22880.0,,2023-11-13,Python,python,2023-12-07
+342,Tech Squad Lead,tech-squad-lead-integral-vision-nograd,Integral Vision,,20583.0 - 22880.0,,2023-11-13,Python,python,2023-12-07
+343,Tech Squad Lead,tech-squad-lead-integral-vision-pest,Integral Vision,,20583.0 - 22880.0,,2023-11-13,Python,python,2023-12-07
+344,Tech Squad Lead,tech-squad-lead-integral-vision-somogy,Integral Vision,,20583.0 - 22880.0,,2023-11-13,Python,python,2023-12-07
+345,Tech Squad Lead,tech-squad-lead-integral-vision-szabolcs-szatmar-bereg,Integral Vision,,20583.0 - 22880.0,,2023-11-13,Python,python,2023-12-07
+346,Tech Squad Lead,tech-squad-lead-integral-vision-tolna,Integral Vision,,20583.0 - 22880.0,,2023-11-13,Python,python,2023-12-07
+347,Tech Squad Lead,tech-squad-lead-integral-vision-vas,Integral Vision,,20583.0 - 22880.0,,2023-11-13,Python,python,2023-12-07
+348,Tech Squad Lead,tech-squad-lead-integral-vision-veszprem,Integral Vision,,20583.0 - 22880.0,,2023-11-13,Python,python,2023-12-07
+349,Tech Squad Lead,tech-squad-lead-integral-vision-zala,Integral Vision,,20583.0 - 22880.0,,2023-11-13,Python,python,2023-12-07
+350,Associate Software Engineer,associate-software-engineer-precisely-software-bielskobiala,Precisely Software,,7000.0 - 8200.0,,2023-11-23,Python,python,2023-12-07
+351,"Software Engineer, Backend",software-engineer-backend-fathom-remote-1,Fathom,,25325.0 - 50650.0,,2023-11-24,Python,python,2023-12-07
+352,"Software Engineer, Backend",software-engineer-backend-fathom-lower-silesian,Fathom,,25325.0 - 50650.0,,2023-11-24,Python,python,2023-12-07
+353,"Software Engineer, Backend",software-engineer-backend-fathom-kuyavian-pomeranian,Fathom,,25325.0 - 50650.0,,2023-11-24,Python,python,2023-12-07
+354,"Software Engineer, Backend",software-engineer-backend-fathom-lodz,Fathom,,25325.0 - 50650.0,,2023-11-24,Python,python,2023-12-07
+355,"Software Engineer, Backend",software-engineer-backend-fathom-lublin,Fathom,,25325.0 - 50650.0,,2023-11-24,Python,python,2023-12-07
+356,"Software Engineer, Backend",software-engineer-backend-fathom-lubusz,Fathom,,25325.0 - 50650.0,,2023-11-24,Python,python,2023-12-07
+357,"Software Engineer, Backend",software-engineer-backend-fathom-lesser-poland,Fathom,,25325.0 - 50650.0,,2023-11-24,Python,python,2023-12-07
+358,"Software Engineer, Backend",software-engineer-backend-fathom-masovian,Fathom,,25325.0 - 50650.0,,2023-11-24,Python,python,2023-12-07
+359,"Software Engineer, Backend",software-engineer-backend-fathom-opole,Fathom,,25325.0 - 50650.0,,2023-11-24,Python,python,2023-12-07
+360,"Software Engineer, Backend",software-engineer-backend-fathom-subcarpathian,Fathom,,25325.0 - 50650.0,,2023-11-24,Python,python,2023-12-07
+361,"Software Engineer, Backend",software-engineer-backend-fathom-podlaskie,Fathom,,25325.0 - 50650.0,,2023-11-24,Python,python,2023-12-07
+362,"Software Engineer, Backend",software-engineer-backend-fathom-pomeranian,Fathom,,25325.0 - 50650.0,,2023-11-24,Python,python,2023-12-07
+363,"Software Engineer, Backend",software-engineer-backend-fathom-silesian,Fathom,,25325.0 - 50650.0,,2023-11-24,Python,python,2023-12-07
+364,"Software Engineer, Backend",software-engineer-backend-fathom-holy-cross,Fathom,,25325.0 - 50650.0,,2023-11-24,Python,python,2023-12-07
+365,"Software Engineer, Backend",software-engineer-backend-fathom-warmian-masurian,Fathom,,25325.0 - 50650.0,,2023-11-24,Python,python,2023-12-07
+366,"Software Engineer, Backend",software-engineer-backend-fathom-greater-poland,Fathom,,25325.0 - 50650.0,,2023-11-24,Python,python,2023-12-07
+367,"Software Engineer, Backend",software-engineer-backend-fathom-west-pomeranian,Fathom,,25325.0 - 50650.0,,2023-11-24,Python,python,2023-12-07
+368,Software Support Engineer,software-support-engineer-devire-gdynia,Devire Sp. z o.o.,,16800.0 - 20160.0,,2023-11-21,Python,python,2023-12-07
+369,Software Support Engineer,software-support-engineer-devire-warsaw,Devire Sp. z o.o.,,16800.0 - 20160.0,,2023-11-21,Python,python,2023-12-07
+370,Junior Data Engineer Python,junior-data-engineer-python-nix-tech-kft--budapest,NIX Tech Kft.,,9104.0 - 12518.0,,2023-12-07,Python,python,2023-12-07
+371,ML (Python + NLP) Engineer,ml-python-nlp-engineer-sfox-remote,SFox,,13000.0 - 21667.0,,2023-11-22,Python,python,2023-12-07
+372,Senior Python Software Engineer,senior-python-software-engineer-respect-energy-warszawa,Respect Energy S.A.,,22000.0 - 34000.0,,2023-12-04,Python,python,2023-12-07
+373,Remote Mid QA Automation Tester with Python,remote-mid-qa-automation-tester-with-python-mangopay,MANGOPAY,,16000.0 - 20000.0,,2023-11-15,Python,python,2023-12-07
+374,Remote Mid QA Automation Tester with Python,remote-mid-qa-automation-tester-with-python-mangopay-warsaw,MANGOPAY,,16000.0 - 20000.0,,2023-11-15,Python,python,2023-12-07
+375,Remote Mid QA Automation Tester with Python,remote-mid-qa-automation-tester-with-python-mangopay-lower-silesian,MANGOPAY,,16000.0 - 20000.0,,2023-11-15,Python,python,2023-12-07
+376,Remote Mid QA Automation Tester with Python,remote-mid-qa-automation-tester-with-python-mangopay-kuyavian-pomeranian,MANGOPAY,,16000.0 - 20000.0,,2023-11-15,Python,python,2023-12-07
+377,Remote Mid QA Automation Tester with Python,remote-mid-qa-automation-tester-with-python-mangopay-lodz,MANGOPAY,,16000.0 - 20000.0,,2023-11-15,Python,python,2023-12-07
+378,Remote Mid QA Automation Tester with Python,remote-mid-qa-automation-tester-with-python-mangopay-lublin,MANGOPAY,,16000.0 - 20000.0,,2023-11-15,Python,python,2023-12-07
+379,Remote Mid QA Automation Tester with Python,remote-mid-qa-automation-tester-with-python-mangopay-lubusz,MANGOPAY,,16000.0 - 20000.0,,2023-11-15,Python,python,2023-12-07
+380,Remote Mid QA Automation Tester with Python,remote-mid-qa-automation-tester-with-python-mangopay-lesser-poland,MANGOPAY,,16000.0 - 20000.0,,2023-11-15,Python,python,2023-12-07
+381,Remote Mid QA Automation Tester with Python,remote-mid-qa-automation-tester-with-python-mangopay-opole,MANGOPAY,,16000.0 - 20000.0,,2023-11-15,Python,python,2023-12-07
+382,Remote Mid QA Automation Tester with Python,remote-mid-qa-automation-tester-with-python-mangopay-subcarpathian,MANGOPAY,,16000.0 - 20000.0,,2023-11-15,Python,python,2023-12-07
+383,Remote Mid QA Automation Tester with Python,remote-mid-qa-automation-tester-with-python-mangopay-podlaskie,MANGOPAY,,16000.0 - 20000.0,,2023-11-15,Python,python,2023-12-07
+384,Remote Mid QA Automation Tester with Python,remote-mid-qa-automation-tester-with-python-mangopay-pomeranian,MANGOPAY,,16000.0 - 20000.0,,2023-11-15,Python,python,2023-12-07
+385,Remote Mid QA Automation Tester with Python,remote-mid-qa-automation-tester-with-python-mangopay-silesian,MANGOPAY,,16000.0 - 20000.0,,2023-11-15,Python,python,2023-12-07
+386,Remote Mid QA Automation Tester with Python,remote-mid-qa-automation-tester-with-python-mangopay-holy-cross,MANGOPAY,,16000.0 - 20000.0,,2023-11-15,Python,python,2023-12-07
+387,Remote Mid QA Automation Tester with Python,remote-mid-qa-automation-tester-with-python-mangopay-warmian-masurian,MANGOPAY,,16000.0 - 20000.0,,2023-11-15,Python,python,2023-12-07
+388,Remote Mid QA Automation Tester with Python,remote-mid-qa-automation-tester-with-python-mangopay-greater-poland,MANGOPAY,,16000.0 - 20000.0,,2023-11-15,Python,python,2023-12-07
+389,Remote Mid QA Automation Tester with Python,remote-mid-qa-automation-tester-with-python-mangopay-west-pomeranian,MANGOPAY,,16000.0 - 20000.0,,2023-11-15,Python,python,2023-12-07
+390,Regular/Sr. Test Automation Engineer with Python,regular-sr-test-automation-engineer-with-python-epam-krakow,EPAM,,10800.0 - 21600.0,,2023-12-04,Python,python,2023-12-07
+391,QA Automation Engineer with Python ,qa-automation-engineer-with-python-winged-it-warszawa,Winged IT,,28167.0 - 32500.0,,2023-11-30,Python,python,2023-12-07
+392,"Senior Test Automation Engineer ( Python, SaaS )",senior-test-automation-engineer-python-saas-winged-it-warszawa,Winged IT,,28167.0 - 32500.0,,2023-11-23,Python,python,2023-12-07
+393,Test Automation Engineer with Python,test-automation-engineer-with-python-engenious-krakow,Engenious,,23520.0 - 30240.0,,2023-11-16,Python,python,2023-12-07
+394,Python Developer - AI ,python-developer-ai-zone-it-wroclaw-2,Zone IT Sp. z o.o.,,17000.0 - 28000.0,,2023-11-25,Python,python,2023-12-07
+395,Tester automatyzujący – Python,tester-automatyzujacy-python-sii-polska-katowice,Sii Polska,,16800.0 - 25200.0,,2023-11-09,Python,python,2023-12-07
+396,Programista Systemowy Python - Remote ,programista-systemowy-python-remote-nazwa-pl,nazwa.pl,,20000.0 - 23000.0,,2023-11-22,Python,python,2023-12-07
+397,Programista Systemowy Python - Remote ,programista-systemowy-python-remote-nazwa-pl-krakow,nazwa.pl,,20000.0 - 23000.0,,2023-11-22,Python,python,2023-12-07
+398,Programista Systemowy Python - Remote ,programista-systemowy-python-remote-nazwa-pl-lower-silesian,nazwa.pl,,20000.0 - 23000.0,,2023-11-22,Python,python,2023-12-07
+399,Programista Systemowy Python - Remote ,programista-systemowy-python-remote-nazwa-pl-kuyavian-pomeranian,nazwa.pl,,20000.0 - 23000.0,,2023-11-22,Python,python,2023-12-07
+400,Programista Systemowy Python - Remote ,programista-systemowy-python-remote-nazwa-pl-lodz,nazwa.pl,,20000.0 - 23000.0,,2023-11-22,Python,python,2023-12-07
+401,Programista Systemowy Python - Remote ,programista-systemowy-python-remote-nazwa-pl-lublin,nazwa.pl,,20000.0 - 23000.0,,2023-11-22,Python,python,2023-12-07
+402,Programista Systemowy Python - Remote ,programista-systemowy-python-remote-nazwa-pl-lubusz,nazwa.pl,,20000.0 - 23000.0,,2023-11-22,Python,python,2023-12-07
+403,Programista Systemowy Python - Remote ,programista-systemowy-python-remote-nazwa-pl-masovian,nazwa.pl,,20000.0 - 23000.0,,2023-11-22,Python,python,2023-12-07
+404,Programista Systemowy Python - Remote ,programista-systemowy-python-remote-nazwa-pl-opole,nazwa.pl,,20000.0 - 23000.0,,2023-11-22,Python,python,2023-12-07
+405,Programista Systemowy Python - Remote ,programista-systemowy-python-remote-nazwa-pl-subcarpathian,nazwa.pl,,20000.0 - 23000.0,,2023-11-22,Python,python,2023-12-07
+406,Programista Systemowy Python - Remote ,programista-systemowy-python-remote-nazwa-pl-podlaskie,nazwa.pl,,20000.0 - 23000.0,,2023-11-22,Python,python,2023-12-07
+407,Programista Systemowy Python - Remote ,programista-systemowy-python-remote-nazwa-pl-pomeranian,nazwa.pl,,20000.0 - 23000.0,,2023-11-22,Python,python,2023-12-07
+408,Programista Systemowy Python - Remote ,programista-systemowy-python-remote-nazwa-pl-silesian,nazwa.pl,,20000.0 - 23000.0,,2023-11-22,Python,python,2023-12-07
+409,Programista Systemowy Python - Remote ,programista-systemowy-python-remote-nazwa-pl-holy-cross,nazwa.pl,,20000.0 - 23000.0,,2023-11-22,Python,python,2023-12-07
+410,Programista Systemowy Python - Remote ,programista-systemowy-python-remote-nazwa-pl-warmian-masurian,nazwa.pl,,20000.0 - 23000.0,,2023-11-22,Python,python,2023-12-07
+411,Programista Systemowy Python - Remote ,programista-systemowy-python-remote-nazwa-pl-greater-poland,nazwa.pl,,20000.0 - 23000.0,,2023-11-22,Python,python,2023-12-07
+412,Programista Systemowy Python - Remote ,programista-systemowy-python-remote-nazwa-pl-west-pomeranian,nazwa.pl,,20000.0 - 23000.0,,2023-11-22,Python,python,2023-12-07
+413,Senior Test Engineer Remote,senior-test-engineer-remote-hyland-2,Hyland,,19200.0 - 24000.0,,2023-11-16,Python,python,2023-12-07
+414,Senior Test Engineer Remote,senior-test-engineer-remote-hyland-katowice-2,Hyland,,19200.0 - 24000.0,,2023-11-16,Python,python,2023-12-07
+415,Senior Test Engineer Remote,senior-test-engineer-remote-hyland-gliwice-2,Hyland,,19200.0 - 24000.0,,2023-11-16,Python,python,2023-12-07
+416,Senior Test Engineer Remote,senior-test-engineer-remote-hyland-rzeszow-2,Hyland,,19200.0 - 24000.0,,2023-11-16,Python,python,2023-12-07
+417,Senior Test Engineer Remote,senior-test-engineer-remote-hyland-krakow-2,Hyland,,19200.0 - 24000.0,,2023-11-16,Python,python,2023-12-07
+418,Senior Test Engineer Remote,senior-test-engineer-remote-hyland-gdansk-2,Hyland,,19200.0 - 24000.0,,2023-11-16,Python,python,2023-12-07
+419,Senior Test Engineer Remote,senior-test-engineer-remote-hyland-lower-silesian-2,Hyland,,19200.0 - 24000.0,,2023-11-16,Python,python,2023-12-07
+420,Senior Test Engineer Remote,senior-test-engineer-remote-hyland-kuyavian-pomeranian-2,Hyland,,19200.0 - 24000.0,,2023-11-16,Python,python,2023-12-07
+421,Senior Test Engineer Remote,senior-test-engineer-remote-hyland-lodz-2,Hyland,,19200.0 - 24000.0,,2023-11-16,Python,python,2023-12-07
+422,Senior Test Engineer Remote,senior-test-engineer-remote-hyland-lublin-2,Hyland,,19200.0 - 24000.0,,2023-11-16,Python,python,2023-12-07
+423,Senior Test Engineer Remote,senior-test-engineer-remote-hyland-lubusz-2,Hyland,,19200.0 - 24000.0,,2023-11-16,Python,python,2023-12-07
+424,Senior Test Engineer Remote,senior-test-engineer-remote-hyland-masovian-2,Hyland,,19200.0 - 24000.0,,2023-11-16,Python,python,2023-12-07
+425,Senior Test Engineer Remote,senior-test-engineer-remote-hyland-opole-2,Hyland,,19200.0 - 24000.0,,2023-11-16,Python,python,2023-12-07
+426,Senior Test Engineer Remote,senior-test-engineer-remote-hyland-podlaskie-2,Hyland,,19200.0 - 24000.0,,2023-11-16,Python,python,2023-12-07
+427,Senior Test Engineer Remote,senior-test-engineer-remote-hyland-holy-cross-2,Hyland,,19200.0 - 24000.0,,2023-11-16,Python,python,2023-12-07
+428,Senior Test Engineer Remote,senior-test-engineer-remote-hyland-warmian-masurian-2,Hyland,,19200.0 - 24000.0,,2023-11-16,Python,python,2023-12-07
+429,Senior Test Engineer Remote,senior-test-engineer-remote-hyland-greater-poland-2,Hyland,,19200.0 - 24000.0,,2023-11-16,Python,python,2023-12-07
+430,Senior Test Engineer Remote,senior-test-engineer-remote-hyland-west-pomeranian-2,Hyland,,19200.0 - 24000.0,,2023-11-16,Python,python,2023-12-07

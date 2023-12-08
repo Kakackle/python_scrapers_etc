@@ -17,7 +17,7 @@ from .extractors.extract_careerjet import extract_careerjet
 from .extractors.extract_pracuj import extract_pracuj
 from .extractors.scrape_fluff import scrape_fluff
 from flask import current_app as app
-from .path_traversal import reset_path, test_cwd, prepare_folders
+from .path_traversal import reset_path, test_cwd, prepare_folders, find_file
 from .utils import get_empty_df, get_multiple_terms
 from .globals import NUMBER_OF_PAGES
 
@@ -182,6 +182,7 @@ def check_if_exists(search_term: str) -> tuple[pd.DataFrame, tuple[int]]:
 
     return result_df, result_shape
 
+
 # function to combine scrap results from multiple supplied terms
 # the option will only be given to the user from a legit call?
 # as in only from multi-input finder results
@@ -221,6 +222,7 @@ def combine_terms_results(term_list: List[str] = [], input_string: str = ''):
     # save the new combined df to a file
     concat_df.to_csv(results_path + f'{terms_string}_{today}.csv')
     return concat_df, concat_df.shape
+
 
 # funkcja sprawdzajaca czy istneje folder/plik z polaczeniem roznych scrapow
 # jesli tak to zwraca o tym informacje i dane o rezultacie znalezionym
@@ -375,3 +377,31 @@ def check_if_all_folder_exists(folder_path: str) -> pd.DataFrame:
     
     return result_df
 
+# take file names and combine into a singular dataframe
+# and then save and return the new filename
+def combine_date_results(files: List[str]) -> str:
+    base_path = reset_path()
+    path = os.path.join(base_path, 'scraping_results')
+    result_df = get_empty_df()
+    today = str(date.today())
+   
+    date_regex = re.compile(r'all_(.*)_(\d{4}-\d{2}-\d{2})')
+    file_dates = []
+    
+    for file in files:
+        df_file = find_file(file, path)
+        df = pd.read_csv(df_file, index_col=0)
+        result_df = pd.concat([result_df, df])
+
+        file_date = date_regex.search(file).group(2)
+        term = date_regex.search(file).group(1)
+        file_dates.append(file_date)
+
+    dates_string = '_'.join(file_dates)
+    file_name = f"combined_{today}_{term}_{dates_string}.csv"
+    file_path = path + '/combined' + '/' + term
+    if not os.path.exists(file_path):
+        os.makedirs(file_path)
+    file_path += '/'
+    result_df.to_csv(file_path + file_name)
+    return file_name

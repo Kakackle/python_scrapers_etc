@@ -51,6 +51,7 @@ def plot_by_file(file):
 # zeby mozna bylo podac dataframei nazwe kolumny 
 # TODO: wyglad - zadne usuwanie whitespace ani nic nie dziala....
 def plot_by_file_complete(file: str):
+    print('received file name: ', file)
     base_path = reset_path()
     path = os.path.join(base_path, 'scraping_results')
     df_file = find_file(file, path)

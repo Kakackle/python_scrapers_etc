@@ -153,6 +153,34 @@
     <div id="saved-date-results"></div>
   </div>
 
+  <div>
+    <h3>Find wit date [multi-input]</h3>
+    <form hx-post="/scrap/find_with_date" hx-swap="innerHTML" hx-target="#exact-options"method="post">
+      <label for="search_date">Search date:</label>
+      <input type="date" name="search_date" value="{{today}}" min="{{oldest_date}}" max="{{newest_date}}">
+      <label for="terms">Search term [multi]:</label>
+      <input type="text" name="terms" placeholder="python">
+      <button type="submit">Find</button>
+    </form>
+    <p id="exact-options"></p>
+    <div id="plot_exact"></div>
+  </div>
+
+  <div>
+    <h3>Combine by dates test</h3>
+    <form hx-post="/scrap/combine_from_dates" hx-swap="innerHTML" hx-target="#combine-date-results"method="post">
+      <label for="start_date">Start date:</label>
+      <input type="date" name="start_date" value="{{today}}" min="{{oldest_date}}" max="{{newest_date}}">
+      <label for="end_date">End date:</label>
+      <input type="date" name="end_date" value="{{today}}" min="{{oldest_date}}" max="{{newest_date}}">
+      <label for="term">Search term:</label>
+      <input type="text" name="term" placeholder="python">
+      <button type="submit">Combine</button>
+    </form>
+    <div id="combine-date-results"></div>
+    <div id="plot-date-combined"></div>
+  </div>
+
   </section>
 
 {% endblock %}
