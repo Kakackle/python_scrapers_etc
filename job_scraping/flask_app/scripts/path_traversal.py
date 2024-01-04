@@ -1,13 +1,20 @@
+"""
+Path traversal helper scripts
+"""
 import os
 from flask import current_app as app
 from datetime import datetime, date
+from pathlib import Path
+
 
 # create folder for scraping results
 def prepare_folders(search_term: str, today: date, base_path: str) -> str:
-    folder_path = base_path + r'/scraping_results/' + search_term + '/' + str(today)
+    folder_path = Path(base_path)
+    folder_path = folder_path / 'scraping_results' / search_term / str(today)
+    # folder_path = base_path + r'/scraping_results/' + search_term + '/' + str(today)
     if not os.path.exists(folder_path):
         os.makedirs(folder_path)
-    folder_path = folder_path + '/'
+    # folder_path = folder_path + '/'
     return folder_path
 
 # partial functions
